@@ -1,0 +1,21 @@
+{
+ "module": "msm_sharedmem",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_sharedmem.ko",
+  "region_base": "0x8004000",
+  "thunks": 14,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "275": 39,
+   "277": 39,
+   "282": 6,
+   "283": 24
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

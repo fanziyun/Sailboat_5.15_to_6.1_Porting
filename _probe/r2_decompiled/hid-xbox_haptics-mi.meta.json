@@ -1,0 +1,23 @@
+{
+ "module": "hid-xbox_haptics-mi",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hid-xbox_haptics-mi.ko",
+  "region_base": "0x8005000",
+  "thunks": 15,
+  "gots": 1,
+  "relocs": {
+   "257": 10,
+   "261": 2,
+   "275": 20,
+   "277": 19,
+   "282": 7,
+   "283": 16,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

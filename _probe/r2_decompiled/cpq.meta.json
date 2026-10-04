@@ -1,0 +1,25 @@
+{
+ "module": "cpq",
+ "functions": 90,
+ "decompiled": 90,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cpq.ko",
+  "region_base": "0x800d000",
+  "thunks": 45,
+  "gots": 3,
+  "relocs": {
+   "257": 60,
+   "260": 1,
+   "261": 112,
+   "275": 72,
+   "277": 61,
+   "278": 6,
+   "282": 44,
+   "283": 117,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

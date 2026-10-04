@@ -1,0 +1,25 @@
+{
+ "module": "msm_gpi",
+ "functions": 57,
+ "decompiled": 57,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_gpi.ko",
+  "region_base": "0x801c000",
+  "thunks": 68,
+  "gots": 4,
+  "relocs": {
+   "257": 81,
+   "260": 5,
+   "261": 51,
+   "275": 559,
+   "277": 541,
+   "282": 21,
+   "283": 526,
+   "285": 4,
+   "286": 16
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

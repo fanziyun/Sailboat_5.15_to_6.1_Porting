@@ -1,0 +1,23 @@
+{
+ "module": "leds-qti-flash",
+ "functions": 59,
+ "decompiled": 59,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/leds-qti-flash.ko",
+  "region_base": "0x8010000",
+  "thunks": 44,
+  "gots": 0,
+  "relocs": {
+   "257": 21,
+   "261": 6,
+   "275": 250,
+   "277": 248,
+   "282": 24,
+   "283": 220,
+   "286": 2
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

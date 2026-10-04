@@ -1,0 +1,23 @@
+{
+ "module": "coresight-csr",
+ "functions": 45,
+ "decompiled": 45,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-csr.ko",
+  "region_base": "0x8016000",
+  "thunks": 32,
+  "gots": 2,
+  "relocs": {
+   "257": 31,
+   "260": 2,
+   "261": 63,
+   "275": 47,
+   "277": 47,
+   "282": 22,
+   "283": 85
+  },
+  "skipped": 11,
+  "range_fail": 0
+ }
+}

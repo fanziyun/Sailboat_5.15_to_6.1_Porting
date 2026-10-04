@@ -1,0 +1,22 @@
+{
+ "module": "coresight-tpda",
+ "functions": 51,
+ "decompiled": 51,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-tpda.ko",
+  "region_base": "0x8015000",
+  "thunks": 23,
+  "gots": 0,
+  "relocs": {
+   "257": 52,
+   "261": 20,
+   "275": 47,
+   "277": 47,
+   "282": 25,
+   "283": 82
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

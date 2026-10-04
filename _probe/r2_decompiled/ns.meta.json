@@ -1,0 +1,26 @@
+{
+ "module": "ns",
+ "functions": 59,
+ "decompiled": 59,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ns.ko",
+  "region_base": "0x8024000",
+  "thunks": 51,
+  "gots": 2,
+  "relocs": {
+   "257": 120,
+   "260": 4,
+   "261": 109,
+   "275": 185,
+   "277": 145,
+   "278": 8,
+   "282": 29,
+   "283": 176,
+   "285": 8,
+   "286": 26
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

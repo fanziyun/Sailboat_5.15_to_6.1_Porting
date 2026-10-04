@@ -1,0 +1,21 @@
+{
+ "module": "memlat_vendor",
+ "functions": 62,
+ "decompiled": 62,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/memlat_vendor.ko",
+  "region_base": "0x8008000",
+  "thunks": 6,
+  "gots": 0,
+  "relocs": {
+   "257": 82,
+   "275": 49,
+   "277": 49,
+   "282": 29,
+   "283": 68
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

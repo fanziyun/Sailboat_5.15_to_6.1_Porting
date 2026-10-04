@@ -1,0 +1,25 @@
+{
+ "module": "coresight-tmc",
+ "functions": 197,
+ "decompiled": 197,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-tmc.ko",
+  "region_base": "0x8037000",
+  "thunks": 133,
+  "gots": 6,
+  "relocs": {
+   "257": 139,
+   "260": 92,
+   "261": 400,
+   "275": 265,
+   "277": 246,
+   "278": 9,
+   "282": 71,
+   "283": 688,
+   "286": 9
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

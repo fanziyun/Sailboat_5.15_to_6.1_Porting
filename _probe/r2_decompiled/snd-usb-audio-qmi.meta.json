@@ -1,0 +1,25 @@
+{
+ "module": "snd-usb-audio-qmi",
+ "functions": 51,
+ "decompiled": 51,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/snd-usb-audio-qmi.ko",
+  "region_base": "0x8019000",
+  "thunks": 90,
+  "gots": 5,
+  "relocs": {
+   "257": 28,
+   "260": 12,
+   "261": 68,
+   "275": 462,
+   "277": 387,
+   "278": 1,
+   "282": 12,
+   "283": 355,
+   "286": 109
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

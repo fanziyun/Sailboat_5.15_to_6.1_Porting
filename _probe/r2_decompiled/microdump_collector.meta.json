@@ -1,0 +1,24 @@
+{
+ "module": "microdump_collector",
+ "functions": 15,
+ "decompiled": 15,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/microdump_collector.ko",
+  "region_base": "0x8005000",
+  "thunks": 24,
+  "gots": 3,
+  "relocs": {
+   "257": 21,
+   "275": 54,
+   "277": 44,
+   "278": 1,
+   "282": 8,
+   "283": 42,
+   "285": 3,
+   "286": 19
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

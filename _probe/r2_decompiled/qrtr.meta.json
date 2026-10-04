@@ -1,0 +1,26 @@
+{
+ "module": "qrtr",
+ "functions": 67,
+ "decompiled": 67,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qrtr.ko",
+  "region_base": "0x8028000",
+  "thunks": 114,
+  "gots": 7,
+  "relocs": {
+   "257": 33,
+   "260": 58,
+   "261": 197,
+   "275": 165,
+   "277": 147,
+   "278": 2,
+   "282": 34,
+   "283": 365,
+   "285": 10,
+   "286": 7
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "qti_cpufreq_cdev",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti_cpufreq_cdev.ko",
+  "region_base": "0x8005000",
+  "thunks": 29,
+  "gots": 2,
+  "relocs": {
+   "257": 15,
+   "275": 41,
+   "277": 37,
+   "282": 10,
+   "283": 38,
+   "285": 5,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

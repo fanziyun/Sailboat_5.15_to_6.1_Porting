@@ -1,0 +1,22 @@
+{
+ "module": "crypto-qti-hwkm",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/crypto-qti-hwkm.ko",
+  "region_base": "0x8004000",
+  "thunks": 15,
+  "gots": 0,
+  "relocs": {
+   "261": 12,
+   "275": 28,
+   "277": 25,
+   "278": 4,
+   "282": 5,
+   "283": 39
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

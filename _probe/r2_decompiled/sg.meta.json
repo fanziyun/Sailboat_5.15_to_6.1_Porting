@@ -1,0 +1,26 @@
+{
+ "module": "sg",
+ "functions": 59,
+ "decompiled": 59,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sg.ko",
+  "region_base": "0x8024000",
+  "thunks": 90,
+  "gots": 9,
+  "relocs": {
+   "257": 32,
+   "260": 192,
+   "261": 1012,
+   "275": 183,
+   "277": 99,
+   "278": 8,
+   "282": 48,
+   "283": 319,
+   "285": 19,
+   "286": 73
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

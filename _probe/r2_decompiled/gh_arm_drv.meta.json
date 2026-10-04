@@ -1,0 +1,22 @@
+{
+ "module": "gh_arm_drv",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_arm_drv.ko",
+  "region_base": "0x8004000",
+  "thunks": 9,
+  "gots": 0,
+  "relocs": {
+   "257": 4,
+   "261": 15,
+   "275": 16,
+   "277": 16,
+   "282": 8,
+   "283": 12
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

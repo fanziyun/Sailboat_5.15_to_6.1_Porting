@@ -1,0 +1,25 @@
+{
+ "module": "rmnet_perf_tether",
+ "functions": 19,
+ "decompiled": 19,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_perf_tether.ko",
+  "region_base": "0x8007000",
+  "thunks": 27,
+  "gots": 7,
+  "relocs": {
+   "257": 36,
+   "261": 12,
+   "275": 73,
+   "277": 55,
+   "278": 1,
+   "282": 7,
+   "283": 43,
+   "285": 11,
+   "286": 12
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

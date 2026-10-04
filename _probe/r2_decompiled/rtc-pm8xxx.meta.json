@@ -1,0 +1,21 @@
+{
+ "module": "rtc-pm8xxx",
+ "functions": 34,
+ "decompiled": 34,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rtc-pm8xxx.ko",
+  "region_base": "0x8007000",
+  "thunks": 30,
+  "gots": 0,
+  "relocs": {
+   "257": 28,
+   "275": 49,
+   "277": 49,
+   "282": 16,
+   "283": 106
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

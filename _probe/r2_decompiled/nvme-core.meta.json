@@ -1,0 +1,26 @@
+{
+ "module": "nvme-core",
+ "functions": 309,
+ "decompiled": 309,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/nvme-core.ko",
+  "region_base": "0x804e000",
+  "thunks": 178,
+  "gots": 13,
+  "relocs": {
+   "257": 389,
+   "260": 79,
+   "261": 533,
+   "275": 426,
+   "277": 339,
+   "278": 18,
+   "282": 139,
+   "283": 755,
+   "285": 8,
+   "286": 79
+  },
+  "skipped": 53,
+  "range_fail": 0
+ }
+}

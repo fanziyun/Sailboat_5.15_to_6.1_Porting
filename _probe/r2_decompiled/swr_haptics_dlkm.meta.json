@@ -1,0 +1,22 @@
+{
+ "module": "swr_haptics_dlkm",
+ "functions": 40,
+ "decompiled": 40,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/swr_haptics_dlkm.ko",
+  "region_base": "0x800a000",
+  "thunks": 36,
+  "gots": 0,
+  "relocs": {
+   "257": 52,
+   "275": 142,
+   "277": 140,
+   "282": 21,
+   "283": 111,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

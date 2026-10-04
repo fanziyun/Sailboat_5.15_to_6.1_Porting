@@ -1,0 +1,25 @@
+{
+ "module": "clk-qcom",
+ "functions": 658,
+ "decompiled": 658,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/clk-qcom.ko",
+  "region_base": "0x806e000",
+  "thunks": 148,
+  "gots": 2,
+  "relocs": {
+   "257": 830,
+   "260": 2,
+   "261": 460,
+   "275": 615,
+   "277": 587,
+   "278": 10,
+   "282": 317,
+   "283": 1747,
+   "286": 35
+  },
+  "skipped": 118,
+  "range_fail": 0
+ }
+}

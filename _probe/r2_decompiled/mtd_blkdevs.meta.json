@@ -1,0 +1,24 @@
+{
+ "module": "mtd_blkdevs",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mtd_blkdevs.ko",
+  "region_base": "0x8009000",
+  "thunks": 50,
+  "gots": 4,
+  "relocs": {
+   "257": 39,
+   "260": 6,
+   "261": 35,
+   "275": 48,
+   "277": 44,
+   "282": 14,
+   "283": 105,
+   "286": 4
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

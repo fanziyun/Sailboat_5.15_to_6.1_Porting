@@ -1,0 +1,26 @@
+{
+ "module": "rmnet_aps",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_aps.ko",
+  "region_base": "0x800a000",
+  "thunks": 44,
+  "gots": 7,
+  "relocs": {
+   "257": 35,
+   "261": 78,
+   "275": 110,
+   "277": 82,
+   "278": 7,
+   "282": 14,
+   "283": 100,
+   "284": 3,
+   "285": 13,
+   "286": 15
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

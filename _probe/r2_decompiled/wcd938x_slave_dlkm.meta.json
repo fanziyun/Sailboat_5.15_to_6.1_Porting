@@ -1,0 +1,24 @@
+{
+ "module": "wcd938x_slave_dlkm",
+ "functions": 26,
+ "decompiled": 26,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wcd938x_slave_dlkm.ko",
+  "region_base": "0x8007000",
+  "thunks": 28,
+  "gots": 4,
+  "relocs": {
+   "257": 19,
+   "260": 12,
+   "261": 60,
+   "275": 42,
+   "277": 38,
+   "282": 12,
+   "283": 57,
+   "286": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

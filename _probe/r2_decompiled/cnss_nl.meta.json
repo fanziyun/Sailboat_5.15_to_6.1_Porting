@@ -1,0 +1,22 @@
+{
+ "module": "cnss_nl",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cnss_nl.ko",
+  "region_base": "0x8004000",
+  "thunks": 8,
+  "gots": 0,
+  "relocs": {
+   "257": 11,
+   "261": 9,
+   "275": 24,
+   "277": 24,
+   "282": 8,
+   "283": 13
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

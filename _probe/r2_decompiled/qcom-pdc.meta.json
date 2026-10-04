@@ -1,0 +1,25 @@
+{
+ "module": "qcom-pdc",
+ "functions": 40,
+ "decompiled": 40,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-pdc.ko",
+  "region_base": "0x8009000",
+  "thunks": 52,
+  "gots": 0,
+  "relocs": {
+   "257": 28,
+   "261": 6,
+   "275": 107,
+   "277": 62,
+   "278": 5,
+   "282": 23,
+   "283": 96,
+   "285": 23,
+   "286": 52
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

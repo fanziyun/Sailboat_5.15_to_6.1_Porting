@@ -1,0 +1,24 @@
+{
+ "module": "debug_symbol",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/debug_symbol.ko",
+  "region_base": "0x8004000",
+  "thunks": 11,
+  "gots": 1,
+  "relocs": {
+   "257": 2,
+   "261": 6,
+   "275": 25,
+   "277": 9,
+   "282": 4,
+   "283": 11,
+   "285": 3,
+   "286": 15
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "module": "cdsprm",
+ "functions": 81,
+ "decompiled": 81,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cdsprm.ko",
+  "region_base": "0x8012000",
+  "thunks": 63,
+  "gots": 0,
+  "relocs": {
+   "257": 57,
+   "261": 31,
+   "275": 295,
+   "277": 206,
+   "278": 21,
+   "282": 43,
+   "283": 218,
+   "285": 64,
+   "286": 30
+  },
+  "skipped": 9,
+  "range_fail": 0
+ }
+}

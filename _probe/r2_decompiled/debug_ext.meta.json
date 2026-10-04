@@ -1,0 +1,26 @@
+{
+ "module": "debug_ext",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/debug_ext.ko",
+  "region_base": "0x800a000",
+  "thunks": 48,
+  "gots": 5,
+  "relocs": {
+   "257": 17,
+   "260": 8,
+   "261": 60,
+   "275": 144,
+   "277": 119,
+   "278": 3,
+   "282": 19,
+   "283": 122,
+   "285": 7,
+   "286": 30
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

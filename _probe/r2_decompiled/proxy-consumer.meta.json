@@ -1,0 +1,23 @@
+{
+ "module": "proxy-consumer",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/proxy-consumer.ko",
+  "region_base": "0x8006000",
+  "thunks": 24,
+  "gots": 0,
+  "relocs": {
+   "257": 4,
+   "261": 17,
+   "275": 57,
+   "277": 56,
+   "278": 1,
+   "282": 9,
+   "283": 56
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

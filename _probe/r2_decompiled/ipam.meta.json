@@ -1,0 +1,27 @@
+{
+ "module": "ipam",
+ "functions": 519,
+ "decompiled": 519,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ipam.ko",
+  "region_base": "0x853a000",
+  "thunks": 385,
+  "gots": 13,
+  "relocs": {
+   "257": 5728,
+   "260": 277,
+   "261": 2681,
+   "275": 35739,
+   "277": 32446,
+   "278": 355,
+   "282": 808,
+   "283": 30584,
+   "284": 5,
+   "285": 240,
+   "286": 11977
+  },
+  "skipped": 136,
+  "range_fail": 0
+ }
+}

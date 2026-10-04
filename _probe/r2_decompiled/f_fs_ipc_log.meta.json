@@ -1,0 +1,25 @@
+{
+ "module": "f_fs_ipc_log",
+ "functions": 98,
+ "decompiled": 98,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/f_fs_ipc_log.ko",
+  "region_base": "0x8017000",
+  "thunks": 17,
+  "gots": 1,
+  "relocs": {
+   "257": 81,
+   "261": 114,
+   "275": 577,
+   "277": 122,
+   "278": 9,
+   "282": 49,
+   "283": 73,
+   "285": 50,
+   "286": 400
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

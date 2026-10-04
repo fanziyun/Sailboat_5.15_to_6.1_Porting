@@ -1,0 +1,22 @@
+{
+ "module": "phy-qcom-ufs-qmp-v4-khaje",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-qcom-ufs-qmp-v4-khaje.ko",
+  "region_base": "0x8006000",
+  "thunks": 20,
+  "gots": 0,
+  "relocs": {
+   "257": 20,
+   "261": 4,
+   "275": 40,
+   "277": 40,
+   "282": 16,
+   "283": 54
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "module": "qcom-spmi-temp-alarm",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-spmi-temp-alarm.ko",
+  "region_base": "0x8007000",
+  "thunks": 25,
+  "gots": 0,
+  "relocs": {
+   "257": 20,
+   "261": 4,
+   "275": 48,
+   "277": 48,
+   "282": 14,
+   "283": 79
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

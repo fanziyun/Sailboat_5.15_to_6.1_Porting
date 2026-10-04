@@ -1,0 +1,23 @@
+{
+ "module": "qcom_ipc_lite",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_ipc_lite.ko",
+  "region_base": "0x8004000",
+  "thunks": 9,
+  "gots": 0,
+  "relocs": {
+   "257": 11,
+   "261": 6,
+   "275": 21,
+   "277": 14,
+   "282": 8,
+   "283": 9,
+   "286": 7
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

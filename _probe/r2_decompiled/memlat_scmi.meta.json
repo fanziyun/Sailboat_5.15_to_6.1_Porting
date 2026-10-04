@@ -1,0 +1,21 @@
+{
+ "module": "memlat_scmi",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/memlat_scmi.ko",
+  "region_base": "0x8003000",
+  "thunks": 4,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "275": 8,
+   "277": 8,
+   "282": 4,
+   "283": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

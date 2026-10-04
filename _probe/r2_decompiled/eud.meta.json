@@ -1,0 +1,25 @@
+{
+ "module": "eud",
+ "functions": 52,
+ "decompiled": 52,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/eud.ko",
+  "region_base": "0x8009000",
+  "thunks": 51,
+  "gots": 2,
+  "relocs": {
+   "257": 38,
+   "261": 4,
+   "275": 85,
+   "277": 73,
+   "278": 2,
+   "282": 25,
+   "283": 135,
+   "285": 4,
+   "286": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

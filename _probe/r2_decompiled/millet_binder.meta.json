@@ -1,0 +1,24 @@
+{
+ "module": "millet_binder",
+ "functions": 24,
+ "decompiled": 24,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/millet_binder.ko",
+  "region_base": "0x801b000",
+  "thunks": 16,
+  "gots": 3,
+  "relocs": {
+   "257": 2,
+   "260": 38,
+   "261": 90,
+   "275": 26,
+   "277": 23,
+   "282": 12,
+   "283": 60,
+   "285": 3
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

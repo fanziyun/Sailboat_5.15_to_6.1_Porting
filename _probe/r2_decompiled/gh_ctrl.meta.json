@@ -1,0 +1,25 @@
+{
+ "module": "gh_ctrl",
+ "functions": 35,
+ "decompiled": 35,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_ctrl.ko",
+  "region_base": "0x8006000",
+  "thunks": 20,
+  "gots": 1,
+  "relocs": {
+   "257": 32,
+   "261": 6,
+   "275": 62,
+   "277": 48,
+   "278": 9,
+   "282": 18,
+   "283": 31,
+   "285": 1,
+   "286": 10
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

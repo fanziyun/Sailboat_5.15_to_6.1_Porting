@@ -1,0 +1,26 @@
+{
+ "module": "miev",
+ "functions": 37,
+ "decompiled": 37,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/miev.ko",
+  "region_base": "0x800a000",
+  "thunks": 43,
+  "gots": 5,
+  "relocs": {
+   "257": 13,
+   "260": 6,
+   "261": 51,
+   "275": 112,
+   "277": 93,
+   "278": 4,
+   "282": 15,
+   "283": 112,
+   "285": 3,
+   "286": 60
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

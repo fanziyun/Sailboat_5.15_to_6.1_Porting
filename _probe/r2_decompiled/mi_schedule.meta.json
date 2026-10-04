@@ -1,0 +1,26 @@
+{
+ "module": "mi_schedule",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_schedule.ko",
+  "region_base": "0x8025000",
+  "thunks": 54,
+  "gots": 10,
+  "relocs": {
+   "257": 63,
+   "260": 46,
+   "261": 204,
+   "275": 276,
+   "277": 175,
+   "278": 5,
+   "282": 46,
+   "283": 217,
+   "285": 41,
+   "286": 95
+  },
+  "skipped": 14,
+  "range_fail": 0
+ }
+}

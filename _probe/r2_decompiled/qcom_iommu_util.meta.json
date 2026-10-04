@@ -1,0 +1,25 @@
+{
+ "module": "qcom_iommu_util",
+ "functions": 203,
+ "decompiled": 203,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_iommu_util.ko",
+  "region_base": "0x8025000",
+  "thunks": 113,
+  "gots": 8,
+  "relocs": {
+   "257": 91,
+   "260": 23,
+   "261": 208,
+   "275": 381,
+   "277": 258,
+   "278": 10,
+   "282": 76,
+   "283": 578,
+   "286": 133
+  },
+  "skipped": 22,
+  "range_fail": 0
+ }
+}

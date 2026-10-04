@@ -1,0 +1,26 @@
+{
+ "module": "metis",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/metis.ko",
+  "region_base": "0x805f000",
+  "thunks": 142,
+  "gots": 13,
+  "relocs": {
+   "257": 293,
+   "260": 206,
+   "261": 777,
+   "275": 1138,
+   "277": 795,
+   "278": 18,
+   "282": 137,
+   "283": 1069,
+   "285": 268,
+   "286": 168
+  },
+  "skipped": 73,
+  "range_fail": 0
+ }
+}

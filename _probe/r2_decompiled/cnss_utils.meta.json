@@ -1,0 +1,24 @@
+{
+ "module": "cnss_utils",
+ "functions": 42,
+ "decompiled": 42,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cnss_utils.ko",
+  "region_base": "0x8009000",
+  "thunks": 31,
+  "gots": 5,
+  "relocs": {
+   "257": 10,
+   "260": 6,
+   "261": 69,
+   "275": 79,
+   "277": 61,
+   "282": 22,
+   "283": 63,
+   "286": 19
+  },
+  "skipped": 13,
+  "range_fail": 0
+ }
+}

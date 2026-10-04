@@ -1,0 +1,24 @@
+{
+ "module": "industrialio-buffer-cb",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/industrialio-buffer-cb.ko",
+  "region_base": "0x8005000",
+  "thunks": 13,
+  "gots": 3,
+  "relocs": {
+   "257": 4,
+   "260": 2,
+   "261": 25,
+   "275": 13,
+   "277": 12,
+   "282": 10,
+   "283": 16,
+   "286": 1
+  },
+  "skipped": 7,
+  "range_fail": 0
+ }
+}

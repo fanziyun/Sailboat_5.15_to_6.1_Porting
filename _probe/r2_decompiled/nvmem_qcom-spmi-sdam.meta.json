@@ -1,0 +1,21 @@
+{
+ "module": "nvmem_qcom-spmi-sdam",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/nvmem_qcom-spmi-sdam.ko",
+  "region_base": "0x8004000",
+  "thunks": 12,
+  "gots": 0,
+  "relocs": {
+   "257": 7,
+   "275": 22,
+   "277": 22,
+   "282": 6,
+   "283": 18
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

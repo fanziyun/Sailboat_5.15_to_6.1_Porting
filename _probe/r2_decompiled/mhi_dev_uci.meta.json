@@ -1,0 +1,25 @@
+{
+ "module": "mhi_dev_uci",
+ "functions": 34,
+ "decompiled": 34,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mhi_dev_uci.ko",
+  "region_base": "0x800d000",
+  "thunks": 51,
+  "gots": 5,
+  "relocs": {
+   "257": 30,
+   "260": 18,
+   "261": 86,
+   "275": 170,
+   "277": 161,
+   "282": 16,
+   "283": 176,
+   "285": 2,
+   "286": 8
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

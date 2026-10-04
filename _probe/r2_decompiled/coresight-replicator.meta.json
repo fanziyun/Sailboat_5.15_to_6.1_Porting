@@ -1,0 +1,24 @@
+{
+ "module": "coresight-replicator",
+ "functions": 29,
+ "decompiled": 29,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-replicator.ko",
+  "region_base": "0x8015000",
+  "thunks": 37,
+  "gots": 2,
+  "relocs": {
+   "257": 30,
+   "260": 12,
+   "261": 38,
+   "275": 33,
+   "277": 32,
+   "278": 2,
+   "282": 13,
+   "283": 73
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

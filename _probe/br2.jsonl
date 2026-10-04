@@ -1,0 +1,2137 @@
+[
+  {
+    "name": "README",
+    "commit": {
+      "sha": "b1f2e68d76cf42ec542be343b88e39b2fd9595d5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/b1f2e68d76cf42ec542be343b88e39b2fd9595d5"
+    },
+    "protected": false
+  },
+  {
+    "name": "agate-u-oss",
+    "commit": {
+      "sha": "20f76e59702c9dc8772810e98d15aa147eaaa6aa",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/20f76e59702c9dc8772810e98d15aa147eaaa6aa"
+    },
+    "protected": false
+  },
+  {
+    "name": "air-t-oss",
+    "commit": {
+      "sha": "13290e766a6e516a90a92b990a448f16228a265d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/13290e766a6e516a90a92b990a448f16228a265d"
+    },
+    "protected": false
+  },
+  {
+    "name": "alioth-r-oss",
+    "commit": {
+      "sha": "2fdca387269615872d4ff798e8da7d33345c1338",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2fdca387269615872d4ff798e8da7d33345c1338"
+    },
+    "protected": false
+  },
+  {
+    "name": "andromeda-p-oss",
+    "commit": {
+      "sha": "74347f5521fb444936f5986ff0937264307d78fe",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/74347f5521fb444936f5986ff0937264307d78fe"
+    },
+    "protected": false
+  },
+  {
+    "name": "annibale-w-oss",
+    "commit": {
+      "sha": "f66f8c8bcbe38044fab61d44ea7f7c224f82b3ea",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f66f8c8bcbe38044fab61d44ea7f7c224f82b3ea"
+    },
+    "protected": false
+  },
+  {
+    "name": "apollo-q-oss",
+    "commit": {
+      "sha": "acee5ab681485b77ba8d06ef4b0e39c8af974204",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/acee5ab681485b77ba8d06ef4b0e39c8af974204"
+    },
+    "protected": false
+  },
+  {
+    "name": "arctic-w-oss",
+    "commit": {
+      "sha": "ab042179c4f1b2d57a326d484625fada8d03b687",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ab042179c4f1b2d57a326d484625fada8d03b687"
+    },
+    "protected": false
+  },
+  {
+    "name": "ares-r-oss",
+    "commit": {
+      "sha": "49c02c2de185e3e93951fdad6c4dd9caf453523a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/49c02c2de185e3e93951fdad6c4dd9caf453523a"
+    },
+    "protected": false
+  },
+  {
+    "name": "armani-jb-oss",
+    "commit": {
+      "sha": "730f3718c02f59ff32e20a6091926b362e6dcbfc",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/730f3718c02f59ff32e20a6091926b362e6dcbfc"
+    },
+    "protected": false
+  },
+  {
+    "name": "armani-kk-oss",
+    "commit": {
+      "sha": "9a7ccf68aca38ec52169d0ae60bf623c25c7101e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/9a7ccf68aca38ec52169d0ae60bf623c25c7101e"
+    },
+    "protected": false
+  },
+  {
+    "name": "aurora-u-oss",
+    "commit": {
+      "sha": "c7841217725ac8bed6c4bf790d149dde10444e3d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c7841217725ac8bed6c4bf790d149dde10444e3d"
+    },
+    "protected": false
+  },
+  {
+    "name": "begonia-p-oss",
+    "commit": {
+      "sha": "03ffbf50810a1229d637809cfe803663d2548c09",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/03ffbf50810a1229d637809cfe803663d2548c09"
+    },
+    "protected": false
+  },
+  {
+    "name": "begonia-q-oss",
+    "commit": {
+      "sha": "4e3bb1fabfa83cea8940c06b3daa0f6998104676",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/4e3bb1fabfa83cea8940c06b3daa0f6998104676"
+    },
+    "protected": false
+  },
+  {
+    "name": "begonia-r-oss",
+    "commit": {
+      "sha": "777ef5dfc3c93ae5e8f004bec4285230295760b5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/777ef5dfc3c93ae5e8f004bec4285230295760b5"
+    },
+    "protected": false
+  },
+  {
+    "name": "beryl-u-oss",
+    "commit": {
+      "sha": "68abb8434dd5635733d04d015fa36fc6a6286fc0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/68abb8434dd5635733d04d015fa36fc6a6286fc0"
+    },
+    "protected": false
+  },
+  {
+    "name": "biloba-r-oss",
+    "commit": {
+      "sha": "831600317054fb8e980f0b527975a6492d4788fa",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/831600317054fb8e980f0b527975a6492d4788fa"
+    },
+    "protected": false
+  },
+  {
+    "name": "bixi-v-oss",
+    "commit": {
+      "sha": "56295df675b92553f83bbf333f88b0c6ee8fa7bc",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/56295df675b92553f83bbf333f88b0c6ee8fa7bc"
+    },
+    "protected": false
+  },
+  {
+    "name": "blue-u-oss",
+    "commit": {
+      "sha": "a3a082be5f33f731cf77461b3cfa41afa4586add",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a3a082be5f33f731cf77461b3cfa41afa4586add"
+    },
+    "protected": false
+  },
+  {
+    "name": "bomb-q-oss",
+    "commit": {
+      "sha": "2fbae8b5a002961bc39ada58b2ad5b1e9a272f9e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2fbae8b5a002961bc39ada58b2ad5b1e9a272f9e"
+    },
+    "protected": false
+  },
+  {
+    "name": "breeze-u-oss",
+    "commit": {
+      "sha": "ca8a838ce20bcf8dca7cf0280e4b7cdcb82906e3",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ca8a838ce20bcf8dca7cf0280e4b7cdcb82906e3"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-aristotle-s-oss",
+    "commit": {
+      "sha": "75984fb5691c1773b8aa3979d167a6285f14e273",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/75984fb5691c1773b8aa3979d167a6285f14e273"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-chagall-w-oss",
+    "commit": {
+      "sha": "3bfb7ca302bfa0789a1ab7896d932f2e68f127a5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3bfb7ca302bfa0789a1ab7896d932f2e68f127a5"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-dali-v-oss",
+    "commit": {
+      "sha": "f089d58cab670dc0d75db1203fa63850e57a940d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f089d58cab670dc0d75db1203fa63850e57a940d"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-degas-u-oss",
+    "commit": {
+      "sha": "11f638af362bd6600a47fcb8e4739607fb118d36",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/11f638af362bd6600a47fcb8e4739607fb118d36"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-diting-s-oss",
+    "commit": {
+      "sha": "cb7a356ae138e77992ae199eebb86559d825a673",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/cb7a356ae138e77992ae199eebb86559d825a673"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-duchamp-u-oss",
+    "commit": {
+      "sha": "17127a2826bf80f0787515b252aad407498767b7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/17127a2826bf80f0787515b252aad407498767b7"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-goya-v-oss",
+    "commit": {
+      "sha": "75fcf3a36e9894b06b430ec2c44cf802d843cc0f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/75fcf3a36e9894b06b430ec2c44cf802d843cc0f"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-klee-w-oss",
+    "commit": {
+      "sha": "3acf9f2b0ad065630791260b417281e9e8757ef3",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3acf9f2b0ad065630791260b417281e9e8757ef3"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-klimt-v-oss",
+    "commit": {
+      "sha": "9ba5e8d5f3c30a4be32401fa2dffa9c73de2b31d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/9ba5e8d5f3c30a4be32401fa2dffa9c73de2b31d"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-manet-u-oss",
+    "commit": {
+      "sha": "56b6b3c2b66286242a7b46ef656cfa4ef138cf69",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/56b6b3c2b66286242a7b46ef656cfa4ef138cf69"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-miro-v-oss",
+    "commit": {
+      "sha": "cbcc4fdcaee0f6001a1db89c998894a9ff752387",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/cbcc4fdcaee0f6001a1db89c998894a9ff752387"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-plato-s-oss",
+    "commit": {
+      "sha": "9aa1cd8a82cb9dd26da26de04ab77cf6dc2739ab",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/9aa1cd8a82cb9dd26da26de04ab77cf6dc2739ab"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-prague-w-oss",
+    "commit": {
+      "sha": "bcbffc7544fdaebdde01e3be5607b4ddb0b71043",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/bcbffc7544fdaebdde01e3be5607b4ddb0b71043"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-rembrandt-s-oss",
+    "commit": {
+      "sha": "a369d30bd5df3fcfb4304ee9e7ae10fa4f11899a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a369d30bd5df3fcfb4304ee9e7ae10fa4f11899a"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-rodin-v-oss",
+    "commit": {
+      "sha": "2cd69ee4193920840ee3c837384716a66b1faecd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2cd69ee4193920840ee3c837384716a66b1faecd"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-rothko-u-oss",
+    "commit": {
+      "sha": "197c453d27da88f3b7b8fed7323ee6d15fc02066",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/197c453d27da88f3b7b8fed7323ee6d15fc02066"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-vermeer-t-oss",
+    "commit": {
+      "sha": "53ef33eacdc4f7ac737451e4cfc91963d59e3956",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/53ef33eacdc4f7ac737451e4cfc91963d59e3956"
+    },
+    "protected": false
+  },
+  {
+    "name": "bsp-zorn-v-oss",
+    "commit": {
+      "sha": "d9e81e6bcc4ac43c247dcbd382d1d8ff1e5f22d9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d9e81e6bcc4ac43c247dcbd382d1d8ff1e5f22d9"
+    },
+    "protected": false
+  },
+  {
+    "name": "cactus-o-oss",
+    "commit": {
+      "sha": "798f5fd2ecdb74fffbd8d2316aa047498b6bdcc7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/798f5fd2ecdb74fffbd8d2316aa047498b6bdcc7"
+    },
+    "protected": false
+  },
+  {
+    "name": "cactus-p-oss",
+    "commit": {
+      "sha": "94e20d0312d431415d88278e83384962cdda4936",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/94e20d0312d431415d88278e83384962cdda4936"
+    },
+    "protected": false
+  },
+  {
+    "name": "camellia-r-oss",
+    "commit": {
+      "sha": "4b6c276ac99cad51bf4d0bd6ea12a32847403b42",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/4b6c276ac99cad51bf4d0bd6ea12a32847403b42"
+    },
+    "protected": false
+  },
+  {
+    "name": "camellian-t-oss",
+    "commit": {
+      "sha": "f4e416aea06c81f1e661d0524c0554f0538d11cb",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f4e416aea06c81f1e661d0524c0554f0538d11cb"
+    },
+    "protected": false
+  },
+  {
+    "name": "cancro-kk-oss",
+    "commit": {
+      "sha": "6da72f6d099182f2820b5b9dbfc8e4dd4513daa5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/6da72f6d099182f2820b5b9dbfc8e4dd4513daa5"
+    },
+    "protected": false
+  },
+  {
+    "name": "cancro-m-oss",
+    "commit": {
+      "sha": "1d9fae153c90643d4017dfde5caeb579e3f4fe75",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1d9fae153c90643d4017dfde5caeb579e3f4fe75"
+    },
+    "protected": false
+  },
+  {
+    "name": "cannon-q-oss",
+    "commit": {
+      "sha": "96e527d5d4e6f2e9912160c889d547f8fb3ef5ab",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/96e527d5d4e6f2e9912160c889d547f8fb3ef5ab"
+    },
+    "protected": false
+  },
+  {
+    "name": "cannon-r-oss",
+    "commit": {
+      "sha": "30fa96c92283939e51c2cf5231d7829bc4c6c66e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/30fa96c92283939e51c2cf5231d7829bc4c6c66e"
+    },
+    "protected": false
+  },
+  {
+    "name": "cappu-n-oss",
+    "commit": {
+      "sha": "59c67c586f4463df25af6630d3698dd1f2a0bb3f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/59c67c586f4463df25af6630d3698dd1f2a0bb3f"
+    },
+    "protected": false
+  },
+  {
+    "name": "cas-q-oss",
+    "commit": {
+      "sha": "b286e90108628643abec72c90deefbd1c17c4f94",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/b286e90108628643abec72c90deefbd1c17c4f94"
+    },
+    "protected": false
+  },
+  {
+    "name": "cepheus-p-oss",
+    "commit": {
+      "sha": "136c2470e85cd0fb2fa164c7086536d472e74594",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/136c2470e85cd0fb2fa164c7086536d472e74594"
+    },
+    "protected": false
+  },
+  {
+    "name": "cepheus-q-oss",
+    "commit": {
+      "sha": "192eca8550f95c2eec58a474793d1d93fc1b3b67",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/192eca8550f95c2eec58a474793d1d93fc1b3b67"
+    },
+    "protected": false
+  },
+  {
+    "name": "cezanne-q-oss",
+    "commit": {
+      "sha": "1d7e679cb766e78e28f8cd11f3b7aff1a9bddeaf",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1d7e679cb766e78e28f8cd11f3b7aff1a9bddeaf"
+    },
+    "protected": false
+  },
+  {
+    "name": "cezanne-r-oss",
+    "commit": {
+      "sha": "9be022c0db171ac622e528752410d613c0e4e64d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/9be022c0db171ac622e528752410d613c0e4e64d"
+    },
+    "protected": false
+  },
+  {
+    "name": "charoite-v-oss",
+    "commit": {
+      "sha": "946cb4a6e586f9a52dd2bc22b06a86c678ff243b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/946cb4a6e586f9a52dd2bc22b06a86c678ff243b"
+    },
+    "protected": false
+  },
+  {
+    "name": "chenfeng-u-oss",
+    "commit": {
+      "sha": "fd5559fa462de3e84fada46730b9665909ffe409",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/fd5559fa462de3e84fada46730b9665909ffe409"
+    },
+    "protected": false
+  },
+  {
+    "name": "chopin-r-oss",
+    "commit": {
+      "sha": "2af31af37e12a338fddca780044f8b182c23ed9a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2af31af37e12a338fddca780044f8b182c23ed9a"
+    },
+    "protected": false
+  },
+  {
+    "name": "clover-o-oss",
+    "commit": {
+      "sha": "2bfc48656a37ba6fbc380425ea98b4c445ad2315",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2bfc48656a37ba6fbc380425ea98b4c445ad2315"
+    },
+    "protected": false
+  },
+  {
+    "name": "cmi-r-oss",
+    "commit": {
+      "sha": "64b40409431988d060f7484369c8c2d7deca1bb3",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/64b40409431988d060f7484369c8c2d7deca1bb3"
+    },
+    "protected": false
+  },
+  {
+    "name": "corot-t-oss",
+    "commit": {
+      "sha": "cb2ab59a621b17aafa4a3f349c84d9f18adf7aaf",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/cb2ab59a621b17aafa4a3f349c84d9f18adf7aaf"
+    },
+    "protected": false
+  },
+  {
+    "name": "courbet-r-oss",
+    "commit": {
+      "sha": "de8d0006e5c9c7aeae530438813a019e4df5e21f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/de8d0006e5c9c7aeae530438813a019e4df5e21f"
+    },
+    "protected": false
+  },
+  {
+    "name": "creek-v-oss",
+    "commit": {
+      "sha": "cc78885016d9819dd25b4a42edd74ebbf0966be2",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/cc78885016d9819dd25b4a42edd74ebbf0966be2"
+    },
+    "protected": false
+  },
+  {
+    "name": "crux-p-oss",
+    "commit": {
+      "sha": "e5b19a4ef903aac082e18a84486bb39a97642f74",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e5b19a4ef903aac082e18a84486bb39a97642f74"
+    },
+    "protected": false
+  },
+  {
+    "name": "curtana-q-oss",
+    "commit": {
+      "sha": "231fa425e8f42661f74339de63c3ad472de6077d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/231fa425e8f42661f74339de63c3ad472de6077d"
+    },
+    "protected": false
+  },
+  {
+    "name": "dada-v-oss",
+    "commit": {
+      "sha": "afb5a488a44e7e980b2ef7b4c145703cfcb7aac5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/afb5a488a44e7e980b2ef7b4c145703cfcb7aac5"
+    },
+    "protected": false
+  },
+  {
+    "name": "dagu-s-oss",
+    "commit": {
+      "sha": "2f4aa27840d3b7bb61454de676f044fa0dd942c1",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2f4aa27840d3b7bb61454de676f044fa0dd942c1"
+    },
+    "protected": false
+  },
+  {
+    "name": "daisy-o-oss",
+    "commit": {
+      "sha": "6421aa5cdc56e9ef7c6329e0a05164503e1513ef",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/6421aa5cdc56e9ef7c6329e0a05164503e1513ef"
+    },
+    "protected": false
+  },
+  {
+    "name": "daisy-p-oss",
+    "commit": {
+      "sha": "a87054ac05425a9974fcbf9e419c5a596180bad9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a87054ac05425a9974fcbf9e419c5a596180bad9"
+    },
+    "protected": false
+  },
+  {
+    "name": "daisy-q-oss",
+    "commit": {
+      "sha": "46a57878aa01f4e7bfc7ba0efd4a4ea02e7de557",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/46a57878aa01f4e7bfc7ba0efd4a4ea02e7de557"
+    },
+    "protected": false
+  },
+  {
+    "name": "dandelion-q-oss",
+    "commit": {
+      "sha": "8974b9164af90d94603900b229264ae879a83a83",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/8974b9164af90d94603900b229264ae879a83a83"
+    },
+    "protected": false
+  },
+  {
+    "name": "dash-w-oss",
+    "commit": {
+      "sha": "2d28e280ea3652c3b36143243be5dd699b7b022b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2d28e280ea3652c3b36143243be5dd699b7b022b"
+    },
+    "protected": false
+  },
+  {
+    "name": "daumier-s-oss",
+    "commit": {
+      "sha": "1029f17b392957335a852f9c75ea16ff81fdb5f0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1029f17b392957335a852f9c75ea16ff81fdb5f0"
+    },
+    "protected": false
+  },
+  {
+    "name": "davinci-p-oss",
+    "commit": {
+      "sha": "c218005419cfebd4332773623d464588752d7b11",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c218005419cfebd4332773623d464588752d7b11"
+    },
+    "protected": false
+  },
+  {
+    "name": "dew-v-oss",
+    "commit": {
+      "sha": "e91fa1498975bc6e268fa91fffdb855a369fe69c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e91fa1498975bc6e268fa91fffdb855a369fe69c"
+    },
+    "protected": false
+  },
+  {
+    "name": "dijun-v-oss",
+    "commit": {
+      "sha": "0b426219a9a24b56c1593ebc84edb8a3f3b897b0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0b426219a9a24b56c1593ebc84edb8a3f3b897b0"
+    },
+    "protected": false
+  },
+  {
+    "name": "dior-kk-oss",
+    "commit": {
+      "sha": "90049250aa48497786c0717b9575e8333804f64f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/90049250aa48497786c0717b9575e8333804f64f"
+    },
+    "protected": false
+  },
+  {
+    "name": "dipper-o-oss",
+    "commit": {
+      "sha": "ab0b51d6d7573a0b1bcabca0e42939284ebd47b7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ab0b51d6d7573a0b1bcabca0e42939284ebd47b7"
+    },
+    "protected": false
+  },
+  {
+    "name": "dipper-p-oss",
+    "commit": {
+      "sha": "760a09a154b039a892a5ddd05906048f8ab295b9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/760a09a154b039a892a5ddd05906048f8ab295b9"
+    },
+    "protected": false
+  },
+  {
+    "name": "dipper-q-oss",
+    "commit": {
+      "sha": "dcfb1676925aec83b06ae04fd8ca989ced75067c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/dcfb1676925aec83b06ae04fd8ca989ced75067c"
+    },
+    "protected": false
+  },
+  {
+    "name": "diting-s-oss",
+    "commit": {
+      "sha": "df8603c6c66a25d50125bd431b9b7ca6b75862b1",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/df8603c6c66a25d50125bd431b9b7ca6b75862b1"
+    },
+    "protected": false
+  },
+  {
+    "name": "earth-s-oss",
+    "commit": {
+      "sha": "42825e29c289447816d10d53f07220ba2833b39d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/42825e29c289447816d10d53f07220ba2833b39d"
+    },
+    "protected": false
+  },
+  {
+    "name": "elish-r-oss",
+    "commit": {
+      "sha": "52a2f180865f8368828985d6384130acd093fa93",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/52a2f180865f8368828985d6384130acd093fa93"
+    },
+    "protected": false
+  },
+  {
+    "name": "emerald_r-u-oss",
+    "commit": {
+      "sha": "b183d9cceaeb4329781b597e4b520ea6a2687c7a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/b183d9cceaeb4329781b597e4b520ea6a2687c7a"
+    },
+    "protected": false
+  },
+  {
+    "name": "erhu-w-oss",
+    "commit": {
+      "sha": "2d19e01a5a6b48d74bff97be72cd43404b2e0f58",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2d19e01a5a6b48d74bff97be72cd43404b2e0f58"
+    },
+    "protected": false
+  },
+  {
+    "name": "evergo-r-oss",
+    "commit": {
+      "sha": "e5c8a6a68fa0a90a7f4b748c7e6e6d2abf5ce47e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e5c8a6a68fa0a90a7f4b748c7e6e6d2abf5ce47e"
+    },
+    "protected": false
+  },
+  {
+    "name": "ferrari-l-oss",
+    "commit": {
+      "sha": "da2c4ce514441515b5a9e3304aec67f08d699829",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/da2c4ce514441515b5a9e3304aec67f08d699829"
+    },
+    "protected": false
+  },
+  {
+    "name": "fire-t-oss",
+    "commit": {
+      "sha": "1d1aedfe40b2f5fd06c783b752af0197f38966eb",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1d1aedfe40b2f5fd06c783b752af0197f38966eb"
+    },
+    "protected": false
+  },
+  {
+    "name": "flame-u-oss",
+    "commit": {
+      "sha": "c1634b2102208970cbc46f3372d02dca84f8ddaf",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c1634b2102208970cbc46f3372d02dca84f8ddaf"
+    },
+    "protected": false
+  },
+  {
+    "name": "flare-w-oss",
+    "commit": {
+      "sha": "89172649ceb090d95eee954e5aad84a0f2d0cc36",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/89172649ceb090d95eee954e5aad84a0f2d0cc36"
+    },
+    "protected": false
+  },
+  {
+    "name": "fleur-s-oss",
+    "commit": {
+      "sha": "32022887f842ec64e317fc22745fedf35e982837",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/32022887f842ec64e317fc22745fedf35e982837"
+    },
+    "protected": false
+  },
+  {
+    "name": "flourite-v-oss",
+    "commit": {
+      "sha": "8c66ad18fc6132fcdcbdf0cf67832f47b33010a4",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/8c66ad18fc6132fcdcbdf0cf67832f47b33010a4"
+    },
+    "protected": false
+  },
+  {
+    "name": "frost-r-oss",
+    "commit": {
+      "sha": "47cd8bd80c2c910ed35feadf16e41785fd114603",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/47cd8bd80c2c910ed35feadf16e41785fd114603"
+    },
+    "protected": false
+  },
+  {
+    "name": "fuxi-t-oss",
+    "commit": {
+      "sha": "7fad87dc178d09489b74a714e4a525d56f546855",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7fad87dc178d09489b74a714e4a525d56f546855"
+    },
+    "protected": false
+  },
+  {
+    "name": "gale-s-oss",
+    "commit": {
+      "sha": "c5a44bbab4fbd46b1a26050410ef849f4fdf8657",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c5a44bbab4fbd46b1a26050410ef849f4fdf8657"
+    },
+    "protected": false
+  },
+  {
+    "name": "garnet-t-oss",
+    "commit": {
+      "sha": "18d8bbb64af852975d8673e51bf3f43078c6737f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/18d8bbb64af852975d8673e51bf3f43078c6737f"
+    },
+    "protected": false
+  },
+  {
+    "name": "gauguin-q-oss",
+    "commit": {
+      "sha": "e601e14af391539e0fd67fe0506bcbe55bfcd997",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e601e14af391539e0fd67fe0506bcbe55bfcd997"
+    },
+    "protected": false
+  },
+  {
+    "name": "gauguin-r-oss",
+    "commit": {
+      "sha": "f205e61e363a47c2fd794556f6281a3008f8bedc",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f205e61e363a47c2fd794556f6281a3008f8bedc"
+    },
+    "protected": false
+  },
+  {
+    "name": "gemini-m-oss",
+    "commit": {
+      "sha": "c0379aae3d784d78f304ae6de13ce522f4bbd4cc",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c0379aae3d784d78f304ae6de13ce522f4bbd4cc"
+    },
+    "protected": false
+  },
+  {
+    "name": "ginkgo-p-oss",
+    "commit": {
+      "sha": "ed1d7fc3e85fdb6416a5e38025a9692bcc29e5b2",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ed1d7fc3e85fdb6416a5e38025a9692bcc29e5b2"
+    },
+    "protected": false
+  },
+  {
+    "name": "ginkgo-q-oss",
+    "commit": {
+      "sha": "82e7d59525bd170160d671ea76c5f8721208d857",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/82e7d59525bd170160d671ea76c5f8721208d857"
+    },
+    "protected": false
+  },
+  {
+    "name": "goku-u-oss-test",
+    "commit": {
+      "sha": "19a3e7434a959d50abcf7497d40a76f002473706",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/19a3e7434a959d50abcf7497d40a76f002473706"
+    },
+    "protected": false
+  }
+]
+[
+  {
+    "name": "gold-s-oss",
+    "commit": {
+      "sha": "a926c5e6edf6e51333ee060415f2428a5f92c4d5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a926c5e6edf6e51333ee060415f2428a5f92c4d5"
+    },
+    "protected": false
+  },
+  {
+    "name": "gram-q-oss",
+    "commit": {
+      "sha": "c5c29fbc28f5d061dd9b50c4e96a59493598efe8",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c5c29fbc28f5d061dd9b50c4e96a59493598efe8"
+    },
+    "protected": false
+  },
+  {
+    "name": "grus-p-oss",
+    "commit": {
+      "sha": "4268351e65ea24261137227fc30eadfc0be61f6f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/4268351e65ea24261137227fc30eadfc0be61f6f"
+    },
+    "protected": false
+  },
+  {
+    "name": "gucci-kk-oss",
+    "commit": {
+      "sha": "db41b7b632f11e3c4b20bc7ebf6f7f69fa30433d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/db41b7b632f11e3c4b20bc7ebf6f7f69fa30433d"
+    },
+    "protected": false
+  },
+  {
+    "name": "guitar-w-oss",
+    "commit": {
+      "sha": "024329f7ce6b66accb7a9006dc42d81f019cc805",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/024329f7ce6b66accb7a9006dc42d81f019cc805"
+    },
+    "protected": false
+  },
+  {
+    "name": "haydn-r-oss",
+    "commit": {
+      "sha": "947fc672e18eab405cfe8c61a39fdf49b6acce16",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/947fc672e18eab405cfe8c61a39fdf49b6acce16"
+    },
+    "protected": false
+  },
+  {
+    "name": "hennessy-l-oss",
+    "commit": {
+      "sha": "be46505a04802215691794970fe251cb152b440e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/be46505a04802215691794970fe251cb152b440e"
+    },
+    "protected": false
+  },
+  {
+    "name": "hydrogen-m-oss",
+    "commit": {
+      "sha": "3a1fbba5d3c3ddfa3ce99f96e2a9709eb06f65bd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3a1fbba5d3c3ddfa3ce99f96e2a9709eb06f65bd"
+    },
+    "protected": false
+  },
+  {
+    "name": "ice-s-oss",
+    "commit": {
+      "sha": "e8feb45113ab1817845cd8cd4fd50b3fd9620c84",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e8feb45113ab1817845cd8cd4fd50b3fd9620c84"
+    },
+    "protected": false
+  },
+  {
+    "name": "ido-l-oss",
+    "commit": {
+      "sha": "fc5bac524ce4970c5c4f57775d02f9b8287cb652",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/fc5bac524ce4970c5c4f57775d02f9b8287cb652"
+    },
+    "protected": false
+  },
+  {
+    "name": "ingres-s-oss",
+    "commit": {
+      "sha": "ffbfcd5d72d0c8b84512a613f05c4c7fa9faffb6",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ffbfcd5d72d0c8b84512a613f05c4c7fa9faffb6"
+    },
+    "protected": false
+  },
+  {
+    "name": "ishtar-t-oss",
+    "commit": {
+      "sha": "16c625d2e63c5c38370f00fdff5e44be217ff6d5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/16c625d2e63c5c38370f00fdff5e44be217ff6d5"
+    },
+    "protected": false
+  },
+  {
+    "name": "jasmine-o-oss",
+    "commit": {
+      "sha": "91d64da2433390582cdbeb8e2ce9fae0e78eec78",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/91d64da2433390582cdbeb8e2ce9fae0e78eec78"
+    },
+    "protected": false
+  },
+  {
+    "name": "jasmine-p-oss",
+    "commit": {
+      "sha": "ff00cc710c2b721b631fa2edc1fb9387db31d029",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ff00cc710c2b721b631fa2edc1fb9387db31d029"
+    },
+    "protected": false
+  },
+  {
+    "name": "jasmine-q-oss",
+    "commit": {
+      "sha": "71b2d56625574d530ee61f05b7e25f7c302e9796",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/71b2d56625574d530ee61f05b7e25f7c302e9796"
+    },
+    "protected": false
+  },
+  {
+    "name": "jason-n-oss",
+    "commit": {
+      "sha": "11d6bc7bb33de4756753d6d6b7a8f0eea4dff919",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/11d6bc7bb33de4756753d6d6b7a8f0eea4dff919"
+    },
+    "protected": false
+  },
+  {
+    "name": "jason-p-oss",
+    "commit": {
+      "sha": "365dc74dd81838bfacfb30eb7ef3152ef2ab6f68",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/365dc74dd81838bfacfb30eb7ef3152ef2ab6f68"
+    },
+    "protected": false
+  },
+  {
+    "name": "kenzo-l-oss",
+    "commit": {
+      "sha": "e6cbd469014c712842fc7a4500884d8f42478660",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e6cbd469014c712842fc7a4500884d8f42478660"
+    },
+    "protected": false
+  },
+  {
+    "name": "kunzite-v-oss",
+    "commit": {
+      "sha": "2d446f1cf9e3a18c30af43ebeb6e5a443636d647",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2d446f1cf9e3a18c30af43ebeb6e5a443636d647"
+    },
+    "protected": false
+  },
+  {
+    "name": "lancelot-q-oss",
+    "commit": {
+      "sha": "0f68431cdf9e396aa151ac7d764aab7d6eca7fc5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0f68431cdf9e396aa151ac7d764aab7d6eca7fc5"
+    },
+    "protected": false
+  },
+  {
+    "name": "land-m-oss",
+    "commit": {
+      "sha": "ee3f64a442955d5a19f5625e18cd6c98e655a853",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ee3f64a442955d5a19f5625e18cd6c98e655a853"
+    },
+    "protected": false
+  },
+  {
+    "name": "lapis-v-oss",
+    "commit": {
+      "sha": "14d48651673ff1f5f6578c793b4ae9835d349d4b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/14d48651673ff1f5f6578c793b4ae9835d349d4b"
+    },
+    "protected": false
+  },
+  {
+    "name": "latte-l-oss",
+    "commit": {
+      "sha": "78fbd35b6c73ee51129d690c4306f320e40a1401",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/78fbd35b6c73ee51129d690c4306f320e40a1401"
+    },
+    "protected": false
+  },
+  {
+    "name": "laurel-q-oss",
+    "commit": {
+      "sha": "e4974f6e9478c946f99153464f93dcba498cb960",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e4974f6e9478c946f99153464f93dcba498cb960"
+    },
+    "protected": false
+  },
+  {
+    "name": "laurel-r-oss",
+    "commit": {
+      "sha": "d3766fc8cda2d96de2850faa9ce58e5a37ea9f9c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d3766fc8cda2d96de2850faa9ce58e5a37ea9f9c"
+    },
+    "protected": false
+  },
+  {
+    "name": "laurus-p-oss",
+    "commit": {
+      "sha": "747e90a2961cb79ada008a0a546b09ef1cf67d16",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/747e90a2961cb79ada008a0a546b09ef1cf67d16"
+    },
+    "protected": false
+  },
+  {
+    "name": "laurus-q-oss",
+    "commit": {
+      "sha": "e063ca4a52b4244a7ad689bf6d94bd6ba80e85af",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e063ca4a52b4244a7ad689bf6d94bd6ba80e85af"
+    },
+    "protected": false
+  },
+  {
+    "name": "lavender-p-oss",
+    "commit": {
+      "sha": "cf2a90f96348c6a3142d53ca209983da18c72410",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/cf2a90f96348c6a3142d53ca209983da18c72410"
+    },
+    "protected": false
+  },
+  {
+    "name": "lavender-q-oss",
+    "commit": {
+      "sha": "b16ba644a26986cc4cc3cf526eb497b9fa91a043",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/b16ba644a26986cc4cc3cf526eb497b9fa91a043"
+    },
+    "protected": false
+  },
+  {
+    "name": "libra-l-oss",
+    "commit": {
+      "sha": "81e1d290c75e4900dff0198993dd851a3ccb75dd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/81e1d290c75e4900dff0198993dd851a3ccb75dd"
+    },
+    "protected": false
+  },
+  {
+    "name": "libra-n-oss",
+    "commit": {
+      "sha": "f4cab50d74f8e55e0a0dbbf430d163f46c6fc3a1",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f4cab50d74f8e55e0a0dbbf430d163f46c6fc3a1"
+    },
+    "protected": false
+  },
+  {
+    "name": "light-u-oss",
+    "commit": {
+      "sha": "a40ceab8943703f33e935cb0b86d0f69aa2044dd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a40ceab8943703f33e935cb0b86d0f69aa2044dd"
+    },
+    "protected": false
+  },
+  {
+    "name": "lime-q-oss",
+    "commit": {
+      "sha": "02ca1a919564a9b176a79cce09c40977f833e9ac",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/02ca1a919564a9b176a79cce09c40977f833e9ac"
+    },
+    "protected": false
+  },
+  {
+    "name": "lisa-r-oss",
+    "commit": {
+      "sha": "57ee2b068000ac79caa7c076d0d9bb1a9260e8a4",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/57ee2b068000ac79caa7c076d0d9bb1a9260e8a4"
+    },
+    "protected": false
+  },
+  {
+    "name": "liuqin-t-oss",
+    "commit": {
+      "sha": "eb49e10028e27fa98856cb5e458c0f0ec5b4554e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/eb49e10028e27fa98856cb5e458c0f0ec5b4554e"
+    },
+    "protected": false
+  },
+  {
+    "name": "lmi-q-oss",
+    "commit": {
+      "sha": "789514465a7cd3acbf70fa67f7e10fd8fde270bd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/789514465a7cd3acbf70fa67f7e10fd8fde270bd"
+    },
+    "protected": false
+  },
+  {
+    "name": "lotus-o-oss",
+    "commit": {
+      "sha": "d433887cbabdb02c120a5f6f0348bcaed16958d3",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d433887cbabdb02c120a5f6f0348bcaed16958d3"
+    },
+    "protected": false
+  },
+  {
+    "name": "malachite-u-oss",
+    "commit": {
+      "sha": "1039f2f991e4b4669cbb7868fdeb7a1435506ba3",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1039f2f991e4b4669cbb7868fdeb7a1435506ba3"
+    },
+    "protected": false
+  },
+  {
+    "name": "marble-s-oss",
+    "commit": {
+      "sha": "48952ed36228217531482b39d5bef13e7fd808ec",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/48952ed36228217531482b39d5bef13e7fd808ec"
+    },
+    "protected": false
+  },
+  {
+    "name": "markw-m-oss",
+    "commit": {
+      "sha": "e6b89f11f414f116294ebaa02a603d39e5bb0a09",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e6b89f11f414f116294ebaa02a603d39e5bb0a09"
+    },
+    "protected": false
+  },
+  {
+    "name": "master",
+    "commit": {
+      "sha": "730f3718c02f59ff32e20a6091926b362e6dcbfc",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/730f3718c02f59ff32e20a6091926b362e6dcbfc"
+    },
+    "protected": false
+  },
+  {
+    "name": "mayfly-s-oss",
+    "commit": {
+      "sha": "fa4513e61931e11a59e3f177ae590d4e090d7229",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/fa4513e61931e11a59e3f177ae590d4e090d7229"
+    },
+    "protected": false
+  },
+  {
+    "name": "merlin-r-oss",
+    "commit": {
+      "sha": "8b776e0714fb1eb2e02daae4f730a2f17bf1e2ca",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/8b776e0714fb1eb2e02daae4f730a2f17bf1e2ca"
+    },
+    "protected": false
+  },
+  {
+    "name": "mido-m-oss",
+    "commit": {
+      "sha": "db5513a732da6cc820638487f24aea0dcf63adf7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/db5513a732da6cc820638487f24aea0dcf63adf7"
+    },
+    "protected": false
+  },
+  {
+    "name": "mido-n-oss",
+    "commit": {
+      "sha": "e12ec432a9ef867a3602a8e63322bc6b7aabcfd2",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e12ec432a9ef867a3602a8e63322bc6b7aabcfd2"
+    },
+    "protected": false
+  },
+  {
+    "name": "mist-w-oss",
+    "commit": {
+      "sha": "828fe3bef1d1f16dd280da29f17b56059c06134e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/828fe3bef1d1f16dd280da29f17b56059c06134e"
+    },
+    "protected": false
+  },
+  {
+    "name": "mocha-kk-oss",
+    "commit": {
+      "sha": "79b4898e25fe3b506ff902e182b47068598c838a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/79b4898e25fe3b506ff902e182b47068598c838a"
+    },
+    "protected": false
+  },
+  {
+    "name": "mojito-r-oss",
+    "commit": {
+      "sha": "97a4dd1e98ef5cbe3f5a836435add595f3d0d888",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/97a4dd1e98ef5cbe3f5a836435add595f3d0d888"
+    },
+    "protected": false
+  },
+  {
+    "name": "mona-r-oss",
+    "commit": {
+      "sha": "afbe78b04eda441fdd65135a5a494c208977f4da",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/afbe78b04eda441fdd65135a5a494c208977f4da"
+    },
+    "protected": false
+  },
+  {
+    "name": "mondrian-s-oss",
+    "commit": {
+      "sha": "989b27aa8391a2ede9b067b53877c4c3343955fe",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/989b27aa8391a2ede9b067b53877c4c3343955fe"
+    },
+    "protected": false
+  },
+  {
+    "name": "moon-u-oss",
+    "commit": {
+      "sha": "7ee22f2342c6c91df41097035a31cef3066b1d76",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7ee22f2342c6c91df41097035a31cef3066b1d76"
+    },
+    "protected": false
+  },
+  {
+    "name": "moonstone-s-oss",
+    "commit": {
+      "sha": "8822527dced9f7f136c8fcc07ff63646d3f2f1b0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/8822527dced9f7f136c8fcc07ff63646d3f2f1b0"
+    },
+    "protected": false
+  },
+  {
+    "name": "munch-s-oss",
+    "commit": {
+      "sha": "9aba441cf6cd86f1e81ee6a2608e9102b05c52a7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/9aba441cf6cd86f1e81ee6a2608e9102b05c52a7"
+    },
+    "protected": false
+  },
+  {
+    "name": "muyu-v-oss",
+    "commit": {
+      "sha": "681e88870888dec258dd48b0ab8c908b303eb159",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/681e88870888dec258dd48b0ab8c908b303eb159"
+    },
+    "protected": false
+  },
+  {
+    "name": "nabu-r-oss",
+    "commit": {
+      "sha": "71b6effd2dfa8f703dd1ea17acd1323b2fd3cf6c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/71b6effd2dfa8f703dd1ea17acd1323b2fd3cf6c"
+    },
+    "protected": false
+  },
+  {
+    "name": "nitrogen-o-oss",
+    "commit": {
+      "sha": "aa6596e8b78ec8795783dcc44cd55dcd4c9a9a04",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/aa6596e8b78ec8795783dcc44cd55dcd4c9a9a04"
+    },
+    "protected": false
+  },
+  {
+    "name": "nitrogen-p-oss",
+    "commit": {
+      "sha": "dc8e417a8d54d8c0893f19b97fb448d2a72b058d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/dc8e417a8d54d8c0893f19b97fb448d2a72b058d"
+    },
+    "protected": false
+  },
+  {
+    "name": "nitrogen-q-oss",
+    "commit": {
+      "sha": "5d7b06f0996387c91b0b019966a5960a26fd5c4f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/5d7b06f0996387c91b0b019966a5960a26fd5c4f"
+    },
+    "protected": false
+  },
+  {
+    "name": "odin-r-oss",
+    "commit": {
+      "sha": "f82406097ede3943a96c08b95bd1f5b5149ee0f0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f82406097ede3943a96c08b95bd1f5b5149ee0f0"
+    },
+    "protected": false
+  },
+  {
+    "name": "olive-p-oss",
+    "commit": {
+      "sha": "f3335576f443d206b866b9847ae514ed1b173fe1",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f3335576f443d206b866b9847ae514ed1b173fe1"
+    },
+    "protected": false
+  },
+  {
+    "name": "olive-q-oss",
+    "commit": {
+      "sha": "d56d7ac1f98490e34ad800eab3b41f900d0ef6d8",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d56d7ac1f98490e34ad800eab3b41f900d0ef6d8"
+    },
+    "protected": false
+  },
+  {
+    "name": "olivewood-p-oss",
+    "commit": {
+      "sha": "f27749997529b6f048c7c6d4387754295d45bad9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f27749997529b6f048c7c6d4387754295d45bad9"
+    },
+    "protected": false
+  },
+  {
+    "name": "onc-p-oss",
+    "commit": {
+      "sha": "029f06c5491b791cc05913609022c6584e9ed66c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/029f06c5491b791cc05913609022c6584e9ed66c"
+    },
+    "protected": false
+  },
+  {
+    "name": "onc-q-oss",
+    "commit": {
+      "sha": "fa577bc566886db1e0dfb1ddf66ff7c528148b2b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/fa577bc566886db1e0dfb1ddf66ff7c528148b2b"
+    },
+    "protected": false
+  },
+  {
+    "name": "onyx-v-oss",
+    "commit": {
+      "sha": "58e48d87fdc02f1e2978547f75ea524962217cc5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/58e48d87fdc02f1e2978547f75ea524962217cc5"
+    },
+    "protected": false
+  },
+  {
+    "name": "oxygen-n-oss",
+    "commit": {
+      "sha": "7c412528d67834237d87505b9e1479df46a440c5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7c412528d67834237d87505b9e1479df46a440c5"
+    },
+    "protected": false
+  },
+  {
+    "name": "pearl-s-oss",
+    "commit": {
+      "sha": "d96c1a04b701bcf1d39ed1b8ab4b3137ff6490f9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d96c1a04b701bcf1d39ed1b8ab4b3137ff6490f9"
+    },
+    "protected": false
+  },
+  {
+    "name": "peridot-u-oss",
+    "commit": {
+      "sha": "062233df735dd3db2e20aea2f7d3f87c0b1ffde2",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/062233df735dd3db2e20aea2f7d3f87c0b1ffde2"
+    },
+    "protected": false
+  },
+  {
+    "name": "perseus-p-oss",
+    "commit": {
+      "sha": "4d40ad79436fec3874f79f14d9534cfe0e47e315",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/4d40ad79436fec3874f79f14d9534cfe0e47e315"
+    },
+    "protected": false
+  },
+  {
+    "name": "phoenix-q-oss",
+    "commit": {
+      "sha": "aa0cbd5cffc74e04a5145a8930769f220e71761a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/aa0cbd5cffc74e04a5145a8930769f220e71761a"
+    },
+    "protected": false
+  },
+  {
+    "name": "phoenix-r-oss",
+    "commit": {
+      "sha": "325d1e04d7da927b2ea6f16ac912c34d523700f3",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/325d1e04d7da927b2ea6f16ac912c34d523700f3"
+    },
+    "protected": false
+  },
+  {
+    "name": "piano-w-oss",
+    "commit": {
+      "sha": "45fb9bd6ae5ba2942fc1d53e4b6b46ef76992f71",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/45fb9bd6ae5ba2942fc1d53e4b6b46ef76992f71"
+    },
+    "protected": false
+  },
+  {
+    "name": "picasso-q-oss",
+    "commit": {
+      "sha": "236f9eb092623c2bc69fa2e88eb647ad30562049",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/236f9eb092623c2bc69fa2e88eb647ad30562049"
+    },
+    "protected": false
+  },
+  {
+    "name": "picasso-r-oss",
+    "commit": {
+      "sha": "61e4abf674639d96a710cd9de44e68ec26eb09dd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/61e4abf674639d96a710cd9de44e68ec26eb09dd"
+    },
+    "protected": false
+  },
+  {
+    "name": "pine-p-oss",
+    "commit": {
+      "sha": "736a8d4d76ded01a16374eb255c4b6dc8c88e82d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/736a8d4d76ded01a16374eb255c4b6dc8c88e82d"
+    },
+    "protected": false
+  },
+  {
+    "name": "pipa-t-oss",
+    "commit": {
+      "sha": "77dc8e2290f3f5f15861821564f68d30ea193449",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/77dc8e2290f3f5f15861821564f68d30ea193449"
+    },
+    "protected": false
+  },
+  {
+    "name": "pisces-kk-oss",
+    "commit": {
+      "sha": "6567776656bac41cb21b1563f6c7289928f0a9e0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/6567776656bac41cb21b1563f6c7289928f0a9e0"
+    },
+    "protected": false
+  },
+  {
+    "name": "pissarro-r-oss",
+    "commit": {
+      "sha": "e0c532e444800e0594e28ddd78e10b1978415314",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e0c532e444800e0594e28ddd78e10b1978415314"
+    },
+    "protected": false
+  },
+  {
+    "name": "pissarro-s-oss",
+    "commit": {
+      "sha": "206a568fc4c1d48b227808744b76e0b512186123",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/206a568fc4c1d48b227808744b76e0b512186123"
+    },
+    "protected": false
+  },
+  {
+    "name": "platina-o-oss",
+    "commit": {
+      "sha": "0bb2780bccb9c7e05f0edf5db8860e779179b5f9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0bb2780bccb9c7e05f0edf5db8860e779179b5f9"
+    },
+    "protected": false
+  },
+  {
+    "name": "polaris-o-oss",
+    "commit": {
+      "sha": "c7cb50c18f812629b9620b2b8fa684bc40d82080",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/c7cb50c18f812629b9620b2b8fa684bc40d82080"
+    },
+    "protected": false
+  },
+  {
+    "name": "popsicle-w-oss",
+    "commit": {
+      "sha": "45705be1220b4cfa8100516ad86711656c0b634e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/45705be1220b4cfa8100516ad86711656c0b634e"
+    },
+    "protected": false
+  },
+  {
+    "name": "psyche-r-oss",
+    "commit": {
+      "sha": "23687c38279551b4a92ad0b20e132964c334cbb6",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/23687c38279551b4a92ad0b20e132964c334cbb6"
+    },
+    "protected": false
+  },
+  {
+    "name": "pyxis-p-oss",
+    "commit": {
+      "sha": "a6b8a19157a06e00878294e6c84e19e3902b61fa",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a6b8a19157a06e00878294e6c84e19e3902b61fa"
+    },
+    "protected": false
+  },
+  {
+    "name": "raphael-p-oss",
+    "commit": {
+      "sha": "663db50e195a8a54c8565ac4ab0c6d9ba7d80db0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/663db50e195a8a54c8565ac4ab0c6d9ba7d80db0"
+    },
+    "protected": false
+  },
+  {
+    "name": "redwood-s-oss",
+    "commit": {
+      "sha": "7d08fb515ffb638ec39b317ff85ff2646520718c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7d08fb515ffb638ec39b317ff85ff2646520718c"
+    },
+    "protected": false
+  },
+  {
+    "name": "riva-n-oss",
+    "commit": {
+      "sha": "77a8d5a440cb27ed2fdf3767aadf8d259701094f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/77a8d5a440cb27ed2fdf3767aadf8d259701094f"
+    },
+    "protected": false
+  },
+  {
+    "name": "riva-o-oss",
+    "commit": {
+      "sha": "dbfcf257f2bfb188c3da1357613c102bedb10b8a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/dbfcf257f2bfb188c3da1357613c102bedb10b8a"
+    },
+    "protected": false
+  },
+  {
+    "name": "rock-u-oss",
+    "commit": {
+      "sha": "f8cb1f60bcf148be94f7ed46d093d6c030554751",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f8cb1f60bcf148be94f7ed46d093d6c030554751"
+    },
+    "protected": false
+  },
+  {
+    "name": "rosemary-r-oss",
+    "commit": {
+      "sha": "7094834e4fca19af2ca43a752debf95c0022b949",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7094834e4fca19af2ca43a752debf95c0022b949"
+    },
+    "protected": false
+  },
+  {
+    "name": "ruan-u-oss",
+    "commit": {
+      "sha": "2a4b42390bedbbc4e46e4c8e70c84351cf37e78f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2a4b42390bedbbc4e46e4c8e70c84351cf37e78f"
+    },
+    "protected": false
+  },
+  {
+    "name": "rubens-s-oss",
+    "commit": {
+      "sha": "270b84910b941bf75490fccdb5fb2b3021dd7cbf",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/270b84910b941bf75490fccdb5fb2b3021dd7cbf"
+    },
+    "protected": false
+  },
+  {
+    "name": "ruby-s-oss",
+    "commit": {
+      "sha": "914ba8403bb3a957ed37b99dcecdbafce9d16121",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/914ba8403bb3a957ed37b99dcecdbafce9d16121"
+    },
+    "protected": false
+  },
+  {
+    "name": "sagit-n-oss",
+    "commit": {
+      "sha": "3fb35ef1f0fe1f714be3df39724cbc8eb217181e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3fb35ef1f0fe1f714be3df39724cbc8eb217181e"
+    },
+    "protected": false
+  },
+  {
+    "name": "sagit-o-oss",
+    "commit": {
+      "sha": "8da5dc504f4f4cdc929dad60b5e6d3f37e7f5f52",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/8da5dc504f4f4cdc929dad60b5e6d3f37e7f5f52"
+    },
+    "protected": false
+  },
+  {
+    "name": "sagit-p-oss",
+    "commit": {
+      "sha": "5853fcdbec23aa0ea3be20bc7739581e0285eff0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/5853fcdbec23aa0ea3be20bc7739581e0285eff0"
+    },
+    "protected": false
+  },
+  {
+    "name": "sakura-o-oss",
+    "commit": {
+      "sha": "5551bfa07d4eb194891a2d79504cbb95947ce6c5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/5551bfa07d4eb194891a2d79504cbb95947ce6c5"
+    },
+    "protected": false
+  },
+  {
+    "name": "sakura-p-oss",
+    "commit": {
+      "sha": "36039a35bfaf3e0fbfef78b5c70a6aa798e56363",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/36039a35bfaf3e0fbfef78b5c70a6aa798e56363"
+    },
+    "protected": false
+  },
+  {
+    "name": "santoni-n-oss",
+    "commit": {
+      "sha": "d34af556d86d4e2d615be97614ec8b79e7bfbe61",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d34af556d86d4e2d615be97614ec8b79e7bfbe61"
+    },
+    "protected": false
+  },
+  {
+    "name": "scorpio-m-oss",
+    "commit": {
+      "sha": "e00367a7d8074c296785d390fecb4c8230a58c93",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e00367a7d8074c296785d390fecb4c8230a58c93"
+    },
+    "protected": false
+  }
+]
+[
+  {
+    "name": "scorpio-n-oss",
+    "commit": {
+      "sha": "1492c8e4373b7428bb0accc4f4881e97b36508b9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1492c8e4373b7428bb0accc4f4881e97b36508b9"
+    },
+    "protected": false
+  },
+  {
+    "name": "scorpio-o-oss",
+    "commit": {
+      "sha": "a36928ce4998125d9e71d1377a52d68cfe156872",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a36928ce4998125d9e71d1377a52d68cfe156872"
+    },
+    "protected": false
+  },
+  {
+    "name": "sea-t-oss",
+    "commit": {
+      "sha": "6f6b84e0e2fa8d474db66798a051ec1835257729",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/6f6b84e0e2fa8d474db66798a051ec1835257729"
+    },
+    "protected": false
+  },
+  {
+    "name": "selene-r-oss",
+    "commit": {
+      "sha": "3887b50b55b3a057da6cf932c0426aa6989bf5d5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3887b50b55b3a057da6cf932c0426aa6989bf5d5"
+    },
+    "protected": false
+  },
+  {
+    "name": "selene-r-oss-update",
+    "commit": {
+      "sha": "6a5cdd2759876185ce2381313fef9752d7cb56a4",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/6a5cdd2759876185ce2381313fef9752d7cb56a4"
+    },
+    "protected": false
+  },
+  {
+    "name": "sheng-u-oss",
+    "commit": {
+      "sha": "29db5d592c5b577aa9d9611da988a5e071d100dd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/29db5d592c5b577aa9d9611da988a5e071d100dd"
+    },
+    "protected": false
+  },
+  {
+    "name": "shennong-u-oss",
+    "commit": {
+      "sha": "317e609aa4fb956c3aff565b62215e5a8041ca0c",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/317e609aa4fb956c3aff565b62215e5a8041ca0c"
+    },
+    "protected": false
+  },
+  {
+    "name": "sirius-o-oss",
+    "commit": {
+      "sha": "34c0135d9dcb7519383b9611df32983c221ded1a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/34c0135d9dcb7519383b9611df32983c221ded1a"
+    },
+    "protected": false
+  },
+  {
+    "name": "sirius-q-oss",
+    "commit": {
+      "sha": "e6da96d2c42335327e346e84d558e3ee24a46988",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e6da96d2c42335327e346e84d558e3ee24a46988"
+    },
+    "protected": false
+  },
+  {
+    "name": "sky-t-oss",
+    "commit": {
+      "sha": "9adb4dca796fbc465bca5731feed21641f87bd2b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/9adb4dca796fbc465bca5731feed21641f87bd2b"
+    },
+    "protected": false
+  },
+  {
+    "name": "socrates-t-oss",
+    "commit": {
+      "sha": "3586ae7c7ea9eae1eb786600ece31907786480a2",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3586ae7c7ea9eae1eb786600ece31907786480a2"
+    },
+    "protected": false
+  },
+  {
+    "name": "spark-s-oss",
+    "commit": {
+      "sha": "cefc09800eb4025b74898f7bb6a85d6fa2c0a867",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/cefc09800eb4025b74898f7bb6a85d6fa2c0a867"
+    },
+    "protected": false
+  },
+  {
+    "name": "spark-w-oss",
+    "commit": {
+      "sha": "2ffcf31fd17a19f04bc73d0798f752581b9bd53f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/2ffcf31fd17a19f04bc73d0798f752581b9bd53f"
+    },
+    "protected": false
+  },
+  {
+    "name": "spes-r-oss",
+    "commit": {
+      "sha": "88afd32564211f4cfb60171ed8cbeaa734860601",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/88afd32564211f4cfb60171ed8cbeaa734860601"
+    },
+    "protected": false
+  },
+  {
+    "name": "spinel-v-oss",
+    "commit": {
+      "sha": "49ff345d71aba889f15a06202b3c31ba24c68bbf",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/49ff345d71aba889f15a06202b3c31ba24c68bbf"
+    },
+    "protected": false
+  },
+  {
+    "name": "spring-v-oss",
+    "commit": {
+      "sha": "e29c0fd34c6e8f91d30046a85d1afac3fe032a7e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/e29c0fd34c6e8f91d30046a85d1afac3fe032a7e"
+    },
+    "protected": false
+  },
+  {
+    "name": "star-r-oss",
+    "commit": {
+      "sha": "a9244def8a5178edee9ed4a30d60034de8286cbb",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a9244def8a5178edee9ed4a30d60034de8286cbb"
+    },
+    "protected": false
+  },
+  {
+    "name": "sunstone-u-oss",
+    "commit": {
+      "sha": "d68289b3e7d7a6b8e07a75360a5a67a88b678b07",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d68289b3e7d7a6b8e07a75360a5a67a88b678b07"
+    },
+    "protected": false
+  },
+  {
+    "name": "surya-q-oss",
+    "commit": {
+      "sha": "5e0a8dada006832d3c0511fdc7903c68474cad87",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/5e0a8dada006832d3c0511fdc7903c68474cad87"
+    },
+    "protected": false
+  },
+  {
+    "name": "sweet_k6a-r-oss",
+    "commit": {
+      "sha": "10c33d40a11ecdc75cc1dadb5bd07894bab05815",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/10c33d40a11ecdc75cc1dadb5bd07894bab05815"
+    },
+    "protected": false
+  },
+  {
+    "name": "sweet-r-oss",
+    "commit": {
+      "sha": "758bb7ef50af360e728662a1ed3b3a1b977a2f13",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/758bb7ef50af360e728662a1ed3b3a1b977a2f13"
+    },
+    "protected": false
+  },
+  {
+    "name": "taoyao-s-oss",
+    "commit": {
+      "sha": "647f2f3764e4e33f80c45ed87b6112eed0c123d7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/647f2f3764e4e33f80c45ed87b6112eed0c123d7"
+    },
+    "protected": false
+  },
+  {
+    "name": "thomas-kk-oss",
+    "commit": {
+      "sha": "367eceaabc0b72a3846240f497e23c3a3998718b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/367eceaabc0b72a3846240f497e23c3a3998718b"
+    },
+    "protected": false
+  },
+  {
+    "name": "tiare-o-oss",
+    "commit": {
+      "sha": "46f6209945e065d45186588b249e4e6d91f2b0f6",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/46f6209945e065d45186588b249e4e6d91f2b0f6"
+    },
+    "protected": false
+  },
+  {
+    "name": "tiffany-n-oss",
+    "commit": {
+      "sha": "3c1b6acbe6e7329a39028dc44ec54cf8b0264bae",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/3c1b6acbe6e7329a39028dc44ec54cf8b0264bae"
+    },
+    "protected": false
+  },
+  {
+    "name": "tissot-n-oss",
+    "commit": {
+      "sha": "24ea5efc315593a2c4fadd39df307b78def02faa",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/24ea5efc315593a2c4fadd39df307b78def02faa"
+    },
+    "protected": false
+  },
+  {
+    "name": "tissot-o-oss",
+    "commit": {
+      "sha": "f2bc79c05d637442e7230096e07a0f1a5d0f858a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/f2bc79c05d637442e7230096e07a0f1a5d0f858a"
+    },
+    "protected": false
+  },
+  {
+    "name": "tissot-o-oss-8.1",
+    "commit": {
+      "sha": "58f09ee841c24460d33e935fdaba1327a246e239",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/58f09ee841c24460d33e935fdaba1327a246e239"
+    },
+    "protected": false
+  },
+  {
+    "name": "tissot-p-oss",
+    "commit": {
+      "sha": "d0ac7d6c37e6277595a3d369ffc177a8c22d0e87",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d0ac7d6c37e6277595a3d369ffc177a8c22d0e87"
+    },
+    "protected": false
+  },
+  {
+    "name": "toco-q-oss",
+    "commit": {
+      "sha": "97f33fdf6ad36861204af5c8eec69fe65be114e0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/97f33fdf6ad36861204af5c8eec69fe65be114e0"
+    },
+    "protected": false
+  },
+  {
+    "name": "topaz-t-oss",
+    "commit": {
+      "sha": "345999da0be9cd37afdf87b15449d30b585a7091",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/345999da0be9cd37afdf87b15449d30b585a7091"
+    },
+    "protected": false
+  },
+  {
+    "name": "tornado-v-oss",
+    "commit": {
+      "sha": "0aad0149a0dc51812858eecd18a8acdc7706a331",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0aad0149a0dc51812858eecd18a8acdc7706a331"
+    },
+    "protected": false
+  },
+  {
+    "name": "tucana-p-oss",
+    "commit": {
+      "sha": "da1aa8e7b9a16fb90ded8da4e0dbd71b3e05d327",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/da1aa8e7b9a16fb90ded8da4e0dbd71b3e05d327"
+    },
+    "protected": false
+  },
+  {
+    "name": "tucana-q-oss",
+    "commit": {
+      "sha": "4aa2218dff2956e48ef12dfdc7dc082c43e0bb8d",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/4aa2218dff2956e48ef12dfdc7dc082c43e0bb8d"
+    },
+    "protected": false
+  },
+  {
+    "name": "tulip-p-oss",
+    "commit": {
+      "sha": "547bbe80b09bb88f152b155a71352e5862128ddb",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/547bbe80b09bb88f152b155a71352e5862128ddb"
+    },
+    "protected": false
+  },
+  {
+    "name": "uke-v-oss",
+    "commit": {
+      "sha": "5712080a4b0c0b1a879e6d145c601c649ddaddfd",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/5712080a4b0c0b1a879e6d145c601c649ddaddfd"
+    },
+    "protected": false
+  },
+  {
+    "name": "ulysse-n-oss",
+    "commit": {
+      "sha": "29d0a104ee8907d59405982e7e87fc07edfdafac",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/29d0a104ee8907d59405982e7e87fc07edfdafac"
+    },
+    "protected": false
+  },
+  {
+    "name": "umi-q-oss",
+    "commit": {
+      "sha": "db67ca6001320efc1f945c270635434fc403a9d4",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/db67ca6001320efc1f945c270635434fc403a9d4"
+    },
+    "protected": false
+  },
+  {
+    "name": "vangogh-q-oss",
+    "commit": {
+      "sha": "ce6e246e855271643d5e90bb4c27706749a002e7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ce6e246e855271643d5e90bb4c27706749a002e7"
+    },
+    "protected": false
+  },
+  {
+    "name": "vayu-r-oss",
+    "commit": {
+      "sha": "0c9888aa2373958ae38787ed84b803701f73f0a1",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0c9888aa2373958ae38787ed84b803701f73f0a1"
+    },
+    "protected": false
+  },
+  {
+    "name": "venus-r-oss",
+    "commit": {
+      "sha": "7db0abb6726f611eedbbe92bbf8a4291c0dcdb69",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7db0abb6726f611eedbbe92bbf8a4291c0dcdb69"
+    },
+    "protected": false
+  },
+  {
+    "name": "veux-r-oss",
+    "commit": {
+      "sha": "61397e524093d1ccb94769b5460825e2eaf8871e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/61397e524093d1ccb94769b5460825e2eaf8871e"
+    },
+    "protected": false
+  },
+  {
+    "name": "vili-r-oss",
+    "commit": {
+      "sha": "b35c72560413287b0d8457838c55e2742267520a",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/b35c72560413287b0d8457838c55e2742267520a"
+    },
+    "protected": false
+  },
+  {
+    "name": "violet-p-oss",
+    "commit": {
+      "sha": "ff6325752a751135cf8f4790bb70cdaa44ab4035",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/ff6325752a751135cf8f4790bb70cdaa44ab4035"
+    },
+    "protected": false
+  },
+  {
+    "name": "violet-q-oss",
+    "commit": {
+      "sha": "1488fa3d05e2f9be5fc62e0bb16ad85d96db2076",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/1488fa3d05e2f9be5fc62e0bb16ad85d96db2076"
+    },
+    "protected": false
+  },
+  {
+    "name": "violin-v-oss",
+    "commit": {
+      "sha": "99a9aff00a2856f065954672660bd0fe0ad0a064",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/99a9aff00a2856f065954672660bd0fe0ad0a064"
+    },
+    "protected": false
+  },
+  {
+    "name": "viva-r-oss",
+    "commit": {
+      "sha": "748f8f54369cbaa12cce09101f46900d08fd27d6",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/748f8f54369cbaa12cce09101f46900d08fd27d6"
+    },
+    "protected": false
+  },
+  {
+    "name": "warm-u-oss",
+    "commit": {
+      "sha": "a68e56e87c0e784176bf4bd950abd687cd90a477",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/a68e56e87c0e784176bf4bd950abd687cd90a477"
+    },
+    "protected": false
+  },
+  {
+    "name": "warsaw-w-oss",
+    "commit": {
+      "sha": "8a58b40360496c110c198d4f8b51a50edb3a3ccf",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/8a58b40360496c110c198d4f8b51a50edb3a3ccf"
+    },
+    "protected": false
+  },
+  {
+    "name": "whyred-n-oss",
+    "commit": {
+      "sha": "bf9f484923768eb6770ef6d8fc97c44d1a63289f",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/bf9f484923768eb6770ef6d8fc97c44d1a63289f"
+    },
+    "protected": false
+  },
+  {
+    "name": "whyred-o-oss",
+    "commit": {
+      "sha": "efbbb9cce47475c49f28d227b2a52eca6f0d02a7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/efbbb9cce47475c49f28d227b2a52eca6f0d02a7"
+    },
+    "protected": false
+  },
+  {
+    "name": "willow-p-oss",
+    "commit": {
+      "sha": "419d7f74a83e5264ff89ee4eed9ccfd1f6077ee5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/419d7f74a83e5264ff89ee4eed9ccfd1f6077ee5"
+    },
+    "protected": false
+  },
+  {
+    "name": "xaga-s-oss",
+    "commit": {
+      "sha": "56ec519f688b624acf71a2dc3b81dd29dd23664b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/56ec519f688b624acf71a2dc3b81dd29dd23664b"
+    },
+    "protected": false
+  },
+  {
+    "name": "xuanyuan-v-oss",
+    "commit": {
+      "sha": "5a76b8c9010a39420632a20f32fe1bc30498aca0",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/5a76b8c9010a39420632a20f32fe1bc30498aca0"
+    },
+    "protected": false
+  },
+  {
+    "name": "xun-t-oss",
+    "commit": {
+      "sha": "0418ef63b947c0cfe144074fae559ea9dfc3638e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0418ef63b947c0cfe144074fae559ea9dfc3638e"
+    },
+    "protected": false
+  },
+  {
+    "name": "yili-w-oss",
+    "commit": {
+      "sha": "12442a472daa63dc21584c5dc17980d0b4ab3136",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/12442a472daa63dc21584c5dc17980d0b4ab3136"
+    },
+    "protected": false
+  },
+  {
+    "name": "ysl-o-oss",
+    "commit": {
+      "sha": "0884128ae3ddf66f604d9f2beb60a442cae9aba5",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0884128ae3ddf66f604d9f2beb60a442cae9aba5"
+    },
+    "protected": false
+  },
+  {
+    "name": "ysl-p-oss",
+    "commit": {
+      "sha": "09f6450330b57b8df8b4472917c2d71adc0386d4",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/09f6450330b57b8df8b4472917c2d71adc0386d4"
+    },
+    "protected": false
+  },
+  {
+    "name": "yudi-t-oss",
+    "commit": {
+      "sha": "202c7eaa479bdee197467e5e9c044a0d07234bf6",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/202c7eaa479bdee197467e5e9c044a0d07234bf6"
+    },
+    "protected": false
+  },
+  {
+    "name": "yuechu-t-oss",
+    "commit": {
+      "sha": "4284df15c830e2da144373ba74b4f888bc9a646b",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/4284df15c830e2da144373ba74b4f888bc9a646b"
+    },
+    "protected": false
+  },
+  {
+    "name": "yunluo-s-oss",
+    "commit": {
+      "sha": "d26d588883468251678619757cc9f0f6a5f37cb8",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/d26d588883468251678619757cc9f0f6a5f37cb8"
+    },
+    "protected": false
+  },
+  {
+    "name": "yupei-w-oss",
+    "commit": {
+      "sha": "370782f6fadd2e9cd25d23dc96a325bcb98470a7",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/370782f6fadd2e9cd25d23dc96a325bcb98470a7"
+    },
+    "protected": false
+  },
+  {
+    "name": "zeus-s-oss",
+    "commit": {
+      "sha": "7d10d738b2c4299f3b8549c61a01ece39f19c788",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7d10d738b2c4299f3b8549c61a01ece39f19c788"
+    },
+    "protected": false
+  },
+  {
+    "name": "zijin-s-oss",
+    "commit": {
+      "sha": "0091b8a2fe6600c7056a0c7f93e1e45af7492c3e",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/0091b8a2fe6600c7056a0c7f93e1e45af7492c3e"
+    },
+    "protected": false
+  },
+  {
+    "name": "zircon-t-oss",
+    "commit": {
+      "sha": "7fa406d0629b399747a34967851e429738a4ca17",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/7fa406d0629b399747a34967851e429738a4ca17"
+    },
+    "protected": false
+  },
+  {
+    "name": "ziyi-s-oss",
+    "commit": {
+      "sha": "24856283d18328b8473cd10991c15749b88d7bf9",
+      "url": "https://api.github.com/repos/MiCode/Xiaomi_Kernel_OpenSource/commits/24856283d18328b8473cd10991c15749b88d7bf9"
+    },
+    "protected": false
+  }
+]
+[
+
+]

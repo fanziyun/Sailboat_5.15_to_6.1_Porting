@@ -1,0 +1,23 @@
+{
+ "module": "cqhci",
+ "functions": 46,
+ "decompiled": 46,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cqhci.ko",
+  "region_base": "0x800f000",
+  "thunks": 38,
+  "gots": 0,
+  "relocs": {
+   "257": 43,
+   "261": 37,
+   "275": 174,
+   "277": 171,
+   "278": 6,
+   "282": 17,
+   "283": 329
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

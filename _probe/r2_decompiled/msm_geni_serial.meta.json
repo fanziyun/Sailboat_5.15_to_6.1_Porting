@@ -1,0 +1,26 @@
+{
+ "module": "msm_geni_serial",
+ "functions": 127,
+ "decompiled": 127,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_geni_serial.ko",
+  "region_base": "0x803c000",
+  "thunks": 128,
+  "gots": 4,
+  "relocs": {
+   "257": 91,
+   "260": 6,
+   "261": 393,
+   "275": 668,
+   "277": 663,
+   "278": 3,
+   "282": 51,
+   "283": 939,
+   "285": 5,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

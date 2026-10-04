@@ -1,0 +1,21 @@
+{
+ "module": "qti_battery_debug",
+ "functions": 47,
+ "decompiled": 47,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti_battery_debug.ko",
+  "region_base": "0x800a000",
+  "thunks": 32,
+  "gots": 0,
+  "relocs": {
+   "257": 48,
+   "275": 119,
+   "277": 119,
+   "282": 25,
+   "283": 125
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "module": "ipanetm",
+ "functions": 6,
+ "decompiled": 6,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ipanetm.ko",
+  "region_base": "0x8003000",
+  "thunks": 6,
+  "gots": 1,
+  "relocs": {
+   "257": 4,
+   "275": 19,
+   "277": 17,
+   "282": 3,
+   "283": 11,
+   "286": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

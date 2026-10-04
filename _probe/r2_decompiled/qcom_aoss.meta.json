@@ -1,0 +1,24 @@
+{
+ "module": "qcom_aoss",
+ "functions": 48,
+ "decompiled": 48,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_aoss.ko",
+  "region_base": "0x800c000",
+  "thunks": 60,
+  "gots": 4,
+  "relocs": {
+   "257": 22,
+   "260": 6,
+   "261": 52,
+   "275": 97,
+   "277": 91,
+   "282": 22,
+   "283": 185,
+   "286": 8
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

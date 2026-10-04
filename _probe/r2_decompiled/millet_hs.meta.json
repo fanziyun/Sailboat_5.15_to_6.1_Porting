@@ -1,0 +1,21 @@
+{
+ "module": "millet_hs",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/millet_hs.ko",
+  "region_base": "0x8017000",
+  "thunks": 8,
+  "gots": 0,
+  "relocs": {
+   "257": 4,
+   "275": 12,
+   "277": 12,
+   "282": 6,
+   "283": 9
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "module": "hwkm",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hwkm.ko",
+  "region_base": "0x8005000",
+  "thunks": 9,
+  "gots": 0,
+  "relocs": {
+   "261": 8,
+   "275": 30,
+   "277": 30,
+   "282": 3,
+   "283": 45
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

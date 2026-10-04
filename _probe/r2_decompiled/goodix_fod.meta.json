@@ -1,0 +1,26 @@
+{
+ "module": "goodix_fod",
+ "functions": 36,
+ "decompiled": 36,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/goodix_fod.ko",
+  "region_base": "0x8021000",
+  "thunks": 68,
+  "gots": 5,
+  "relocs": {
+   "257": 18,
+   "260": 20,
+   "261": 76,
+   "275": 212,
+   "277": 173,
+   "278": 5,
+   "282": 11,
+   "283": 212,
+   "285": 15,
+   "286": 59
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

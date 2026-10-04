@@ -1,0 +1,22 @@
+{
+ "module": "qcom-vadc-common",
+ "functions": 62,
+ "decompiled": 62,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-vadc-common.ko",
+  "region_base": "0x800a000",
+  "thunks": 3,
+  "gots": 0,
+  "relocs": {
+   "257": 23,
+   "261": 30,
+   "275": 33,
+   "277": 33,
+   "282": 31,
+   "283": 3
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

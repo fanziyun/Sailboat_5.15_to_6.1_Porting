@@ -1,0 +1,26 @@
+{
+ "module": "qcom_ipc_logging",
+ "functions": 58,
+ "decompiled": 58,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_ipc_logging.ko",
+  "region_base": "0x800e000",
+  "thunks": 47,
+  "gots": 7,
+  "relocs": {
+   "257": 12,
+   "260": 12,
+   "261": 162,
+   "275": 124,
+   "277": 101,
+   "278": 2,
+   "282": 28,
+   "283": 158,
+   "285": 10,
+   "286": 23
+  },
+  "skipped": 20,
+  "range_fail": 0
+ }
+}

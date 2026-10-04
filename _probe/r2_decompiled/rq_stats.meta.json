@@ -1,0 +1,24 @@
+{
+ "module": "rq_stats",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rq_stats.ko",
+  "region_base": "0x8004000",
+  "thunks": 17,
+  "gots": 1,
+  "relocs": {
+   "257": 7,
+   "261": 2,
+   "275": 26,
+   "277": 20,
+   "282": 6,
+   "283": 16,
+   "285": 1,
+   "286": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "mi_mempool",
+ "functions": 34,
+ "decompiled": 34,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_mempool.ko",
+  "region_base": "0x800e000",
+  "thunks": 50,
+  "gots": 5,
+  "relocs": {
+   "257": 24,
+   "260": 26,
+   "261": 208,
+   "275": 152,
+   "277": 98,
+   "278": 13,
+   "282": 13,
+   "283": 154,
+   "285": 7,
+   "286": 102
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

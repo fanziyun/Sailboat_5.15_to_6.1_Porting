@@ -1,0 +1,21 @@
+{
+ "module": "ehset",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ehset.ko",
+  "region_base": "0x8003000",
+  "thunks": 8,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "275": 13,
+   "277": 13,
+   "282": 5,
+   "283": 12
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

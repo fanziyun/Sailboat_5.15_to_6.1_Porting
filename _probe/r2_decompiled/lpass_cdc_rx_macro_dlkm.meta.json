@@ -1,0 +1,24 @@
+{
+ "module": "lpass_cdc_rx_macro_dlkm",
+ "functions": 127,
+ "decompiled": 127,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/lpass_cdc_rx_macro_dlkm.ko",
+  "region_base": "0x8039000",
+  "thunks": 89,
+  "gots": 3,
+  "relocs": {
+   "257": 1588,
+   "260": 4,
+   "261": 11,
+   "275": 357,
+   "277": 349,
+   "282": 65,
+   "283": 622,
+   "286": 18
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

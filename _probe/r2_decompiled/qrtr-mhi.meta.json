@@ -1,0 +1,23 @@
+{
+ "module": "qrtr-mhi",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qrtr-mhi.ko",
+  "region_base": "0x801a000",
+  "thunks": 24,
+  "gots": 2,
+  "relocs": {
+   "257": 10,
+   "260": 6,
+   "261": 12,
+   "275": 18,
+   "277": 18,
+   "282": 8,
+   "283": 38
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

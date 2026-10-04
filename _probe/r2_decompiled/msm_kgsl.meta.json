@@ -1,0 +1,26 @@
+{
+ "module": "msm_kgsl",
+ "functions": 3585,
+ "decompiled": 3585,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_kgsl.ko",
+  "region_base": "0x82c2000",
+  "thunks": 487,
+  "gots": 18,
+  "relocs": {
+   "257": 7627,
+   "260": 1685,
+   "261": 7683,
+   "275": 5388,
+   "277": 4694,
+   "278": 125,
+   "282": 1387,
+   "283": 11897,
+   "285": 150,
+   "286": 656
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

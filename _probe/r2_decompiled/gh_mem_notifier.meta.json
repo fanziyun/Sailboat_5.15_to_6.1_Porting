@@ -1,0 +1,22 @@
+{
+ "module": "gh_mem_notifier",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_mem_notifier.ko",
+  "region_base": "0x8004000",
+  "thunks": 7,
+  "gots": 0,
+  "relocs": {
+   "257": 9,
+   "261": 6,
+   "275": 19,
+   "277": 19,
+   "282": 6,
+   "283": 12
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

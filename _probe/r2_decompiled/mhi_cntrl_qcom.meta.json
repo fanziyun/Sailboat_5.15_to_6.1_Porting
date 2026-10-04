@@ -1,0 +1,25 @@
+{
+ "module": "mhi_cntrl_qcom",
+ "functions": 95,
+ "decompiled": 95,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mhi_cntrl_qcom.ko",
+  "region_base": "0x8017000",
+  "thunks": 113,
+  "gots": 3,
+  "relocs": {
+   "257": 118,
+   "260": 12,
+   "261": 40,
+   "275": 252,
+   "277": 250,
+   "278": 1,
+   "282": 42,
+   "283": 396,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

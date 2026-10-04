@@ -1,0 +1,26 @@
+{
+ "module": "dwc3-msm",
+ "functions": 201,
+ "decompiled": 201,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/dwc3-msm.ko",
+  "region_base": "0x8036000",
+  "thunks": 172,
+  "gots": 6,
+  "relocs": {
+   "257": 179,
+   "260": 50,
+   "261": 220,
+   "275": 705,
+   "277": 672,
+   "278": 9,
+   "282": 73,
+   "283": 1254,
+   "285": 10,
+   "286": 21
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

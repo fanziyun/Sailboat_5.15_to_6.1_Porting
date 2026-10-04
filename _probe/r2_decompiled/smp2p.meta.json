@@ -1,0 +1,24 @@
+{
+ "module": "smp2p",
+ "functions": 34,
+ "decompiled": 34,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/smp2p.ko",
+  "region_base": "0x8009000",
+  "thunks": 52,
+  "gots": 3,
+  "relocs": {
+   "257": 20,
+   "260": 16,
+   "261": 34,
+   "275": 75,
+   "277": 65,
+   "282": 16,
+   "283": 116,
+   "286": 11
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

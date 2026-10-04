@@ -1,0 +1,25 @@
+{
+ "module": "mtd",
+ "functions": 261,
+ "decompiled": 261,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mtd.ko",
+  "region_base": "0x802d000",
+  "thunks": 84,
+  "gots": 5,
+  "relocs": {
+   "257": 194,
+   "260": 26,
+   "261": 334,
+   "275": 404,
+   "277": 378,
+   "278": 7,
+   "282": 123,
+   "283": 563,
+   "286": 23
+  },
+  "skipped": 56,
+  "range_fail": 0
+ }
+}

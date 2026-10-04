@@ -1,0 +1,24 @@
+{
+ "module": "wsa883x_dlkm",
+ "functions": 115,
+ "decompiled": 115,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wsa883x_dlkm.ko",
+  "region_base": "0x8019000",
+  "thunks": 83,
+  "gots": 4,
+  "relocs": {
+   "257": 124,
+   "260": 24,
+   "261": 93,
+   "275": 196,
+   "277": 192,
+   "282": 58,
+   "283": 306,
+   "286": 4
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

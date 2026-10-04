@@ -1,0 +1,26 @@
+{
+ "module": "qcom-cpufreq-hw",
+ "functions": 59,
+ "decompiled": 59,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-cpufreq-hw.ko",
+  "region_base": "0x8018000",
+  "thunks": 94,
+  "gots": 9,
+  "relocs": {
+   "257": 70,
+   "260": 6,
+   "261": 87,
+   "275": 108,
+   "277": 91,
+   "278": 5,
+   "282": 29,
+   "283": 153,
+   "285": 3,
+   "286": 11
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

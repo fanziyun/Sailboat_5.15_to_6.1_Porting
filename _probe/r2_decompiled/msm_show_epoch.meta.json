@@ -1,0 +1,21 @@
+{
+ "module": "msm_show_epoch",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_show_epoch.ko",
+  "region_base": "0x8003000",
+  "thunks": 5,
+  "gots": 0,
+  "relocs": {
+   "257": 2,
+   "275": 10,
+   "277": 10,
+   "282": 4,
+   "283": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

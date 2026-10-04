@@ -1,0 +1,25 @@
+{
+ "module": "icc-rpmh",
+ "functions": 28,
+ "decompiled": 28,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/icc-rpmh.ko",
+  "region_base": "0x8008000",
+  "thunks": 39,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 36,
+   "275": 41,
+   "277": 38,
+   "278": 1,
+   "282": 14,
+   "283": 69,
+   "285": 2,
+   "286": 1
+  },
+  "skipped": 12,
+  "range_fail": 0
+ }
+}

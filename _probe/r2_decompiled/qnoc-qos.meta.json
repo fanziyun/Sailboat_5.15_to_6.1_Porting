@@ -1,0 +1,22 @@
+{
+ "module": "qnoc-qos",
+ "functions": 4,
+ "decompiled": 4,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qnoc-qos.ko",
+  "region_base": "0x8003000",
+  "thunks": 2,
+  "gots": 0,
+  "relocs": {
+   "257": 1,
+   "261": 6,
+   "275": 2,
+   "277": 2,
+   "282": 2,
+   "283": 4
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

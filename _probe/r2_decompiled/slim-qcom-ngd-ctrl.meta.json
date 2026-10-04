@@ -1,0 +1,25 @@
+{
+ "module": "slim-qcom-ngd-ctrl",
+ "functions": 82,
+ "decompiled": 82,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/slim-qcom-ngd-ctrl.ko",
+  "region_base": "0x8035000",
+  "thunks": 116,
+  "gots": 6,
+  "relocs": {
+   "257": 66,
+   "260": 10,
+   "261": 113,
+   "275": 596,
+   "277": 593,
+   "278": 1,
+   "282": 37,
+   "283": 612,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

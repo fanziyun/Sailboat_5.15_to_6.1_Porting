@@ -1,0 +1,24 @@
+{
+ "module": "gh_msgq",
+ "functions": 26,
+ "decompiled": 26,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_msgq.ko",
+  "region_base": "0x8008000",
+  "thunks": 28,
+  "gots": 1,
+  "relocs": {
+   "257": 6,
+   "261": 21,
+   "275": 88,
+   "277": 86,
+   "278": 1,
+   "282": 12,
+   "283": 126,
+   "286": 1
+  },
+  "skipped": 7,
+  "range_fail": 0
+ }
+}

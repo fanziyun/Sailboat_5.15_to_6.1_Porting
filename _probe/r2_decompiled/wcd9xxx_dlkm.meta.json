@@ -1,0 +1,24 @@
+{
+ "module": "wcd9xxx_dlkm",
+ "functions": 59,
+ "decompiled": 59,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wcd9xxx_dlkm.ko",
+  "region_base": "0x800e000",
+  "thunks": 33,
+  "gots": 0,
+  "relocs": {
+   "257": 97,
+   "261": 15,
+   "275": 167,
+   "277": 160,
+   "278": 1,
+   "282": 27,
+   "283": 216,
+   "286": 6
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

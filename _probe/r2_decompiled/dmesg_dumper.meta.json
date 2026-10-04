@@ -1,0 +1,25 @@
+{
+ "module": "dmesg_dumper",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/dmesg_dumper.ko",
+  "region_base": "0x8008000",
+  "thunks": 48,
+  "gots": 4,
+  "relocs": {
+   "257": 9,
+   "260": 6,
+   "261": 32,
+   "275": 58,
+   "277": 55,
+   "278": 2,
+   "282": 9,
+   "283": 90,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

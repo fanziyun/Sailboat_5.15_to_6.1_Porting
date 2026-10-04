@@ -1,0 +1,23 @@
+{
+ "module": "lpass_cdc_dlkm",
+ "functions": 108,
+ "decompiled": 108,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/lpass_cdc_dlkm.ko",
+  "region_base": "0x8021000",
+  "thunks": 71,
+  "gots": 1,
+  "relocs": {
+   "257": 116,
+   "261": 79,
+   "275": 552,
+   "277": 532,
+   "282": 49,
+   "283": 464,
+   "286": 20
+  },
+  "skipped": 25,
+  "range_fail": 0
+ }
+}

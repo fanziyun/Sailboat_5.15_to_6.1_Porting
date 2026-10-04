@@ -1,0 +1,26 @@
+{
+ "module": "qdss_bridge",
+ "functions": 41,
+ "decompiled": 41,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qdss_bridge.ko",
+  "region_base": "0x800c000",
+  "thunks": 54,
+  "gots": 4,
+  "relocs": {
+   "257": 28,
+   "260": 10,
+   "261": 60,
+   "275": 99,
+   "277": 79,
+   "278": 4,
+   "282": 17,
+   "283": 213,
+   "285": 9,
+   "286": 11
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

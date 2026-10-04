@@ -1,0 +1,24 @@
+{
+ "module": "snd_event_dlkm",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/snd_event_dlkm.ko",
+  "region_base": "0x8006000",
+  "thunks": 14,
+  "gots": 0,
+  "relocs": {
+   "257": 16,
+   "261": 22,
+   "275": 88,
+   "277": 79,
+   "278": 4,
+   "282": 7,
+   "283": 60,
+   "286": 24
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

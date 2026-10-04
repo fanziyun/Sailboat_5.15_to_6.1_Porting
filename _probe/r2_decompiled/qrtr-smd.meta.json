@@ -1,0 +1,21 @@
+{
+ "module": "qrtr-smd",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qrtr-smd.ko",
+  "region_base": "0x8004000",
+  "thunks": 22,
+  "gots": 0,
+  "relocs": {
+   "257": 9,
+   "275": 23,
+   "277": 23,
+   "282": 7,
+   "283": 25
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

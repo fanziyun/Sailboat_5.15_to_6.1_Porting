@@ -1,0 +1,26 @@
+{
+ "module": "sdhci-msm",
+ "functions": 138,
+ "decompiled": 138,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sdhci-msm.ko",
+  "region_base": "0x8024000",
+  "thunks": 157,
+  "gots": 4,
+  "relocs": {
+   "257": 124,
+   "260": 6,
+   "261": 32,
+   "275": 421,
+   "277": 408,
+   "278": 1,
+   "282": 48,
+   "283": 810,
+   "285": 14,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

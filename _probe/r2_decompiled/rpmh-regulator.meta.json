@@ -1,0 +1,21 @@
+{
+ "module": "rpmh-regulator",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rpmh-regulator.ko",
+  "region_base": "0x800c000",
+  "thunks": 33,
+  "gots": 0,
+  "relocs": {
+   "257": 48,
+   "275": 183,
+   "277": 183,
+   "282": 16,
+   "283": 154
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

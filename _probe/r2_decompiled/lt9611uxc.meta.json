@@ -1,0 +1,23 @@
+{
+ "module": "lt9611uxc",
+ "functions": 68,
+ "decompiled": 68,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/lt9611uxc.ko",
+  "region_base": "0x8015000",
+  "thunks": 92,
+  "gots": 1,
+  "relocs": {
+   "257": 40,
+   "261": 2,
+   "275": 342,
+   "277": 341,
+   "282": 29,
+   "283": 419,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

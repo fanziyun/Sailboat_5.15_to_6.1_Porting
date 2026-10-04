@@ -1,0 +1,21 @@
+{
+ "module": "heap_mem_ext_v01",
+ "functions": 2,
+ "decompiled": 2,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/heap_mem_ext_v01.ko",
+  "region_base": "0x8003000",
+  "thunks": 1,
+  "gots": 1,
+  "relocs": {
+   "257": 5,
+   "261": 21,
+   "275": 1,
+   "277": 1,
+   "283": 1
+  },
+  "skipped": 7,
+  "range_fail": 0
+ }
+}

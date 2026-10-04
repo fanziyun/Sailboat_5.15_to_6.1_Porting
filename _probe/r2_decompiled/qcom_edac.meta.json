@@ -1,0 +1,23 @@
+{
+ "module": "qcom_edac",
+ "functions": 15,
+ "decompiled": 15,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_edac.ko",
+  "region_base": "0x8005000",
+  "thunks": 17,
+  "gots": 1,
+  "relocs": {
+   "257": 21,
+   "275": 38,
+   "277": 31,
+   "282": 7,
+   "283": 38,
+   "285": 1,
+   "286": 10
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "module": "videocc-kalama",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/videocc-kalama.ko",
+  "region_base": "0x8009000",
+  "thunks": 20,
+  "gots": 5,
+  "relocs": {
+   "257": 156,
+   "275": 30,
+   "277": 29,
+   "282": 9,
+   "283": 20,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

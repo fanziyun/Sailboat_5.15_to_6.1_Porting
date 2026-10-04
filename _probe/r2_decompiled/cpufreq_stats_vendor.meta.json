@@ -1,0 +1,21 @@
+{
+ "module": "cpufreq_stats_vendor",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cpufreq_stats_vendor.ko",
+  "region_base": "0x8004000",
+  "thunks": 6,
+  "gots": 0,
+  "relocs": {
+   "257": 23,
+   "275": 15,
+   "277": 15,
+   "282": 6,
+   "283": 14
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

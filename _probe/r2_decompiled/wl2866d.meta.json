@@ -1,0 +1,21 @@
+{
+ "module": "wl2866d",
+ "functions": 25,
+ "decompiled": 25,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wl2866d.ko",
+  "region_base": "0x8006000",
+  "thunks": 24,
+  "gots": 0,
+  "relocs": {
+   "257": 21,
+   "275": 62,
+   "277": 62,
+   "282": 12,
+   "283": 78
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

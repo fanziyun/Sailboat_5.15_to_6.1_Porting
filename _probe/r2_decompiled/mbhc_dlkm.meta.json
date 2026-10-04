@@ -1,0 +1,27 @@
+{
+ "module": "mbhc_dlkm",
+ "functions": 80,
+ "decompiled": 80,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mbhc_dlkm.ko",
+  "region_base": "0x8027000",
+  "thunks": 59,
+  "gots": 6,
+  "relocs": {
+   "257": 310,
+   "260": 46,
+   "261": 171,
+   "275": 781,
+   "277": 753,
+   "278": 12,
+   "282": 36,
+   "283": 825,
+   "284": 18,
+   "285": 14,
+   "286": 13
+  },
+  "skipped": 15,
+  "range_fail": 0
+ }
+}

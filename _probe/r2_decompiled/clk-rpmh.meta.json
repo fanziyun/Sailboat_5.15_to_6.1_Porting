@@ -1,0 +1,22 @@
+{
+ "module": "clk-rpmh",
+ "functions": 28,
+ "decompiled": 28,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/clk-rpmh.ko",
+  "region_base": "0x8016000",
+  "thunks": 18,
+  "gots": 1,
+  "relocs": {
+   "257": 816,
+   "261": 6,
+   "275": 36,
+   "277": 36,
+   "282": 13,
+   "283": 40
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

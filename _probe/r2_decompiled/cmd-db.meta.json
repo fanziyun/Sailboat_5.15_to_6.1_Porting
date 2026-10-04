@@ -1,0 +1,23 @@
+{
+ "module": "cmd-db",
+ "functions": 23,
+ "decompiled": 23,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cmd-db.ko",
+  "region_base": "0x8005000",
+  "thunks": 16,
+  "gots": 0,
+  "relocs": {
+   "257": 9,
+   "261": 15,
+   "275": 36,
+   "277": 29,
+   "282": 13,
+   "283": 20,
+   "286": 11
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

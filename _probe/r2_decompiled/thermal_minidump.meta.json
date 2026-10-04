@@ -1,0 +1,22 @@
+{
+ "module": "thermal_minidump",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/thermal_minidump.ko",
+  "region_base": "0x8004000",
+  "thunks": 13,
+  "gots": 3,
+  "relocs": {
+   "261": 9,
+   "275": 9,
+   "277": 6,
+   "282": 4,
+   "283": 13,
+   "286": 3
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

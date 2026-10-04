@@ -1,0 +1,23 @@
+{
+ "module": "bcl_pmic5",
+ "functions": 35,
+ "decompiled": 35,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/bcl_pmic5.ko",
+  "region_base": "0x8009000",
+  "thunks": 38,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "275": 136,
+   "277": 128,
+   "278": 6,
+   "282": 17,
+   "283": 128,
+   "285": 7
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

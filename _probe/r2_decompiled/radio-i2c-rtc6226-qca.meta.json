@@ -1,0 +1,25 @@
+{
+ "module": "radio-i2c-rtc6226-qca",
+ "functions": 84,
+ "decompiled": 84,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/radio-i2c-rtc6226-qca.ko",
+  "region_base": "0x8015000",
+  "thunks": 78,
+  "gots": 6,
+  "relocs": {
+   "257": 41,
+   "260": 14,
+   "261": 50,
+   "275": 249,
+   "277": 243,
+   "278": 1,
+   "282": 29,
+   "283": 518,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

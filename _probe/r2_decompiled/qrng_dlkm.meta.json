@@ -1,0 +1,24 @@
+{
+ "module": "qrng_dlkm",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qrng_dlkm.ko",
+  "region_base": "0x8006000",
+  "thunks": 41,
+  "gots": 1,
+  "relocs": {
+   "257": 14,
+   "261": 2,
+   "275": 75,
+   "277": 66,
+   "278": 1,
+   "282": 9,
+   "283": 85,
+   "286": 11
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

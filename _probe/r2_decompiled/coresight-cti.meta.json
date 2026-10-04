@@ -1,0 +1,25 @@
+{
+ "module": "coresight-cti",
+ "functions": 176,
+ "decompiled": 176,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-cti.ko",
+  "region_base": "0x8028000",
+  "thunks": 80,
+  "gots": 2,
+  "relocs": {
+   "257": 208,
+   "260": 42,
+   "261": 132,
+   "275": 165,
+   "277": 161,
+   "278": 3,
+   "282": 75,
+   "283": 481,
+   "285": 7
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

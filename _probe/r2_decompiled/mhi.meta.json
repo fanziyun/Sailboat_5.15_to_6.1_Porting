@@ -1,0 +1,25 @@
+{
+ "module": "mhi",
+ "functions": 266,
+ "decompiled": 266,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mhi.ko",
+  "region_base": "0x8044000",
+  "thunks": 108,
+  "gots": 4,
+  "relocs": {
+   "257": 229,
+   "260": 40,
+   "261": 343,
+   "275": 1042,
+   "277": 1029,
+   "278": 6,
+   "282": 98,
+   "283": 1321,
+   "286": 7
+  },
+  "skipped": 59,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "module": "wl2868c",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wl2868c.ko",
+  "region_base": "0x800a000",
+  "thunks": 40,
+  "gots": 0,
+  "relocs": {
+   "257": 38,
+   "275": 119,
+   "277": 118,
+   "282": 16,
+   "283": 117,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

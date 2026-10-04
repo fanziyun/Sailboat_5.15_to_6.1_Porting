@@ -1,0 +1,22 @@
+{
+ "module": "qcom_tsens",
+ "functions": 74,
+ "decompiled": 74,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_tsens.ko",
+  "region_base": "0x8019000",
+  "thunks": 53,
+  "gots": 1,
+  "relocs": {
+   "257": 116,
+   "275": 126,
+   "277": 125,
+   "282": 34,
+   "283": 214,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "module": "stub_dlkm",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stub_dlkm.ko",
+  "region_base": "0x8003000",
+  "thunks": 5,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "275": 9,
+   "277": 9,
+   "282": 5,
+   "283": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

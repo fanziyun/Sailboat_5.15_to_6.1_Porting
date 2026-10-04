@@ -1,0 +1,22 @@
+{
+ "module": "repeater",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/repeater.ko",
+  "region_base": "0x8004000",
+  "thunks": 17,
+  "gots": 0,
+  "relocs": {
+   "257": 2,
+   "261": 15,
+   "275": 17,
+   "277": 17,
+   "282": 7,
+   "283": 23
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

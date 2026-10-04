@@ -1,0 +1,22 @@
+{
+ "module": "llcc_perfmon",
+ "functions": 68,
+ "decompiled": 68,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/llcc_perfmon.ko",
+  "region_base": "0x800e000",
+  "thunks": 29,
+  "gots": 0,
+  "relocs": {
+   "257": 66,
+   "261": 4,
+   "275": 115,
+   "277": 115,
+   "282": 33,
+   "283": 235
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

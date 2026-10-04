@@ -1,0 +1,25 @@
+{
+ "module": "msm-mmrm",
+ "functions": 76,
+ "decompiled": 76,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm-mmrm.ko",
+  "region_base": "0x8018000",
+  "thunks": 42,
+  "gots": 1,
+  "relocs": {
+   "257": 61,
+   "261": 21,
+   "275": 610,
+   "277": 533,
+   "278": 10,
+   "282": 30,
+   "283": 273,
+   "285": 162,
+   "286": 30
+  },
+  "skipped": 7,
+  "range_fail": 0
+ }
+}

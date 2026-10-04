@@ -1,0 +1,23 @@
+{
+ "module": "cdsp-loader",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cdsp-loader.ko",
+  "region_base": "0x8005000",
+  "thunks": 20,
+  "gots": 1,
+  "relocs": {
+   "257": 11,
+   "275": 46,
+   "277": 39,
+   "278": 4,
+   "282": 6,
+   "283": 34,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

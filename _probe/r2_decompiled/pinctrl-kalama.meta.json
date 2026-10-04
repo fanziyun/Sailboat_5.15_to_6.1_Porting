@@ -1,0 +1,21 @@
+{
+ "module": "pinctrl-kalama",
+ "functions": 9,
+ "decompiled": 9,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pinctrl-kalama.ko",
+  "region_base": "0x802b000",
+  "thunks": 6,
+  "gots": 0,
+  "relocs": {
+   "257": 1968,
+   "275": 7,
+   "277": 7,
+   "282": 5,
+   "283": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

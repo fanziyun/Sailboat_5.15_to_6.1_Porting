@@ -1,0 +1,26 @@
+{
+ "module": "minidump",
+ "functions": 125,
+ "decompiled": 125,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/minidump.ko",
+  "region_base": "0x8038000",
+  "thunks": 118,
+  "gots": 13,
+  "relocs": {
+   "257": 71,
+   "260": 15,
+   "261": 186,
+   "275": 781,
+   "277": 552,
+   "278": 54,
+   "282": 48,
+   "283": 694,
+   "285": 53,
+   "286": 250
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

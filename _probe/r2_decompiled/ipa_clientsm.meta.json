@@ -1,0 +1,25 @@
+{
+ "module": "ipa_clientsm",
+ "functions": 285,
+ "decompiled": 285,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ipa_clientsm.ko",
+  "region_base": "0x80b4000",
+  "thunks": 198,
+  "gots": 6,
+  "relocs": {
+   "257": 98,
+   "260": 4,
+   "261": 64,
+   "275": 5655,
+   "277": 5471,
+   "278": 24,
+   "282": 118,
+   "283": 7044,
+   "286": 631
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

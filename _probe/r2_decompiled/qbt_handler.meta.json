@@ -1,0 +1,25 @@
+{
+ "module": "qbt_handler",
+ "functions": 43,
+ "decompiled": 43,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qbt_handler.ko",
+  "region_base": "0x8010000",
+  "thunks": 67,
+  "gots": 6,
+  "relocs": {
+   "257": 23,
+   "260": 28,
+   "261": 98,
+   "275": 265,
+   "277": 251,
+   "278": 7,
+   "282": 20,
+   "283": 251,
+   "286": 8
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

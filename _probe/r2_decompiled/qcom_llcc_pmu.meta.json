@@ -1,0 +1,24 @@
+{
+ "module": "qcom_llcc_pmu",
+ "functions": 25,
+ "decompiled": 25,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_llcc_pmu.ko",
+  "region_base": "0x800f000",
+  "thunks": 21,
+  "gots": 0,
+  "relocs": {
+   "257": 7,
+   "261": 7,
+   "275": 60,
+   "277": 49,
+   "282": 11,
+   "283": 52,
+   "285": 7,
+   "286": 25
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

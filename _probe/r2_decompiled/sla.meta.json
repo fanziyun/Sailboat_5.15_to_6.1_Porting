@@ -1,0 +1,27 @@
+{
+ "module": "sla",
+ "functions": 48,
+ "decompiled": 48,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sla.ko",
+  "region_base": "0x800b000",
+  "thunks": 50,
+  "gots": 6,
+  "relocs": {
+   "257": 24,
+   "260": 10,
+   "261": 58,
+   "275": 194,
+   "277": 159,
+   "278": 9,
+   "282": 25,
+   "283": 150,
+   "284": 6,
+   "285": 5,
+   "286": 25
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "synx-driver",
+ "functions": 136,
+ "decompiled": 136,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/synx-driver.ko",
+  "region_base": "0x8026000",
+  "thunks": 69,
+  "gots": 5,
+  "relocs": {
+   "257": 42,
+   "260": 150,
+   "261": 495,
+   "275": 390,
+   "277": 341,
+   "278": 12,
+   "282": 46,
+   "283": 704,
+   "285": 15,
+   "286": 71
+  },
+  "skipped": 21,
+  "range_fail": 0
+ }
+}

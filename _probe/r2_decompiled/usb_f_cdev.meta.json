@@ -1,0 +1,26 @@
+{
+ "module": "usb_f_cdev",
+ "functions": 92,
+ "decompiled": 92,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/usb_f_cdev.ko",
+  "region_base": "0x8014000",
+  "thunks": 76,
+  "gots": 5,
+  "relocs": {
+   "257": 79,
+   "260": 24,
+   "261": 154,
+   "275": 237,
+   "277": 200,
+   "278": 18,
+   "282": 46,
+   "283": 263,
+   "285": 6,
+   "286": 19
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

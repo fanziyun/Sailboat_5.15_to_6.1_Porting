@@ -1,0 +1,22 @@
+{
+ "module": "phy-qcom-emu",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-qcom-emu.ko",
+  "region_base": "0x8004000",
+  "thunks": 20,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 2,
+   "275": 21,
+   "277": 21,
+   "282": 6,
+   "283": 42
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

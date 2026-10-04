@@ -1,0 +1,22 @@
+{
+ "module": "pmu_vendor",
+ "functions": 15,
+ "decompiled": 15,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pmu_vendor.ko",
+  "region_base": "0x8004000",
+  "thunks": 8,
+  "gots": 1,
+  "relocs": {
+   "257": 24,
+   "275": 17,
+   "277": 16,
+   "282": 7,
+   "283": 17,
+   "285": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

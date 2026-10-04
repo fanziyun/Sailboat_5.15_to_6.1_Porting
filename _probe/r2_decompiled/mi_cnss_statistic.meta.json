@@ -1,0 +1,25 @@
+{
+ "module": "mi_cnss_statistic",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_cnss_statistic.ko",
+  "region_base": "0x800e000",
+  "thunks": 11,
+  "gots": 1,
+  "relocs": {
+   "257": 11,
+   "261": 8,
+   "275": 20,
+   "277": 13,
+   "278": 5,
+   "282": 7,
+   "283": 16,
+   "285": 1,
+   "286": 1
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

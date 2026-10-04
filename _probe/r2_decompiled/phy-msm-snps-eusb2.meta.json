@@ -1,0 +1,24 @@
+{
+ "module": "phy-msm-snps-eusb2",
+ "functions": 35,
+ "decompiled": 35,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-msm-snps-eusb2.ko",
+  "region_base": "0x800d000",
+  "thunks": 58,
+  "gots": 5,
+  "relocs": {
+   "257": 19,
+   "260": 6,
+   "261": 34,
+   "275": 196,
+   "277": 193,
+   "282": 14,
+   "283": 349,
+   "286": 3
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

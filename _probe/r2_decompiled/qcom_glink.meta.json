@@ -1,0 +1,26 @@
+{
+ "module": "qcom_glink",
+ "functions": 95,
+ "decompiled": 95,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_glink.ko",
+  "region_base": "0x801a000",
+  "thunks": 90,
+  "gots": 5,
+  "relocs": {
+   "257": 50,
+   "260": 32,
+   "261": 143,
+   "275": 304,
+   "277": 286,
+   "278": 8,
+   "282": 39,
+   "283": 525,
+   "285": 8,
+   "286": 4
+  },
+  "skipped": 11,
+  "range_fail": 0
+ }
+}

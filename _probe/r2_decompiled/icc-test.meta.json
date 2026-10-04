@@ -1,0 +1,23 @@
+{
+ "module": "icc-test",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/icc-test.ko",
+  "region_base": "0x8004000",
+  "thunks": 15,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "275": 31,
+   "277": 19,
+   "282": 5,
+   "283": 21,
+   "285": 4,
+   "286": 15
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "camera",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/camera.ko",
+  "region_base": "0x86b1000",
+  "thunks": 387,
+  "gots": 17,
+  "relocs": {
+   "257": 6987,
+   "260": 648,
+   "261": 4116,
+   "275": 54848,
+   "277": 49123,
+   "278": 3340,
+   "282": 1270,
+   "283": 22419,
+   "285": 3847,
+   "286": 1530
+  },
+  "skipped": 86,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "module": "msm_drm",
+ "functions": 5277,
+ "decompiled": 5277,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_drm.ko",
+  "region_base": "0x85a9000",
+  "thunks": 777,
+  "gots": 18,
+  "relocs": {
+   "257": 7113,
+   "260": 1383,
+   "261": 5773,
+   "275": 29733,
+   "277": 27101,
+   "278": 1835,
+   "282": 1855,
+   "283": 29467,
+   "284": 1,
+   "285": 185,
+   "286": 2196
+  },
+  "skipped": 55,
+  "range_fail": 0
+ }
+}

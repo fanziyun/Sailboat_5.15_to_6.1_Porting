@@ -1,0 +1,23 @@
+{
+ "module": "dcvs_fp",
+ "functions": 13,
+ "decompiled": 13,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/dcvs_fp.ko",
+  "region_base": "0x8005000",
+  "thunks": 14,
+  "gots": 0,
+  "relocs": {
+   "257": 9,
+   "261": 3,
+   "275": 31,
+   "277": 29,
+   "282": 6,
+   "283": 25,
+   "286": 3
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

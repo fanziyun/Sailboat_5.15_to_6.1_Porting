@@ -1,0 +1,26 @@
+{
+ "module": "qcom_lpm",
+ "functions": 145,
+ "decompiled": 145,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_lpm.ko",
+  "region_base": "0x8028000",
+  "thunks": 73,
+  "gots": 4,
+  "relocs": {
+   "257": 221,
+   "260": 8,
+   "261": 219,
+   "275": 232,
+   "277": 182,
+   "278": 20,
+   "282": 66,
+   "283": 215,
+   "285": 13,
+   "286": 24
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

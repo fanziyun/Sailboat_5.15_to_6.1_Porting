@@ -1,0 +1,25 @@
+{
+ "module": "mem_buf_msgq",
+ "functions": 27,
+ "decompiled": 27,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mem_buf_msgq.ko",
+  "region_base": "0x8008000",
+  "thunks": 39,
+  "gots": 3,
+  "relocs": {
+   "257": 13,
+   "260": 2,
+   "261": 53,
+   "275": 65,
+   "277": 59,
+   "278": 4,
+   "282": 13,
+   "283": 75,
+   "286": 2
+  },
+  "skipped": 11,
+  "range_fail": 0
+ }
+}

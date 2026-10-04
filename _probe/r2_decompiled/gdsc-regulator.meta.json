@@ -1,0 +1,25 @@
+{
+ "module": "gdsc-regulator",
+ "functions": 38,
+ "decompiled": 38,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gdsc-regulator.ko",
+  "region_base": "0x801a000",
+  "thunks": 69,
+  "gots": 3,
+  "relocs": {
+   "257": 43,
+   "260": 4,
+   "261": 46,
+   "275": 110,
+   "277": 107,
+   "282": 20,
+   "283": 197,
+   "285": 2,
+   "286": 1
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

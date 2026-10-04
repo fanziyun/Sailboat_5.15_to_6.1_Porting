@@ -1,0 +1,23 @@
+{
+ "module": "bcl_soc",
+ "functions": 22,
+ "decompiled": 22,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/bcl_soc.ko",
+  "region_base": "0x8005000",
+  "thunks": 22,
+  "gots": 1,
+  "relocs": {
+   "257": 12,
+   "261": 2,
+   "275": 48,
+   "277": 38,
+   "282": 11,
+   "283": 38,
+   "286": 28
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

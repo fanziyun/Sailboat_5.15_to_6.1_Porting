@@ -1,0 +1,25 @@
+{
+ "module": "thermal_pause",
+ "functions": 31,
+ "decompiled": 31,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/thermal_pause.ko",
+  "region_base": "0x8007000",
+  "thunks": 38,
+  "gots": 5,
+  "relocs": {
+   "257": 17,
+   "260": 2,
+   "261": 13,
+   "275": 70,
+   "277": 58,
+   "282": 16,
+   "283": 57,
+   "285": 13,
+   "286": 10
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

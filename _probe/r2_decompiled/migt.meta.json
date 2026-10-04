@@ -1,0 +1,26 @@
+{
+ "module": "migt",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/migt.ko",
+  "region_base": "0x8053000",
+  "thunks": 145,
+  "gots": 12,
+  "relocs": {
+   "257": 314,
+   "260": 16,
+   "261": 135,
+   "275": 1018,
+   "277": 543,
+   "278": 72,
+   "282": 59,
+   "283": 726,
+   "285": 419,
+   "286": 132
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

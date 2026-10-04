@@ -1,0 +1,24 @@
+{
+ "module": "audpkt_ion_dlkm",
+ "functions": 27,
+ "decompiled": 27,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/audpkt_ion_dlkm.ko",
+  "region_base": "0x8009000",
+  "thunks": 46,
+  "gots": 0,
+  "relocs": {
+   "257": 13,
+   "261": 6,
+   "275": 140,
+   "277": 136,
+   "278": 7,
+   "282": 10,
+   "283": 143,
+   "286": 1
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "module": "rmnet_ctl",
+ "functions": 31,
+ "decompiled": 31,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_ctl.ko",
+  "region_base": "0x8007000",
+  "thunks": 28,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "261": 32,
+   "275": 85,
+   "277": 70,
+   "278": 10,
+   "282": 14,
+   "283": 62,
+   "286": 12
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

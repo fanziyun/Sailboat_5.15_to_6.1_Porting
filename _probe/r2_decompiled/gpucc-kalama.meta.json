@@ -1,0 +1,21 @@
+{
+ "module": "gpucc-kalama",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gpucc-kalama.ko",
+  "region_base": "0x8009000",
+  "thunks": 9,
+  "gots": 5,
+  "relocs": {
+   "257": 190,
+   "275": 17,
+   "277": 17,
+   "282": 5,
+   "283": 10
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

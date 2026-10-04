@@ -1,0 +1,25 @@
+{
+ "module": "usb_f_qdss",
+ "functions": 50,
+ "decompiled": 50,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/usb_f_qdss.ko",
+  "region_base": "0x800f000",
+  "thunks": 65,
+  "gots": 3,
+  "relocs": {
+   "257": 54,
+   "260": 2,
+   "261": 37,
+   "275": 241,
+   "277": 205,
+   "278": 20,
+   "282": 23,
+   "283": 245,
+   "286": 30
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

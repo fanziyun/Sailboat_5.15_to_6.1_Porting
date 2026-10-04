@@ -1,0 +1,24 @@
+{
+ "module": "altmode-glink",
+ "functions": 31,
+ "decompiled": 31,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/altmode-glink.ko",
+  "region_base": "0x8009000",
+  "thunks": 43,
+  "gots": 2,
+  "relocs": {
+   "257": 18,
+   "261": 19,
+   "275": 97,
+   "277": 85,
+   "278": 1,
+   "282": 16,
+   "283": 112,
+   "286": 14
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

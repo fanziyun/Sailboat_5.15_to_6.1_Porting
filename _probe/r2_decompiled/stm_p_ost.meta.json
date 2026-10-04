@@ -1,0 +1,22 @@
+{
+ "module": "stm_p_ost",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_p_ost.ko",
+  "region_base": "0x8003000",
+  "thunks": 7,
+  "gots": 0,
+  "relocs": {
+   "257": 7,
+   "261": 2,
+   "275": 7,
+   "277": 7,
+   "282": 4,
+   "283": 7
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "qti_userspace_cdev",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti_userspace_cdev.ko",
+  "region_base": "0x8004000",
+  "thunks": 11,
+  "gots": 0,
+  "relocs": {
+   "257": 11,
+   "275": 21,
+   "277": 15,
+   "282": 8,
+   "283": 17,
+   "285": 7,
+   "286": 9
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

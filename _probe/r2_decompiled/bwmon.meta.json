@@ -1,0 +1,24 @@
+{
+ "module": "bwmon",
+ "functions": 147,
+ "decompiled": 147,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/bwmon.ko",
+  "region_base": "0x8016000",
+  "thunks": 53,
+  "gots": 3,
+  "relocs": {
+   "257": 125,
+   "260": 4,
+   "261": 42,
+   "275": 193,
+   "277": 191,
+   "282": 69,
+   "283": 365,
+   "286": 3
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

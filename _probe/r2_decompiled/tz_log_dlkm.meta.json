@@ -1,0 +1,26 @@
+{
+ "module": "tz_log_dlkm",
+ "functions": 23,
+ "decompiled": 23,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/tz_log_dlkm.ko",
+  "region_base": "0x800c000",
+  "thunks": 37,
+  "gots": 0,
+  "relocs": {
+   "257": 24,
+   "261": 2,
+   "275": 248,
+   "277": 160,
+   "278": 19,
+   "282": 9,
+   "283": 142,
+   "284": 12,
+   "285": 62,
+   "286": 46
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

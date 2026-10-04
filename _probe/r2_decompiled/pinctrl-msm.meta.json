@@ -1,0 +1,25 @@
+{
+ "module": "pinctrl-msm",
+ "functions": 113,
+ "decompiled": 113,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pinctrl-msm.ko",
+  "region_base": "0x8013000",
+  "thunks": 81,
+  "gots": 3,
+  "relocs": {
+   "257": 50,
+   "260": 24,
+   "261": 85,
+   "275": 150,
+   "277": 134,
+   "278": 4,
+   "282": 57,
+   "283": 280,
+   "286": 17
+  },
+  "skipped": 9,
+  "range_fail": 0
+ }
+}

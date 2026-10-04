@@ -1,0 +1,23 @@
+{
+ "module": "qcom-reboot-reason",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-reboot-reason.ko",
+  "region_base": "0x8004000",
+  "thunks": 14,
+  "gots": 0,
+  "relocs": {
+   "257": 16,
+   "261": 3,
+   "275": 26,
+   "277": 24,
+   "282": 8,
+   "283": 19,
+   "286": 2
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

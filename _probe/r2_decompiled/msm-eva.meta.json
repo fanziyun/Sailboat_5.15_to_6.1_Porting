@@ -1,0 +1,27 @@
+{
+ "module": "msm-eva",
+ "functions": 508,
+ "decompiled": 508,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm-eva.ko",
+  "region_base": "0x80e1000",
+  "thunks": 226,
+  "gots": 8,
+  "relocs": {
+   "257": 303,
+   "260": 382,
+   "261": 1858,
+   "275": 5792,
+   "277": 3975,
+   "278": 1141,
+   "282": 211,
+   "283": 3412,
+   "284": 7,
+   "285": 1546,
+   "286": 246
+  },
+  "skipped": 8,
+  "range_fail": 0
+ }
+}

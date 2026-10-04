@@ -1,0 +1,25 @@
+{
+ "module": "audio_pkt_dlkm",
+ "functions": 28,
+ "decompiled": 28,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/audio_pkt_dlkm.ko",
+  "region_base": "0x800b000",
+  "thunks": 50,
+  "gots": 5,
+  "relocs": {
+   "257": 25,
+   "260": 6,
+   "261": 32,
+   "275": 166,
+   "277": 154,
+   "278": 7,
+   "282": 13,
+   "283": 142,
+   "286": 12
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

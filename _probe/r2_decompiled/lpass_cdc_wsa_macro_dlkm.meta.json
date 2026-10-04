@@ -1,0 +1,24 @@
+{
+ "module": "lpass_cdc_wsa_macro_dlkm",
+ "functions": 122,
+ "decompiled": 122,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/lpass_cdc_wsa_macro_dlkm.ko",
+  "region_base": "0x8035000",
+  "thunks": 84,
+  "gots": 3,
+  "relocs": {
+   "257": 727,
+   "260": 20,
+   "261": 40,
+   "275": 627,
+   "277": 621,
+   "282": 64,
+   "283": 623,
+   "286": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

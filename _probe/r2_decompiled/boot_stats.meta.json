@@ -1,0 +1,24 @@
+{
+ "module": "boot_stats",
+ "functions": 7,
+ "decompiled": 7,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/boot_stats.ko",
+  "region_base": "0x8003000",
+  "thunks": 9,
+  "gots": 0,
+  "relocs": {
+   "257": 4,
+   "261": 2,
+   "275": 21,
+   "277": 18,
+   "282": 3,
+   "283": 22,
+   "285": 1,
+   "286": 9
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

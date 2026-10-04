@@ -1,0 +1,22 @@
+{
+ "module": "swr_dmic_dlkm",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/swr_dmic_dlkm.ko",
+  "region_base": "0x800a000",
+  "thunks": 41,
+  "gots": 0,
+  "relocs": {
+   "257": 100,
+   "275": 121,
+   "277": 117,
+   "282": 18,
+   "283": 140,
+   "286": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

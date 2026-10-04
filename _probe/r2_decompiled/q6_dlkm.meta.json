@@ -1,0 +1,22 @@
+{
+ "module": "q6_dlkm",
+ "functions": 18,
+ "decompiled": 18,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/q6_dlkm.ko",
+  "region_base": "0x8004000",
+  "thunks": 7,
+  "gots": 0,
+  "relocs": {
+   "257": 6,
+   "261": 18,
+   "275": 11,
+   "277": 11,
+   "282": 9,
+   "283": 7
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

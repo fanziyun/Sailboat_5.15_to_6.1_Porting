@@ -1,0 +1,26 @@
+{
+ "module": "zram",
+ "functions": 133,
+ "decompiled": 133,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/zram.ko",
+  "region_base": "0x801f000",
+  "thunks": 127,
+  "gots": 6,
+  "relocs": {
+   "257": 126,
+   "260": 124,
+   "261": 484,
+   "275": 146,
+   "277": 126,
+   "278": 5,
+   "282": 54,
+   "283": 438,
+   "285": 16,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

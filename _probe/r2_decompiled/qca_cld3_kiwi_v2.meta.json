@@ -1,0 +1,27 @@
+{
+ "module": "qca_cld3_kiwi_v2",
+ "functions": 19013,
+ "decompiled": 19013,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qca_cld3_kiwi_v2.ko",
+  "region_base": "0x9113000",
+  "thunks": 501,
+  "gots": 20,
+  "relocs": {
+   "257": 14236,
+   "260": 1432,
+   "261": 15658,
+   "275": 88900,
+   "277": 83990,
+   "278": 740,
+   "282": 3557,
+   "283": 100801,
+   "284": 76,
+   "285": 1248,
+   "286": 4953
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

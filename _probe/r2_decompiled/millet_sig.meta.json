@@ -1,0 +1,22 @@
+{
+ "module": "millet_sig",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/millet_sig.ko",
+  "region_base": "0x8017000",
+  "thunks": 13,
+  "gots": 0,
+  "relocs": {
+   "257": 2,
+   "261": 9,
+   "275": 14,
+   "277": 14,
+   "282": 5,
+   "283": 14
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "mem-offline",
+ "functions": 42,
+ "decompiled": 42,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mem-offline.ko",
+  "region_base": "0x8011000",
+  "thunks": 53,
+  "gots": 10,
+  "relocs": {
+   "257": 53,
+   "260": 6,
+   "261": 52,
+   "275": 291,
+   "277": 180,
+   "278": 16,
+   "282": 18,
+   "283": 226,
+   "285": 39,
+   "286": 126
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

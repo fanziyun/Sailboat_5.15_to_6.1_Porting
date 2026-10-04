@@ -1,0 +1,26 @@
+{
+ "module": "mac80211",
+ "functions": 2218,
+ "decompiled": 2218,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mac80211.ko",
+  "region_base": "0x823d000",
+  "thunks": 310,
+  "gots": 10,
+  "relocs": {
+   "257": 3994,
+   "260": 641,
+   "261": 7126,
+   "275": 2362,
+   "277": 2062,
+   "278": 195,
+   "282": 793,
+   "283": 7195,
+   "285": 13,
+   "286": 203
+  },
+  "skipped": 125,
+  "range_fail": 0
+ }
+}

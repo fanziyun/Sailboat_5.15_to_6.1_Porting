@@ -1,0 +1,24 @@
+{
+ "module": "zsmalloc",
+ "functions": 62,
+ "decompiled": 62,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/zsmalloc.ko",
+  "region_base": "0x8014000",
+  "thunks": 52,
+  "gots": 6,
+  "relocs": {
+   "257": 10,
+   "260": 82,
+   "261": 502,
+   "275": 56,
+   "277": 37,
+   "282": 23,
+   "283": 201,
+   "286": 22
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

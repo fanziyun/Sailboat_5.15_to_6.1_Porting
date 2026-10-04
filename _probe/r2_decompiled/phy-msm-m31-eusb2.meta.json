@@ -1,0 +1,23 @@
+{
+ "module": "phy-msm-m31-eusb2",
+ "functions": 28,
+ "decompiled": 28,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-msm-m31-eusb2.ko",
+  "region_base": "0x8009000",
+  "thunks": 46,
+  "gots": 1,
+  "relocs": {
+   "257": 20,
+   "261": 8,
+   "275": 83,
+   "277": 82,
+   "282": 11,
+   "283": 160,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

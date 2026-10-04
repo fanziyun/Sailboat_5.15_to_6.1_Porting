@@ -1,0 +1,26 @@
+{
+ "module": "rmnet_core",
+ "functions": 675,
+ "decompiled": 675,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_core.ko",
+  "region_base": "0x8081000",
+  "thunks": 149,
+  "gots": 10,
+  "relocs": {
+   "257": 1050,
+   "260": 134,
+   "261": 1744,
+   "275": 888,
+   "277": 721,
+   "278": 46,
+   "282": 274,
+   "283": 1558,
+   "285": 48,
+   "286": 120
+  },
+  "skipped": 140,
+  "range_fail": 0
+ }
+}

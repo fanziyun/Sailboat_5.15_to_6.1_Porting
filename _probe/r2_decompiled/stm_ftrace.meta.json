@@ -1,0 +1,23 @@
+{
+ "module": "stm_ftrace",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_ftrace.ko",
+  "region_base": "0x8003000",
+  "thunks": 10,
+  "gots": 1,
+  "relocs": {
+   "257": 7,
+   "261": 2,
+   "275": 12,
+   "277": 11,
+   "282": 6,
+   "283": 8,
+   "285": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

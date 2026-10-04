@@ -1,0 +1,24 @@
+{
+ "module": "nb7vpq904m",
+ "functions": 78,
+ "decompiled": 78,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/nb7vpq904m.ko",
+  "region_base": "0x800d000",
+  "thunks": 44,
+  "gots": 5,
+  "relocs": {
+   "257": 38,
+   "260": 6,
+   "261": 30,
+   "275": 139,
+   "277": 136,
+   "282": 40,
+   "283": 148,
+   "286": 3
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

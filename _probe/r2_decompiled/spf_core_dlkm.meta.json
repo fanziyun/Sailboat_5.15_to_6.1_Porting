@@ -1,0 +1,24 @@
+{
+ "module": "spf_core_dlkm",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/spf_core_dlkm.ko",
+  "region_base": "0x8009000",
+  "thunks": 35,
+  "gots": 3,
+  "relocs": {
+   "257": 20,
+   "261": 15,
+   "275": 142,
+   "277": 117,
+   "278": 7,
+   "282": 14,
+   "283": 106,
+   "286": 35
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

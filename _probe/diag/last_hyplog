@@ -1,0 +1,33 @@
+buffer0x200 , len: 0x1e00, offset:0x758, end:0x0
+0       1.987925 Hypervisor cold boot, version: gunyah-4b6cc019f perf (Tue Mar 28 05:43:27 2023 UTC)
+0       1.988033 HYP Timestamp Log Init: 1988033
+0       1.988078 HYP Version Info: QC_IMAGE_VERSION_STRING=TZ.XF.5.24-36233-10
+0       1.988150 HYP Version Info: IMAGE_VARIANT_STRING=KALIONAAA
+0       1.988209 OEM Version Info: OEM_IMAGE_VERSION_STRING=CRM
+0       1.988685 ~~~~~HYPX NOT ENABLED~~~~~ Reason: 0xfa11
+0       1.997068 IDOM_qhee_init(): Unable to locate S2 domain for AVMID: 0x31 -- Skipping IOMMU Programming for Dev 15, ARID 0x310003.
+0       1.997206 IDOM_qhee_init(): Unable to locate S2 domain for AVMID: 0x31 -- Skipping IOMMU Programming for Dev 16, ARID 0x310003.
+0       1.997376 IDOM_qhee_init(): Unable to locate S2 domain for AVMID: 0x1 -- Skipping IOMMU Programming for Dev 19, ARID 0x1010001.
+0       4.314875 hyp_notify_rtic_dtb_location Entry
+
+0       4.314929 KP: Kernel VA is 0, PA is a8000000
+0       4.710529 Hypervisor UART is disabled!
+
+7       5.675695 pid offset is 1496, task_name_offset is 1960
+
+7       5.675770 Shared region with TZ RTIC service
+7       5.676296 Got TA object and clientenv
+
+7       5.676365 SMCInvoke .. RemoteAsyncOpMsg_process:688 Failed!
+7       5.676537 Invoke SMC to TZ failed! smc_ret = 0, x1 = 0, x2 = 15
+
+7       5.676591 Smc Invoke call failed ret 0xf
+7       5.676632 text_protection is 71, pt_2mb_alignment is 4294967188
+
+7       5.676813 KP: MPData Not Available
+3       7.949913 Is QSEE LOG buffer region mapped to HLOS VM = 1 0xfdaa0000:0x20000
+3       7.950031 Is QSEE log Buffer region mapped to HYP VM = 0
+4      12.464775 cvp_bring_up : fw_end: ffffff
+5    4483.212292 WDT bite: now_ticks 144011401, last_pat 143716515, from VM 3
+5    4483.213353 Abort: Watchdog bite from PC 0xffffffb9dd47963c, FP 0xfffffffcae060ea0
+5    4483.213502 WDT: Triggering NS Watchdog Bite

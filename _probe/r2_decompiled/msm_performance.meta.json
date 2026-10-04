@@ -1,0 +1,26 @@
+{
+ "module": "msm_performance",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_performance.ko",
+  "region_base": "0x8016000",
+  "thunks": 53,
+  "gots": 6,
+  "relocs": {
+   "257": 50,
+   "260": 4,
+   "261": 15,
+   "275": 200,
+   "277": 137,
+   "278": 9,
+   "282": 23,
+   "283": 128,
+   "285": 71,
+   "286": 35
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

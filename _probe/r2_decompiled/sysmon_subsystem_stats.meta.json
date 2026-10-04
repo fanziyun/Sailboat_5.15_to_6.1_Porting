@@ -1,0 +1,24 @@
+{
+ "module": "sysmon_subsystem_stats",
+ "functions": 34,
+ "decompiled": 34,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sysmon_subsystem_stats.ko",
+  "region_base": "0x800c000",
+  "thunks": 16,
+  "gots": 1,
+  "relocs": {
+   "257": 30,
+   "261": 18,
+   "275": 286,
+   "277": 159,
+   "278": 38,
+   "282": 16,
+   "283": 150,
+   "286": 125
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

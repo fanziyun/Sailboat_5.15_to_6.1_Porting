@@ -1,0 +1,26 @@
+{
+ "module": "coresight",
+ "functions": 232,
+ "decompiled": 232,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight.ko",
+  "region_base": "0x8034000",
+  "thunks": 101,
+  "gots": 6,
+  "relocs": {
+   "257": 189,
+   "260": 28,
+   "261": 216,
+   "275": 376,
+   "277": 324,
+   "278": 12,
+   "282": 85,
+   "283": 490,
+   "285": 5,
+   "286": 68
+  },
+  "skipped": 34,
+  "range_fail": 0
+ }
+}

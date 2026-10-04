@@ -1,0 +1,24 @@
+{
+ "module": "gh_tlmm_vm_mem_access",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_tlmm_vm_mem_access.ko",
+  "region_base": "0x8006000",
+  "thunks": 26,
+  "gots": 1,
+  "relocs": {
+   "257": 8,
+   "275": 64,
+   "277": 44,
+   "278": 1,
+   "282": 7,
+   "283": 55,
+   "285": 7,
+   "286": 21
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

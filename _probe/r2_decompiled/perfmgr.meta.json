@@ -1,0 +1,26 @@
+{
+ "module": "perfmgr",
+ "functions": 52,
+ "decompiled": 52,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/perfmgr.ko",
+  "region_base": "0x8013000",
+  "thunks": 57,
+  "gots": 10,
+  "relocs": {
+   "257": 188,
+   "260": 12,
+   "261": 42,
+   "275": 250,
+   "277": 136,
+   "278": 13,
+   "282": 20,
+   "283": 147,
+   "285": 91,
+   "286": 29
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

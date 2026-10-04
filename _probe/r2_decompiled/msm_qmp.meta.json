@@ -1,0 +1,23 @@
+{
+ "module": "msm_qmp",
+ "functions": 48,
+ "decompiled": 48,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_qmp.ko",
+  "region_base": "0x800c000",
+  "thunks": 58,
+  "gots": 1,
+  "relocs": {
+   "257": 19,
+   "261": 4,
+   "275": 185,
+   "277": 183,
+   "282": 21,
+   "283": 218,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

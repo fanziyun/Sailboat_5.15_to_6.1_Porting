@@ -1,0 +1,26 @@
+{
+ "module": "mtdoops",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mtdoops.ko",
+  "region_base": "0x800a000",
+  "thunks": 38,
+  "gots": 7,
+  "relocs": {
+   "257": 40,
+   "260": 16,
+   "261": 35,
+   "275": 112,
+   "277": 88,
+   "278": 1,
+   "282": 12,
+   "283": 87,
+   "285": 17,
+   "286": 30
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

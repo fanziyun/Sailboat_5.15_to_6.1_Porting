@@ -1,0 +1,25 @@
+{
+ "module": "spi-msm-geni",
+ "functions": 69,
+ "decompiled": 69,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/spi-msm-geni.ko",
+  "region_base": "0x8029000",
+  "thunks": 100,
+  "gots": 3,
+  "relocs": {
+   "257": 58,
+   "260": 5,
+   "261": 63,
+   "275": 536,
+   "277": 533,
+   "278": 4,
+   "282": 28,
+   "283": 568,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

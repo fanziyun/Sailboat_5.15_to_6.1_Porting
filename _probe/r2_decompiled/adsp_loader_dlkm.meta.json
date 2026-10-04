@@ -1,0 +1,22 @@
+{
+ "module": "adsp_loader_dlkm",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/adsp_loader_dlkm.ko",
+  "region_base": "0x8005000",
+  "thunks": 34,
+  "gots": 2,
+  "relocs": {
+   "257": 15,
+   "275": 56,
+   "277": 49,
+   "282": 8,
+   "283": 62,
+   "286": 8
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

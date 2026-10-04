@@ -1,0 +1,23 @@
+{
+ "module": "q6_pdr_dlkm",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/q6_pdr_dlkm.ko",
+  "region_base": "0x8003000",
+  "thunks": 5,
+  "gots": 0,
+  "relocs": {
+   "257": 4,
+   "261": 6,
+   "275": 11,
+   "277": 10,
+   "282": 5,
+   "283": 6,
+   "286": 1
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

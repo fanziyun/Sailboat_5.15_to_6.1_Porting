@@ -1,0 +1,21 @@
+{
+ "module": "binder_prio",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/binder_prio.ko",
+  "region_base": "0x8013000",
+  "thunks": 12,
+  "gots": 0,
+  "relocs": {
+   "257": 4,
+   "275": 40,
+   "277": 40,
+   "282": 6,
+   "283": 34
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

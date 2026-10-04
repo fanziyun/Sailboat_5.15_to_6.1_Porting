@@ -1,0 +1,23 @@
+{
+ "module": "gh_dbl",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_dbl.ko",
+  "region_base": "0x8008000",
+  "thunks": 20,
+  "gots": 0,
+  "relocs": {
+   "257": 6,
+   "261": 30,
+   "275": 72,
+   "277": 65,
+   "278": 7,
+   "282": 14,
+   "283": 65
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "sps_drv",
+ "functions": 182,
+ "decompiled": 182,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sps_drv.ko",
+  "region_base": "0x807b000",
+  "thunks": 72,
+  "gots": 6,
+  "relocs": {
+   "257": 25,
+   "260": 6,
+   "261": 143,
+   "275": 3991,
+   "277": 2914,
+   "278": 944,
+   "282": 46,
+   "283": 2045,
+   "285": 112,
+   "286": 559
+  },
+  "skipped": 35,
+  "range_fail": 0
+ }
+}

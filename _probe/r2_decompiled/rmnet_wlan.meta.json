@@ -1,0 +1,26 @@
+{
+ "module": "rmnet_wlan",
+ "functions": 103,
+ "decompiled": 103,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_wlan.ko",
+  "region_base": "0x8019000",
+  "thunks": 69,
+  "gots": 10,
+  "relocs": {
+   "257": 83,
+   "260": 6,
+   "261": 138,
+   "275": 338,
+   "277": 245,
+   "278": 78,
+   "282": 29,
+   "283": 412,
+   "285": 6,
+   "286": 25
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

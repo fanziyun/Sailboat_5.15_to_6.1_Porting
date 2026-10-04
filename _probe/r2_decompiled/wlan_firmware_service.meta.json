@@ -1,0 +1,22 @@
+{
+ "module": "wlan_firmware_service",
+ "functions": 4,
+ "decompiled": 4,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wlan_firmware_service.ko",
+  "region_base": "0x8014000",
+  "thunks": 3,
+  "gots": 1,
+  "relocs": {
+   "257": 64,
+   "261": 279,
+   "275": 4,
+   "277": 4,
+   "282": 2,
+   "283": 4
+  },
+  "skipped": 93,
+  "range_fail": 0
+ }
+}

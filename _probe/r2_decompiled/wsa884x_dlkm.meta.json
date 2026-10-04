@@ -1,0 +1,24 @@
+{
+ "module": "wsa884x_dlkm",
+ "functions": 116,
+ "decompiled": 116,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/wsa884x_dlkm.ko",
+  "region_base": "0x8025000",
+  "thunks": 87,
+  "gots": 4,
+  "relocs": {
+   "257": 117,
+   "260": 24,
+   "261": 93,
+   "275": 278,
+   "277": 274,
+   "282": 56,
+   "283": 370,
+   "286": 4
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

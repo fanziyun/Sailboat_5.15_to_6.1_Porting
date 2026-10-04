@@ -1,0 +1,25 @@
+{
+ "module": "tmecom-intf",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/tmecom-intf.ko",
+  "region_base": "0x8009000",
+  "thunks": 34,
+  "gots": 4,
+  "relocs": {
+   "257": 10,
+   "260": 6,
+   "261": 54,
+   "275": 82,
+   "277": 69,
+   "278": 10,
+   "282": 16,
+   "283": 103,
+   "286": 6
+  },
+  "skipped": 8,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "cpu_voltage_cooling",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cpu_voltage_cooling.ko",
+  "region_base": "0x8006000",
+  "thunks": 31,
+  "gots": 2,
+  "relocs": {
+   "257": 15,
+   "275": 54,
+   "277": 52,
+   "282": 8,
+   "283": 74,
+   "285": 4,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

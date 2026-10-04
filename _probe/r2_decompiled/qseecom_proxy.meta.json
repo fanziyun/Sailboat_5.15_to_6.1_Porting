@@ -1,0 +1,23 @@
+{
+ "module": "qseecom_proxy",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qseecom_proxy.ko",
+  "region_base": "0x8004000",
+  "thunks": 4,
+  "gots": 0,
+  "relocs": {
+   "257": 6,
+   "261": 12,
+   "275": 31,
+   "277": 28,
+   "282": 5,
+   "283": 14,
+   "286": 3
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

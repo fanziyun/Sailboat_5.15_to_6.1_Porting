@@ -1,0 +1,22 @@
+{
+ "module": "phy-qcom-ufs-qmp-v4-kalama",
+ "functions": 35,
+ "decompiled": 35,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-qcom-ufs-qmp-v4-kalama.ko",
+  "region_base": "0x8008000",
+  "thunks": 35,
+  "gots": 0,
+  "relocs": {
+   "257": 21,
+   "261": 4,
+   "275": 58,
+   "277": 58,
+   "282": 17,
+   "283": 93
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

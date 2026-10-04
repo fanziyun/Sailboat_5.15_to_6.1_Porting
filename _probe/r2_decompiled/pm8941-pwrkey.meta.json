@@ -1,0 +1,24 @@
+{
+ "module": "pm8941-pwrkey",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pm8941-pwrkey.ko",
+  "region_base": "0x8007000",
+  "thunks": 36,
+  "gots": 1,
+  "relocs": {
+   "257": 39,
+   "261": 14,
+   "275": 50,
+   "277": 45,
+   "282": 10,
+   "283": 69,
+   "285": 2,
+   "286": 4
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

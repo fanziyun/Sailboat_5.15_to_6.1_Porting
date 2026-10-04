@@ -1,0 +1,24 @@
+{
+ "module": "mi_power",
+ "functions": 78,
+ "decompiled": 78,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_power.ko",
+  "region_base": "0x801d000",
+  "thunks": 33,
+  "gots": 1,
+  "relocs": {
+   "257": 85,
+   "261": 31,
+   "275": 257,
+   "277": 228,
+   "278": 13,
+   "282": 36,
+   "283": 145,
+   "286": 26
+  },
+  "skipped": 9,
+  "range_fail": 0
+ }
+}

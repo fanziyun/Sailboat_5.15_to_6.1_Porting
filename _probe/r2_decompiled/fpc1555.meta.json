@@ -1,0 +1,25 @@
+{
+ "module": "fpc1555",
+ "functions": 55,
+ "decompiled": 55,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/fpc1555.ko",
+  "region_base": "0x800e000",
+  "thunks": 59,
+  "gots": 0,
+  "relocs": {
+   "257": 57,
+   "261": 2,
+   "275": 227,
+   "277": 207,
+   "278": 4,
+   "282": 26,
+   "283": 252,
+   "285": 7,
+   "286": 31
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

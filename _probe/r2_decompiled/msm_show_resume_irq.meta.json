@@ -1,0 +1,25 @@
+{
+ "module": "msm_show_resume_irq",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_show_resume_irq.ko",
+  "region_base": "0x8005000",
+  "thunks": 24,
+  "gots": 3,
+  "relocs": {
+   "257": 7,
+   "260": 4,
+   "261": 18,
+   "275": 40,
+   "277": 34,
+   "278": 5,
+   "282": 7,
+   "283": 38,
+   "285": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

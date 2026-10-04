@@ -1,0 +1,21 @@
+{
+ "module": "leds-qti-tri-led",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/leds-qti-tri-led.ko",
+  "region_base": "0x8006000",
+  "thunks": 29,
+  "gots": 0,
+  "relocs": {
+   "257": 12,
+   "275": 58,
+   "277": 58,
+   "282": 10,
+   "283": 80
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

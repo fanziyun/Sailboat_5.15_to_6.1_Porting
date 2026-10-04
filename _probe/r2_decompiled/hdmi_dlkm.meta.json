@@ -1,0 +1,22 @@
+{
+ "module": "hdmi_dlkm",
+ "functions": 34,
+ "decompiled": 34,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hdmi_dlkm.ko",
+  "region_base": "0x800b000",
+  "thunks": 23,
+  "gots": 1,
+  "relocs": {
+   "257": 109,
+   "275": 157,
+   "277": 156,
+   "282": 18,
+   "283": 124,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

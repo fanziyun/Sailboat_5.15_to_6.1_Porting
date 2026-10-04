@@ -1,0 +1,21 @@
+{
+ "module": "crypto-qti-common",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/crypto-qti-common.ko",
+  "region_base": "0x8006000",
+  "thunks": 11,
+  "gots": 0,
+  "relocs": {
+   "261": 26,
+   "275": 62,
+   "277": 62,
+   "282": 9,
+   "283": 110
+  },
+  "skipped": 8,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "module": "c1dcvs_scmi",
+ "functions": 38,
+ "decompiled": 38,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/c1dcvs_scmi.ko",
+  "region_base": "0x8008000",
+  "thunks": 19,
+  "gots": 2,
+  "relocs": {
+   "257": 68,
+   "261": 3,
+   "275": 94,
+   "277": 58,
+   "282": 19,
+   "283": 74,
+   "285": 10,
+   "286": 37
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "qcom_esoc",
+ "functions": 179,
+ "decompiled": 179,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_esoc.ko",
+  "region_base": "0x803d000",
+  "thunks": 128,
+  "gots": 6,
+  "relocs": {
+   "257": 175,
+   "260": 54,
+   "261": 318,
+   "275": 843,
+   "277": 733,
+   "278": 2,
+   "282": 76,
+   "283": 783,
+   "285": 6,
+   "286": 184
+  },
+  "skipped": 8,
+  "range_fail": 0
+ }
+}

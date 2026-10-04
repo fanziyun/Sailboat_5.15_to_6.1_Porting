@@ -1,0 +1,25 @@
+{
+ "module": "pdr_interface",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pdr_interface.ko",
+  "region_base": "0x8009000",
+  "thunks": 37,
+  "gots": 5,
+  "relocs": {
+   "257": 17,
+   "261": 17,
+   "275": 59,
+   "277": 49,
+   "278": 1,
+   "282": 15,
+   "283": 134,
+   "285": 1,
+   "286": 8
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

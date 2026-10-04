@@ -1,0 +1,23 @@
+{
+ "module": "millet_oem_cgroup",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/millet_oem_cgroup.ko",
+  "region_base": "0x8017000",
+  "thunks": 8,
+  "gots": 0,
+  "relocs": {
+   "257": 6,
+   "261": 2,
+   "275": 17,
+   "277": 14,
+   "282": 5,
+   "283": 9,
+   "286": 3
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "module": "snd-soc-hdmi-codec",
+ "functions": 51,
+ "decompiled": 51,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/snd-soc-hdmi-codec.ko",
+  "region_base": "0x800c000",
+  "thunks": 27,
+  "gots": 0,
+  "relocs": {
+   "257": 67,
+   "275": 65,
+   "277": 63,
+   "278": 2,
+   "282": 25,
+   "283": 57
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

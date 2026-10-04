@@ -1,0 +1,26 @@
+{
+ "module": "i2c-msm-geni",
+ "functions": 59,
+ "decompiled": 59,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/i2c-msm-geni.ko",
+  "region_base": "0x8027000",
+  "thunks": 93,
+  "gots": 3,
+  "relocs": {
+   "257": 72,
+   "260": 5,
+   "261": 51,
+   "275": 502,
+   "277": 474,
+   "278": 4,
+   "282": 23,
+   "283": 551,
+   "285": 4,
+   "286": 21
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

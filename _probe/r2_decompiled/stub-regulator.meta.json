@@ -1,0 +1,21 @@
+{
+ "module": "stub-regulator",
+ "functions": 26,
+ "decompiled": 26,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stub-regulator.ko",
+  "region_base": "0x8005000",
+  "thunks": 12,
+  "gots": 0,
+  "relocs": {
+   "257": 16,
+   "275": 26,
+   "277": 26,
+   "282": 13,
+   "283": 24
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

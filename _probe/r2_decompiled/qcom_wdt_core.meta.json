@@ -1,0 +1,26 @@
+{
+ "module": "qcom_wdt_core",
+ "functions": 50,
+ "decompiled": 50,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_wdt_core.ko",
+  "region_base": "0x800e000",
+  "thunks": 89,
+  "gots": 9,
+  "relocs": {
+   "257": 55,
+   "260": 2,
+   "261": 47,
+   "275": 152,
+   "277": 134,
+   "278": 2,
+   "282": 24,
+   "283": 219,
+   "285": 15,
+   "286": 18
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

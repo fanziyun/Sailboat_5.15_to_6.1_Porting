@@ -1,0 +1,22 @@
+{
+ "module": "qcom_rimps",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_rimps.ko",
+  "region_base": "0x8005000",
+  "thunks": 19,
+  "gots": 0,
+  "relocs": {
+   "257": 10,
+   "261": 2,
+   "275": 27,
+   "277": 27,
+   "282": 9,
+   "283": 37
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "smem",
+ "functions": 25,
+ "decompiled": 25,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/smem.ko",
+  "region_base": "0x8007000",
+  "thunks": 18,
+  "gots": 0,
+  "relocs": {
+   "257": 12,
+   "261": 36,
+   "275": 49,
+   "277": 40,
+   "282": 11,
+   "283": 50,
+   "286": 19
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

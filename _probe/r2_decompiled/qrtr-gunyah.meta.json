@@ -1,0 +1,24 @@
+{
+ "module": "qrtr-gunyah",
+ "functions": 23,
+ "decompiled": 23,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qrtr-gunyah.ko",
+  "region_base": "0x8008000",
+  "thunks": 55,
+  "gots": 1,
+  "relocs": {
+   "257": 8,
+   "261": 26,
+   "275": 55,
+   "277": 52,
+   "278": 2,
+   "282": 9,
+   "283": 114,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "gh_irq_lend",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_irq_lend.ko",
+  "region_base": "0x8007000",
+  "thunks": 20,
+  "gots": 0,
+  "relocs": {
+   "257": 12,
+   "261": 30,
+   "275": 71,
+   "277": 61,
+   "282": 15,
+   "283": 38,
+   "285": 10
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

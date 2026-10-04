@@ -1,0 +1,25 @@
+{
+ "module": "xm_power",
+ "functions": 9,
+ "decompiled": 9,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/xm_power.ko",
+  "region_base": "0x8007000",
+  "thunks": 36,
+  "gots": 2,
+  "relocs": {
+   "257": 18,
+   "261": 6,
+   "275": 59,
+   "277": 39,
+   "278": 3,
+   "282": 11,
+   "283": 73,
+   "285": 11,
+   "286": 8
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "module": "ddr_cdev",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ddr_cdev.ko",
+  "region_base": "0x8004000",
+  "thunks": 13,
+  "gots": 0,
+  "relocs": {
+   "257": 11,
+   "275": 22,
+   "277": 22,
+   "282": 8,
+   "283": 22
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

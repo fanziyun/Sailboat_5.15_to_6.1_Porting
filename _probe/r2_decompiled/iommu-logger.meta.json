@@ -1,0 +1,24 @@
+{
+ "module": "iommu-logger",
+ "functions": 6,
+ "decompiled": 6,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/iommu-logger.ko",
+  "region_base": "0x8004000",
+  "thunks": 13,
+  "gots": 1,
+  "relocs": {
+   "257": 4,
+   "261": 6,
+   "275": 13,
+   "277": 11,
+   "278": 1,
+   "282": 3,
+   "283": 14,
+   "286": 1
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

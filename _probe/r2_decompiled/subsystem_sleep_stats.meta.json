@@ -1,0 +1,25 @@
+{
+ "module": "subsystem_sleep_stats",
+ "functions": 27,
+ "decompiled": 27,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/subsystem_sleep_stats.ko",
+  "region_base": "0x8008000",
+  "thunks": 37,
+  "gots": 5,
+  "relocs": {
+   "257": 28,
+   "260": 6,
+   "261": 41,
+   "275": 73,
+   "277": 51,
+   "278": 8,
+   "282": 12,
+   "283": 79,
+   "286": 31
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

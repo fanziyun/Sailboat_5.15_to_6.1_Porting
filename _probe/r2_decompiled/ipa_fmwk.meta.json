@@ -1,0 +1,24 @@
+{
+ "module": "ipa_fmwk",
+ "functions": 324,
+ "decompiled": 324,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ipa_fmwk.ko",
+  "region_base": "0x8061000",
+  "thunks": 14,
+  "gots": 1,
+  "relocs": {
+   "257": 304,
+   "261": 763,
+   "275": 1169,
+   "277": 1006,
+   "278": 1,
+   "282": 162,
+   "283": 484,
+   "286": 182
+  },
+  "skipped": 159,
+  "range_fail": 0
+ }
+}

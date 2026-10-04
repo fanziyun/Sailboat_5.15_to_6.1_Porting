@@ -1,0 +1,26 @@
+{
+ "module": "rproc_qcom_common",
+ "functions": 78,
+ "decompiled": 78,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rproc_qcom_common.ko",
+  "region_base": "0x801a000",
+  "thunks": 77,
+  "gots": 5,
+  "relocs": {
+   "257": 42,
+   "260": 11,
+   "261": 188,
+   "275": 147,
+   "277": 131,
+   "278": 5,
+   "282": 40,
+   "283": 154,
+   "285": 2,
+   "286": 12
+  },
+  "skipped": 19,
+  "range_fail": 0
+ }
+}

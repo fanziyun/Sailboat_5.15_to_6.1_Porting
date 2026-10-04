@@ -1,0 +1,25 @@
+{
+ "module": "miicmpfilter",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/miicmpfilter.ko",
+  "region_base": "0x8004000",
+  "thunks": 16,
+  "gots": 1,
+  "relocs": {
+   "257": 11,
+   "261": 2,
+   "275": 34,
+   "277": 27,
+   "278": 8,
+   "282": 6,
+   "283": 31,
+   "285": 1,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

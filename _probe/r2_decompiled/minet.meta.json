@@ -1,0 +1,25 @@
+{
+ "module": "minet",
+ "functions": 58,
+ "decompiled": 58,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/minet.ko",
+  "region_base": "0x800e000",
+  "thunks": 59,
+  "gots": 5,
+  "relocs": {
+   "257": 24,
+   "261": 50,
+   "275": 229,
+   "277": 178,
+   "278": 10,
+   "282": 13,
+   "283": 273,
+   "285": 22,
+   "286": 35
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

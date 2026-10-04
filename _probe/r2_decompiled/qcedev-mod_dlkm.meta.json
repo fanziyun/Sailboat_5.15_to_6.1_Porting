@@ -1,0 +1,26 @@
+{
+ "module": "qcedev-mod_dlkm",
+ "functions": 60,
+ "decompiled": 60,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcedev-mod_dlkm.ko",
+  "region_base": "0x8015000",
+  "thunks": 87,
+  "gots": 5,
+  "relocs": {
+   "257": 22,
+   "260": 24,
+   "261": 122,
+   "275": 340,
+   "277": 312,
+   "278": 1,
+   "282": 18,
+   "283": 399,
+   "285": 14,
+   "286": 24
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

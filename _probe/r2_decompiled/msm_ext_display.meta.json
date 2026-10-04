@@ -1,0 +1,23 @@
+{
+ "module": "msm_ext_display",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_ext_display.ko",
+  "region_base": "0x8007000",
+  "thunks": 21,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 12,
+   "275": 104,
+   "277": 103,
+   "278": 1,
+   "282": 10,
+   "283": 69
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

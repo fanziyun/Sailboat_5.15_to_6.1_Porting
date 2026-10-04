@@ -1,0 +1,21 @@
+{
+ "module": "c1dcvs_vendor",
+ "functions": 35,
+ "decompiled": 35,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/c1dcvs_vendor.ko",
+  "region_base": "0x8005000",
+  "thunks": 7,
+  "gots": 0,
+  "relocs": {
+   "257": 39,
+   "275": 18,
+   "277": 18,
+   "282": 16,
+   "283": 31
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

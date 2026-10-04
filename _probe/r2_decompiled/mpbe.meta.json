@@ -1,0 +1,26 @@
+{
+ "module": "mpbe",
+ "functions": 93,
+ "decompiled": 93,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mpbe.ko",
+  "region_base": "0x8017000",
+  "thunks": 60,
+  "gots": 7,
+  "relocs": {
+   "257": 49,
+   "260": 28,
+   "261": 214,
+   "275": 245,
+   "277": 193,
+   "278": 8,
+   "282": 33,
+   "283": 302,
+   "285": 12,
+   "286": 43
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "module": "qcom_q6v5",
+ "functions": 43,
+ "decompiled": 43,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_q6v5.ko",
+  "region_base": "0x801a000",
+  "thunks": 42,
+  "gots": 3,
+  "relocs": {
+   "257": 20,
+   "260": 4,
+   "261": 63,
+   "275": 132,
+   "277": 117,
+   "282": 23,
+   "283": 109,
+   "285": 8,
+   "286": 22
+  },
+  "skipped": 7,
+  "range_fail": 0
+ }
+}

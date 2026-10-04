@@ -1,0 +1,21 @@
+{
+ "module": "coresight-tgu",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-tgu.ko",
+  "region_base": "0x8013000",
+  "thunks": 16,
+  "gots": 0,
+  "relocs": {
+   "257": 31,
+   "275": 26,
+   "277": 26,
+   "282": 10,
+   "283": 63
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

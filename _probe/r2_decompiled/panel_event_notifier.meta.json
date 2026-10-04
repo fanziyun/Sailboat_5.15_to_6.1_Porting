@@ -1,0 +1,22 @@
+{
+ "module": "panel_event_notifier",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/panel_event_notifier.ko",
+  "region_base": "0x8004000",
+  "thunks": 5,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 9,
+   "275": 18,
+   "277": 18,
+   "282": 6,
+   "283": 13
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

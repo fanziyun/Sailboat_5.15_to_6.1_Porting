@@ -1,0 +1,25 @@
+{
+ "module": "low_free_memory_kill",
+ "functions": 22,
+ "decompiled": 22,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/low_free_memory_kill.ko",
+  "region_base": "0x8006000",
+  "thunks": 30,
+  "gots": 5,
+  "relocs": {
+   "257": 18,
+   "260": 4,
+   "261": 30,
+   "275": 60,
+   "277": 44,
+   "282": 12,
+   "283": 36,
+   "285": 9,
+   "286": 18
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

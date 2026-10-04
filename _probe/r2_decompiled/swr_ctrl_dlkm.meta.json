@@ -1,0 +1,26 @@
+{
+ "module": "swr_ctrl_dlkm",
+ "functions": 89,
+ "decompiled": 89,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/swr_ctrl_dlkm.ko",
+  "region_base": "0x8023000",
+  "thunks": 93,
+  "gots": 6,
+  "relocs": {
+   "257": 113,
+   "260": 22,
+   "261": 85,
+   "275": 613,
+   "277": 572,
+   "278": 1,
+   "282": 31,
+   "283": 790,
+   "285": 3,
+   "286": 35
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "module": "mi_thermal_interface",
+ "functions": 124,
+ "decompiled": 124,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_thermal_interface.ko",
+  "region_base": "0x801f000",
+  "thunks": 50,
+  "gots": 3,
+  "relocs": {
+   "257": 120,
+   "261": 42,
+   "275": 207,
+   "277": 159,
+   "278": 4,
+   "282": 62,
+   "283": 130,
+   "285": 33,
+   "286": 26
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

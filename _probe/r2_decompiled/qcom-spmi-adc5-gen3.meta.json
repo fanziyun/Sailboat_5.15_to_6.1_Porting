@@ -1,0 +1,23 @@
+{
+ "module": "qcom-spmi-adc5-gen3",
+ "functions": 41,
+ "decompiled": 41,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-spmi-adc5-gen3.ko",
+  "region_base": "0x800f000",
+  "thunks": 51,
+  "gots": 1,
+  "relocs": {
+   "257": 52,
+   "261": 9,
+   "275": 121,
+   "277": 120,
+   "282": 19,
+   "283": 194,
+   "286": 1
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

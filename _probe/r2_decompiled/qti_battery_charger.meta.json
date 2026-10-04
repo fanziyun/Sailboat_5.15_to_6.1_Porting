@@ -1,0 +1,24 @@
+{
+ "module": "qti_battery_charger",
+ "functions": 411,
+ "decompiled": 411,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti_battery_charger.ko",
+  "region_base": "0x803e000",
+  "thunks": 97,
+  "gots": 2,
+  "relocs": {
+   "257": 460,
+   "261": 35,
+   "275": 741,
+   "277": 717,
+   "282": 201,
+   "283": 917,
+   "285": 7,
+   "286": 15
+  },
+  "skipped": 9,
+  "range_fail": 0
+ }
+}

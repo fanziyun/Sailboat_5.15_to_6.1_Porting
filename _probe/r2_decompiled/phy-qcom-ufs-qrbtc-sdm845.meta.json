@@ -1,0 +1,22 @@
+{
+ "module": "phy-qcom-ufs-qrbtc-sdm845",
+ "functions": 23,
+ "decompiled": 23,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-qcom-ufs-qrbtc-sdm845.ko",
+  "region_base": "0x8005000",
+  "thunks": 16,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "261": 4,
+   "275": 29,
+   "277": 29,
+   "282": 10,
+   "283": 30
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

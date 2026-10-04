@@ -1,0 +1,24 @@
+{
+ "module": "msm_dma_iommu_mapping",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_dma_iommu_mapping.ko",
+  "region_base": "0x8007000",
+  "thunks": 26,
+  "gots": 4,
+  "relocs": {
+   "257": 2,
+   "260": 16,
+   "261": 62,
+   "275": 53,
+   "277": 46,
+   "282": 7,
+   "283": 74,
+   "286": 8
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

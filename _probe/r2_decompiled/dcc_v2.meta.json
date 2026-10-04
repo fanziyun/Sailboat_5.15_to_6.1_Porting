@@ -1,0 +1,25 @@
+{
+ "module": "dcc_v2",
+ "functions": 85,
+ "decompiled": 85,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/dcc_v2.ko",
+  "region_base": "0x8011000",
+  "thunks": 52,
+  "gots": 4,
+  "relocs": {
+   "257": 81,
+   "260": 6,
+   "261": 74,
+   "275": 130,
+   "277": 122,
+   "278": 6,
+   "282": 38,
+   "283": 269,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

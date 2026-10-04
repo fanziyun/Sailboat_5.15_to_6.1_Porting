@@ -1,0 +1,21 @@
+{
+ "module": "qnoc-kalama",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qnoc-kalama.ko",
+  "region_base": "0x804a000",
+  "thunks": 7,
+  "gots": 2,
+  "relocs": {
+   "257": 919,
+   "275": 8,
+   "277": 8,
+   "282": 5,
+   "283": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

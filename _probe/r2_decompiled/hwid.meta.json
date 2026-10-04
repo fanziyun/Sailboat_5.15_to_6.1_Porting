@@ -1,0 +1,25 @@
+{
+ "module": "hwid",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hwid.ko",
+  "region_base": "0x8006000",
+  "thunks": 8,
+  "gots": 1,
+  "relocs": {
+   "257": 53,
+   "261": 27,
+   "275": 35,
+   "277": 19,
+   "282": 16,
+   "283": 14,
+   "284": 3,
+   "285": 11,
+   "286": 4
+  },
+  "skipped": 9,
+  "range_fail": 0
+ }
+}

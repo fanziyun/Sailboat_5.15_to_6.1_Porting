@@ -1,0 +1,21 @@
+{
+ "module": "qcom-spmi-pmic",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-spmi-pmic.ko",
+  "region_base": "0x8005000",
+  "thunks": 9,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "275": 11,
+   "277": 11,
+   "282": 5,
+   "283": 13
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

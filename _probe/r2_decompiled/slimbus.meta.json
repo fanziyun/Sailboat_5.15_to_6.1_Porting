@@ -1,0 +1,25 @@
+{
+ "module": "slimbus",
+ "functions": 78,
+ "decompiled": 78,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/slimbus.ko",
+  "region_base": "0x800f000",
+  "thunks": 51,
+  "gots": 3,
+  "relocs": {
+   "257": 29,
+   "260": 4,
+   "261": 96,
+   "275": 118,
+   "277": 116,
+   "278": 1,
+   "282": 38,
+   "283": 178,
+   "286": 1
+  },
+  "skipped": 28,
+  "range_fail": 0
+ }
+}

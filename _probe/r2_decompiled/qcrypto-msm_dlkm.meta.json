@@ -1,0 +1,26 @@
+{
+ "module": "qcrypto-msm_dlkm",
+ "functions": 233,
+ "decompiled": 233,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcrypto-msm_dlkm.ko",
+  "region_base": "0x8027000",
+  "thunks": 87,
+  "gots": 6,
+  "relocs": {
+   "257": 167,
+   "260": 22,
+   "261": 178,
+   "275": 426,
+   "277": 316,
+   "278": 18,
+   "282": 111,
+   "283": 580,
+   "285": 10,
+   "286": 119
+  },
+  "skipped": 12,
+  "range_fail": 0
+ }
+}

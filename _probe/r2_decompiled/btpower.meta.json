@@ -1,0 +1,26 @@
+{
+ "module": "btpower",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/btpower.ko",
+  "region_base": "0x8010000",
+  "thunks": 64,
+  "gots": 5,
+  "relocs": {
+   "257": 55,
+   "260": 6,
+   "261": 36,
+   "275": 255,
+   "277": 226,
+   "278": 9,
+   "282": 11,
+   "283": 281,
+   "285": 18,
+   "286": 51
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

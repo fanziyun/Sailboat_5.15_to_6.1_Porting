@@ -1,0 +1,25 @@
+{
+ "module": "memlat",
+ "functions": 103,
+ "decompiled": 103,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/memlat.ko",
+  "region_base": "0x8018000",
+  "thunks": 55,
+  "gots": 7,
+  "relocs": {
+   "257": 184,
+   "260": 7,
+   "261": 61,
+   "275": 272,
+   "277": 227,
+   "282": 49,
+   "283": 285,
+   "285": 19,
+   "286": 104
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

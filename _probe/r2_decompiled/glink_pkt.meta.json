@@ -1,0 +1,25 @@
+{
+ "module": "glink_pkt",
+ "functions": 51,
+ "decompiled": 51,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/glink_pkt.ko",
+  "region_base": "0x8013000",
+  "thunks": 88,
+  "gots": 8,
+  "relocs": {
+   "257": 26,
+   "260": 38,
+   "261": 174,
+   "275": 279,
+   "277": 236,
+   "282": 23,
+   "283": 275,
+   "285": 7,
+   "286": 46
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

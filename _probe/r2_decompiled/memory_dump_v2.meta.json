@@ -1,0 +1,24 @@
+{
+ "module": "memory_dump_v2",
+ "functions": 36,
+ "decompiled": 36,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/memory_dump_v2.ko",
+  "region_base": "0x800a000",
+  "thunks": 39,
+  "gots": 2,
+  "relocs": {
+   "257": 31,
+   "261": 9,
+   "275": 113,
+   "277": 102,
+   "282": 17,
+   "283": 171,
+   "285": 4,
+   "286": 9
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

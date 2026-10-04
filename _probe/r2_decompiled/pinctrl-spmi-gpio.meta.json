@@ -1,0 +1,22 @@
+{
+ "module": "pinctrl-spmi-gpio",
+ "functions": 63,
+ "decompiled": 63,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pinctrl-spmi-gpio.ko",
+  "region_base": "0x800f000",
+  "thunks": 36,
+  "gots": 1,
+  "relocs": {
+   "257": 99,
+   "275": 106,
+   "277": 103,
+   "282": 36,
+   "283": 105,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

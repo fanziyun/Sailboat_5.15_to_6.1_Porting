@@ -1,0 +1,25 @@
+{
+ "module": "qcom_va_minidump",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_va_minidump.ko",
+  "region_base": "0x800a000",
+  "thunks": 49,
+  "gots": 3,
+  "relocs": {
+   "257": 26,
+   "261": 22,
+   "275": 134,
+   "277": 104,
+   "278": 15,
+   "282": 15,
+   "283": 104,
+   "285": 17,
+   "286": 21
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

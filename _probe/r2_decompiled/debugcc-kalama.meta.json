@@ -1,0 +1,22 @@
+{
+ "module": "debugcc-kalama",
+ "functions": 6,
+ "decompiled": 6,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/debugcc-kalama.ko",
+  "region_base": "0x800b000",
+  "thunks": 10,
+  "gots": 2,
+  "relocs": {
+   "257": 373,
+   "275": 53,
+   "277": 45,
+   "282": 3,
+   "283": 36,
+   "286": 8
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

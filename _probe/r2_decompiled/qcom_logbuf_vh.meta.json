@@ -1,0 +1,25 @@
+{
+ "module": "qcom_logbuf_vh",
+ "functions": 18,
+ "decompiled": 18,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_logbuf_vh.ko",
+  "region_base": "0x8006000",
+  "thunks": 23,
+  "gots": 2,
+  "relocs": {
+   "257": 8,
+   "261": 8,
+   "275": 52,
+   "277": 33,
+   "278": 9,
+   "282": 7,
+   "283": 47,
+   "285": 9,
+   "286": 14
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

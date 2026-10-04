@@ -1,0 +1,21 @@
+{
+ "module": "qnoc-crow",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qnoc-crow.ko",
+  "region_base": "0x802e000",
+  "thunks": 8,
+  "gots": 2,
+  "relocs": {
+   "257": 693,
+   "275": 10,
+   "277": 10,
+   "282": 6,
+   "283": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

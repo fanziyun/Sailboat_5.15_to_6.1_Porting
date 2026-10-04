@@ -1,0 +1,23 @@
+{
+ "module": "swinfo",
+ "functions": 9,
+ "decompiled": 9,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/swinfo.ko",
+  "region_base": "0x800f000",
+  "thunks": 18,
+  "gots": 3,
+  "relocs": {
+   "257": 11,
+   "275": 33,
+   "277": 27,
+   "278": 2,
+   "282": 5,
+   "283": 17,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

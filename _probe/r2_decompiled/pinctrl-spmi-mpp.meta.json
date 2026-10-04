@@ -1,0 +1,22 @@
+{
+ "module": "pinctrl-spmi-mpp",
+ "functions": 50,
+ "decompiled": 50,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pinctrl-spmi-mpp.ko",
+  "region_base": "0x800a000",
+  "thunks": 25,
+  "gots": 0,
+  "relocs": {
+   "257": 52,
+   "261": 2,
+   "275": 78,
+   "277": 73,
+   "282": 26,
+   "283": 80
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

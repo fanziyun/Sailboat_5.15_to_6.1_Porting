@@ -1,0 +1,23 @@
+{
+ "module": "coresight-tpdm",
+ "functions": 295,
+ "decompiled": 295,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-tpdm.ko",
+  "region_base": "0x802f000",
+  "thunks": 26,
+  "gots": 0,
+  "relocs": {
+   "257": 315,
+   "261": 94,
+   "275": 154,
+   "277": 153,
+   "282": 147,
+   "283": 554,
+   "285": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

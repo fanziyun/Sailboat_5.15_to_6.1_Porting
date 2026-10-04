@@ -1,0 +1,24 @@
+{
+ "module": "cpufreq_stats_scmi",
+ "functions": 13,
+ "decompiled": 13,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cpufreq_stats_scmi.ko",
+  "region_base": "0x8005000",
+  "thunks": 24,
+  "gots": 1,
+  "relocs": {
+   "257": 15,
+   "261": 2,
+   "275": 39,
+   "277": 32,
+   "278": 1,
+   "282": 7,
+   "283": 58,
+   "286": 45
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

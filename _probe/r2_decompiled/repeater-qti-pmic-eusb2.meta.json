@@ -1,0 +1,24 @@
+{
+ "module": "repeater-qti-pmic-eusb2",
+ "functions": 37,
+ "decompiled": 37,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/repeater-qti-pmic-eusb2.ko",
+  "region_base": "0x8009000",
+  "thunks": 41,
+  "gots": 4,
+  "relocs": {
+   "257": 17,
+   "260": 6,
+   "261": 30,
+   "275": 107,
+   "277": 105,
+   "282": 18,
+   "283": 142,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

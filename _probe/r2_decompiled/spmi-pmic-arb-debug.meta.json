@@ -1,0 +1,23 @@
+{
+ "module": "spmi-pmic-arb-debug",
+ "functions": 19,
+ "decompiled": 19,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/spmi-pmic-arb-debug.ko",
+  "region_base": "0x8006000",
+  "thunks": 30,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 2,
+   "275": 46,
+   "277": 45,
+   "278": 1,
+   "282": 8,
+   "283": 61
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

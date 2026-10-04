@@ -1,0 +1,25 @@
+{
+ "module": "qcom-dload-mode",
+ "functions": 35,
+ "decompiled": 35,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-dload-mode.ko",
+  "region_base": "0x8007000",
+  "thunks": 33,
+  "gots": 3,
+  "relocs": {
+   "257": 31,
+   "261": 5,
+   "275": 81,
+   "277": 57,
+   "278": 7,
+   "282": 17,
+   "283": 63,
+   "285": 20,
+   "286": 1
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "module": "goodix_core",
+ "functions": 451,
+ "decompiled": 451,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/goodix_core.ko",
+  "region_base": "0x80a5000",
+  "thunks": 155,
+  "gots": 7,
+  "relocs": {
+   "257": 463,
+   "260": 28,
+   "261": 174,
+   "275": 3565,
+   "277": 2893,
+   "278": 134,
+   "282": 127,
+   "283": 4134,
+   "284": 4,
+   "285": 893,
+   "286": 223
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

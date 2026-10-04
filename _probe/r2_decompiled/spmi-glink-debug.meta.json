@@ -1,0 +1,21 @@
+{
+ "module": "spmi-glink-debug",
+ "functions": 18,
+ "decompiled": 18,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/spmi-glink-debug.ko",
+  "region_base": "0x8005000",
+  "thunks": 22,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "275": 31,
+   "277": 31,
+   "282": 9,
+   "283": 44
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

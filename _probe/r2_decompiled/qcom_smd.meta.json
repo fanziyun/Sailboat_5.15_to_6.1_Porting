@@ -1,0 +1,24 @@
+{
+ "module": "qcom_smd",
+ "functions": 54,
+ "decompiled": 54,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_smd.ko",
+  "region_base": "0x800b000",
+  "thunks": 60,
+  "gots": 4,
+  "relocs": {
+   "257": 25,
+   "260": 6,
+   "261": 18,
+   "275": 80,
+   "277": 70,
+   "282": 24,
+   "283": 177,
+   "286": 10
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

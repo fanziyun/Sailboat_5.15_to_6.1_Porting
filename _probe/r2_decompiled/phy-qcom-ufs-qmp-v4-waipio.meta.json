@@ -1,0 +1,22 @@
+{
+ "module": "phy-qcom-ufs-qmp-v4-waipio",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-qcom-ufs-qmp-v4-waipio.ko",
+  "region_base": "0x8007000",
+  "thunks": 23,
+  "gots": 0,
+  "relocs": {
+   "257": 20,
+   "261": 4,
+   "275": 43,
+   "277": 43,
+   "282": 16,
+   "283": 59
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

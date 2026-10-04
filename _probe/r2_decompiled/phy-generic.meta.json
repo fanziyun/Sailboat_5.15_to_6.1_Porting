@@ -1,0 +1,22 @@
+{
+ "module": "phy-generic",
+ "functions": 28,
+ "decompiled": 28,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-generic.ko",
+  "region_base": "0x8006000",
+  "thunks": 32,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 15,
+   "275": 40,
+   "277": 40,
+   "282": 14,
+   "283": 53
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

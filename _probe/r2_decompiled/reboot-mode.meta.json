@@ -1,0 +1,22 @@
+{
+ "module": "reboot-mode",
+ "functions": 16,
+ "decompiled": 16,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/reboot-mode.ko",
+  "region_base": "0x8005000",
+  "thunks": 20,
+  "gots": 0,
+  "relocs": {
+   "257": 2,
+   "261": 16,
+   "275": 18,
+   "277": 18,
+   "282": 8,
+   "283": 26
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

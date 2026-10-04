@@ -1,0 +1,22 @@
+{
+ "module": "gcc-kalama",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gcc-kalama.ko",
+  "region_base": "0x8025000",
+  "thunks": 14,
+  "gots": 9,
+  "relocs": {
+   "257": 1152,
+   "275": 19,
+   "277": 18,
+   "282": 5,
+   "283": 14,
+   "285": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "module": "msm_video",
+ "functions": 1156,
+ "decompiled": 1156,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_video.ko",
+  "region_base": "0x814e000",
+  "thunks": 238,
+  "gots": 6,
+  "relocs": {
+   "257": 1235,
+   "260": 38,
+   "261": 491,
+   "275": 10042,
+   "277": 8358,
+   "278": 2013,
+   "282": 356,
+   "283": 4833,
+   "284": 2,
+   "285": 85,
+   "286": 50
+  },
+  "skipped": 33,
+  "range_fail": 0
+ }
+}

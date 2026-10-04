@@ -1,0 +1,24 @@
+{
+ "module": "qti_qmi_cdev",
+ "functions": 26,
+ "decompiled": 26,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti_qmi_cdev.ko",
+  "region_base": "0x8009000",
+  "thunks": 33,
+  "gots": 3,
+  "relocs": {
+   "257": 27,
+   "261": 2,
+   "275": 57,
+   "277": 51,
+   "282": 12,
+   "283": 69,
+   "285": 5,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

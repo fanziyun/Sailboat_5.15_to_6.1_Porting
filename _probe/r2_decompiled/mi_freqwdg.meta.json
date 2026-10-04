@@ -1,0 +1,25 @@
+{
+ "module": "mi_freqwdg",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_freqwdg.ko",
+  "region_base": "0x8008000",
+  "thunks": 34,
+  "gots": 4,
+  "relocs": {
+   "257": 23,
+   "261": 13,
+   "275": 114,
+   "277": 82,
+   "278": 5,
+   "282": 14,
+   "283": 70,
+   "285": 22,
+   "286": 12
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

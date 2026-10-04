@@ -1,0 +1,22 @@
+{
+ "module": "ufshcd-crypto-qti",
+ "functions": 11,
+ "decompiled": 11,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ufshcd-crypto-qti.ko",
+  "region_base": "0x8006000",
+  "thunks": 12,
+  "gots": 0,
+  "relocs": {
+   "257": 3,
+   "261": 13,
+   "275": 24,
+   "277": 24,
+   "282": 5,
+   "283": 29
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

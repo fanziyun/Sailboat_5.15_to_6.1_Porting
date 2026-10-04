@@ -1,0 +1,21 @@
+{
+ "module": "stm_p_basic",
+ "functions": 8,
+ "decompiled": 8,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_p_basic.ko",
+  "region_base": "0x8003000",
+  "thunks": 6,
+  "gots": 0,
+  "relocs": {
+   "257": 9,
+   "275": 7,
+   "277": 7,
+   "282": 4,
+   "283": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

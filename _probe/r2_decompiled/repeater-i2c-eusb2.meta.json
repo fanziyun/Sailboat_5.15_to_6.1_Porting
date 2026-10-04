@@ -1,0 +1,21 @@
+{
+ "module": "repeater-i2c-eusb2",
+ "functions": 19,
+ "decompiled": 19,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/repeater-i2c-eusb2.ko",
+  "region_base": "0x8005000",
+  "thunks": 24,
+  "gots": 0,
+  "relocs": {
+   "257": 10,
+   "275": 46,
+   "277": 46,
+   "282": 9,
+   "283": 54
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

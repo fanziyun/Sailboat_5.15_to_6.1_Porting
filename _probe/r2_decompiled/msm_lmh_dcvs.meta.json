@@ -1,0 +1,25 @@
+{
+ "module": "msm_lmh_dcvs",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_lmh_dcvs.ko",
+  "region_base": "0x8007000",
+  "thunks": 44,
+  "gots": 4,
+  "relocs": {
+   "257": 9,
+   "260": 2,
+   "261": 6,
+   "275": 76,
+   "277": 71,
+   "282": 7,
+   "283": 81,
+   "285": 9,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

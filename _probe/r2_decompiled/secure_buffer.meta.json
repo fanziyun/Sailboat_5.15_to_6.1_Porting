@@ -1,0 +1,25 @@
+{
+ "module": "secure_buffer",
+ "functions": 63,
+ "decompiled": 63,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/secure_buffer.ko",
+  "region_base": "0x8018000",
+  "thunks": 42,
+  "gots": 3,
+  "relocs": {
+   "257": 158,
+   "260": 4,
+   "261": 118,
+   "275": 69,
+   "277": 50,
+   "278": 8,
+   "282": 30,
+   "283": 105,
+   "286": 17
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

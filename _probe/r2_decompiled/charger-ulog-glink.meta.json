@@ -1,0 +1,22 @@
+{
+ "module": "charger-ulog-glink",
+ "functions": 43,
+ "decompiled": 43,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/charger-ulog-glink.ko",
+  "region_base": "0x8008000",
+  "thunks": 35,
+  "gots": 1,
+  "relocs": {
+   "257": 32,
+   "275": 86,
+   "277": 84,
+   "282": 24,
+   "283": 76,
+   "286": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

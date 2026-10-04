@@ -1,0 +1,17 @@
+# 设备分区镜像（>100MB，GitHub 拒收；本地 _probe/backup/ 与设备 /sdcard/bk/ 已有备份）
+_probe/backup/
+_probe/*.img
+_probe/*.tar
+_probe/r2_decompiled.7z
+
+# 原始 .ko 二进制（可从镜像重新解出；反编译成品在 _probe/r2_decompiled/）
+_probe/vendor_ko/
+_probe/vendor_boot_ko/
+_probe/ko/
+
+# 杂项 / 临时
+_probe/py/
+_probe/__pycache__/
+_probe/vkern.bin
+*.log
+*.pyc

@@ -1,0 +1,24 @@
+{
+ "module": "icc-debug",
+ "functions": 22,
+ "decompiled": 22,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/icc-debug.ko",
+  "region_base": "0x800f000",
+  "thunks": 22,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "261": 6,
+   "275": 49,
+   "277": 42,
+   "278": 5,
+   "282": 13,
+   "283": 24,
+   "286": 3
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

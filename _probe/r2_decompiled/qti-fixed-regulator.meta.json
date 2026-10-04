@@ -1,0 +1,21 @@
+{
+ "module": "qti-fixed-regulator",
+ "functions": 19,
+ "decompiled": 19,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti-fixed-regulator.ko",
+  "region_base": "0x8005000",
+  "thunks": 25,
+  "gots": 0,
+  "relocs": {
+   "257": 18,
+   "275": 26,
+   "277": 26,
+   "282": 10,
+   "283": 39
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

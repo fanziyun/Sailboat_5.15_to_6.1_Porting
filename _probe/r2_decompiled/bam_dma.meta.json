@@ -1,0 +1,24 @@
+{
+ "module": "bam_dma",
+ "functions": 64,
+ "decompiled": 64,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/bam_dma.ko",
+  "region_base": "0x801c000",
+  "thunks": 85,
+  "gots": 3,
+  "relocs": {
+   "257": 44,
+   "260": 7,
+   "261": 79,
+   "275": 150,
+   "277": 149,
+   "282": 31,
+   "283": 233,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

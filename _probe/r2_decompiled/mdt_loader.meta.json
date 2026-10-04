@@ -1,0 +1,21 @@
+{
+ "module": "mdt_loader",
+ "functions": 15,
+ "decompiled": 15,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mdt_loader.ko",
+  "region_base": "0x8005000",
+  "thunks": 21,
+  "gots": 0,
+  "relocs": {
+   "261": 18,
+   "275": 18,
+   "277": 18,
+   "282": 7,
+   "283": 46
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "module": "sys_pm_vx",
+ "functions": 31,
+ "decompiled": 31,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sys_pm_vx.ko",
+  "region_base": "0x8007000",
+  "thunks": 35,
+  "gots": 0,
+  "relocs": {
+   "257": 87,
+   "261": 2,
+   "275": 66,
+   "277": 66,
+   "282": 16,
+   "283": 81
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

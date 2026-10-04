@@ -1,0 +1,25 @@
+{
+ "module": "stm_nfc_i2c",
+ "functions": 49,
+ "decompiled": 49,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_nfc_i2c.ko",
+  "region_base": "0x800e000",
+  "thunks": 58,
+  "gots": 4,
+  "relocs": {
+   "257": 52,
+   "260": 12,
+   "261": 62,
+   "275": 185,
+   "277": 167,
+   "278": 7,
+   "282": 22,
+   "283": 194,
+   "286": 14
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

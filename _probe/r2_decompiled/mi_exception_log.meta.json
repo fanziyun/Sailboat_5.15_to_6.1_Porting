@@ -1,0 +1,25 @@
+{
+ "module": "mi_exception_log",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mi_exception_log.ko",
+  "region_base": "0x801a000",
+  "thunks": 22,
+  "gots": 4,
+  "relocs": {
+   "257": 11,
+   "260": 6,
+   "261": 32,
+   "275": 43,
+   "277": 33,
+   "282": 7,
+   "283": 35,
+   "285": 9,
+   "286": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

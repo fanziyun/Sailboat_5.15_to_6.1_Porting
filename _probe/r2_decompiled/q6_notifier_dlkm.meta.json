@@ -1,0 +1,26 @@
+{
+ "module": "q6_notifier_dlkm",
+ "functions": 29,
+ "decompiled": 29,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/q6_notifier_dlkm.ko",
+  "region_base": "0x800a000",
+  "thunks": 35,
+  "gots": 1,
+  "relocs": {
+   "257": 18,
+   "260": 3,
+   "261": 45,
+   "275": 159,
+   "277": 150,
+   "278": 1,
+   "282": 13,
+   "283": 95,
+   "285": 8,
+   "286": 5
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

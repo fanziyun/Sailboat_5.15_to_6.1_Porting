@@ -1,0 +1,23 @@
+{
+ "module": "redriver",
+ "functions": 28,
+ "decompiled": 28,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/redriver.ko",
+  "region_base": "0x8006000",
+  "thunks": 10,
+  "gots": 0,
+  "relocs": {
+   "257": 22,
+   "261": 33,
+   "275": 42,
+   "277": 41,
+   "282": 14,
+   "283": 33,
+   "285": 4
+  },
+  "skipped": 11,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "module": "camcc-kalama",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/camcc-kalama.ko",
+  "region_base": "0x8028000",
+  "thunks": 21,
+  "gots": 6,
+  "relocs": {
+   "257": 1183,
+   "275": 51,
+   "277": 51,
+   "282": 9,
+   "283": 30
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

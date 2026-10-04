@@ -1,0 +1,25 @@
+{
+ "module": "msm_sysstats",
+ "functions": 30,
+ "decompiled": 30,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_sysstats.ko",
+  "region_base": "0x8019000",
+  "thunks": 47,
+  "gots": 3,
+  "relocs": {
+   "257": 17,
+   "260": 20,
+   "261": 188,
+   "275": 46,
+   "277": 40,
+   "282": 12,
+   "283": 135,
+   "285": 1,
+   "286": 5
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

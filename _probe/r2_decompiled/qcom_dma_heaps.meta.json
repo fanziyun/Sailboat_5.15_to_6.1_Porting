@@ -1,0 +1,26 @@
+{
+ "module": "qcom_dma_heaps",
+ "functions": 165,
+ "decompiled": 165,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_dma_heaps.ko",
+  "region_base": "0x8028000",
+  "thunks": 135,
+  "gots": 9,
+  "relocs": {
+   "257": 97,
+   "260": 47,
+   "261": 253,
+   "275": 420,
+   "277": 336,
+   "278": 27,
+   "282": 55,
+   "283": 767,
+   "285": 18,
+   "286": 64
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

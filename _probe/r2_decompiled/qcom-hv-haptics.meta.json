@@ -1,0 +1,26 @@
+{
+ "module": "qcom-hv-haptics",
+ "functions": 217,
+ "decompiled": 217,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-hv-haptics.ko",
+  "region_base": "0x8043000",
+  "thunks": 123,
+  "gots": 7,
+  "relocs": {
+   "257": 248,
+   "260": 17,
+   "261": 204,
+   "275": 723,
+   "277": 704,
+   "278": 2,
+   "282": 95,
+   "283": 911,
+   "285": 2,
+   "286": 16
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "module": "mhi_dev_netdev",
+ "functions": 57,
+ "decompiled": 57,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mhi_dev_netdev.ko",
+  "region_base": "0x801e000",
+  "thunks": 82,
+  "gots": 5,
+  "relocs": {
+   "257": 43,
+   "260": 26,
+   "261": 110,
+   "275": 146,
+   "277": 135,
+   "278": 2,
+   "282": 29,
+   "283": 166,
+   "286": 9
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

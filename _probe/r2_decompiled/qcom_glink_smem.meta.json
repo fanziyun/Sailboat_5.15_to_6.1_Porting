@@ -1,0 +1,22 @@
+{
+ "module": "qcom_glink_smem",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_glink_smem.ko",
+  "region_base": "0x8005000",
+  "thunks": 21,
+  "gots": 1,
+  "relocs": {
+   "261": 19,
+   "275": 26,
+   "277": 25,
+   "282": 10,
+   "283": 33,
+   "286": 1
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

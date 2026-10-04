@@ -1,0 +1,25 @@
+{
+ "module": "socinfo",
+ "functions": 175,
+ "decompiled": 175,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/socinfo.ko",
+  "region_base": "0x801d000",
+  "thunks": 36,
+  "gots": 0,
+  "relocs": {
+   "257": 391,
+   "261": 39,
+   "275": 415,
+   "277": 280,
+   "278": 14,
+   "282": 88,
+   "283": 221,
+   "285": 61,
+   "286": 86
+  },
+  "skipped": 13,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "module": "hung_task_enh",
+ "functions": 15,
+ "decompiled": 15,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hung_task_enh.ko",
+  "region_base": "0x8005000",
+  "thunks": 18,
+  "gots": 4,
+  "relocs": {
+   "257": 30,
+   "260": 2,
+   "261": 4,
+   "275": 35,
+   "277": 26,
+   "282": 8,
+   "283": 25,
+   "285": 8,
+   "286": 3
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "qcom_ipcc",
+ "functions": 29,
+ "decompiled": 29,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_ipcc.ko",
+  "region_base": "0x8006000",
+  "thunks": 31,
+  "gots": 0,
+  "relocs": {
+   "257": 15,
+   "261": 4,
+   "275": 38,
+   "277": 37,
+   "282": 14,
+   "283": 46,
+   "285": 2
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

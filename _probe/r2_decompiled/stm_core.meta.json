@@ -1,0 +1,26 @@
+{
+ "module": "stm_core",
+ "functions": 96,
+ "decompiled": 96,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_core.ko",
+  "region_base": "0x8012000",
+  "thunks": 74,
+  "gots": 5,
+  "relocs": {
+   "257": 92,
+   "260": 12,
+   "261": 115,
+   "275": 145,
+   "277": 132,
+   "278": 2,
+   "282": 41,
+   "283": 261,
+   "285": 6,
+   "286": 6
+  },
+  "skipped": 9,
+  "range_fail": 0
+ }
+}

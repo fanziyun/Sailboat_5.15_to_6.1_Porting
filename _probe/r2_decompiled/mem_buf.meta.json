@@ -1,0 +1,26 @@
+{
+ "module": "mem_buf",
+ "functions": 52,
+ "decompiled": 52,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mem_buf.ko",
+  "region_base": "0x8012000",
+  "thunks": 102,
+  "gots": 13,
+  "relocs": {
+   "257": 27,
+   "260": 25,
+   "261": 175,
+   "275": 163,
+   "277": 118,
+   "278": 11,
+   "282": 17,
+   "283": 286,
+   "285": 5,
+   "286": 41
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

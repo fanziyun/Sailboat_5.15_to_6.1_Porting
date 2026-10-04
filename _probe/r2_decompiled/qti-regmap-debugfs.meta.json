@@ -1,0 +1,25 @@
+{
+ "module": "qti-regmap-debugfs",
+ "functions": 25,
+ "decompiled": 25,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti-regmap-debugfs.ko",
+  "region_base": "0x8008000",
+  "thunks": 33,
+  "gots": 4,
+  "relocs": {
+   "257": 19,
+   "260": 6,
+   "261": 58,
+   "275": 59,
+   "277": 55,
+   "278": 2,
+   "282": 11,
+   "283": 84,
+   "286": 2
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

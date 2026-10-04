@@ -1,0 +1,25 @@
+{
+ "module": "gsim",
+ "functions": 379,
+ "decompiled": 379,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gsim.ko",
+  "region_base": "0x8087000",
+  "thunks": 84,
+  "gots": 6,
+  "relocs": {
+   "257": 858,
+   "260": 40,
+   "261": 583,
+   "275": 2852,
+   "277": 2645,
+   "278": 1,
+   "282": 159,
+   "283": 2019,
+   "286": 1461
+  },
+  "skipped": 78,
+  "range_fail": 0
+ }
+}

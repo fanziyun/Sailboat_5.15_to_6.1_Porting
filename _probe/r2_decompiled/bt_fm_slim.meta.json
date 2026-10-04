@@ -1,0 +1,24 @@
+{
+ "module": "bt_fm_slim",
+ "functions": 56,
+ "decompiled": 56,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/bt_fm_slim.ko",
+  "region_base": "0x800c000",
+  "thunks": 37,
+  "gots": 2,
+  "relocs": {
+   "257": 57,
+   "275": 187,
+   "277": 173,
+   "278": 3,
+   "282": 24,
+   "283": 139,
+   "285": 13,
+   "286": 9
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

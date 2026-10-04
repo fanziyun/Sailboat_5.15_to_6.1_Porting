@@ -1,0 +1,22 @@
+{
+ "module": "smp2p_sleepstate",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/smp2p_sleepstate.ko",
+  "region_base": "0x8004000",
+  "thunks": 16,
+  "gots": 0,
+  "relocs": {
+   "257": 5,
+   "275": 20,
+   "277": 18,
+   "282": 5,
+   "283": 19,
+   "286": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

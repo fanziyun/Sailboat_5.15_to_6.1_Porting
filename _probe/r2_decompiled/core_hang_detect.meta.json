@@ -1,0 +1,23 @@
+{
+ "module": "core_hang_detect",
+ "functions": 26,
+ "decompiled": 26,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/core_hang_detect.ko",
+  "region_base": "0x8007000",
+  "thunks": 28,
+  "gots": 3,
+  "relocs": {
+   "257": 32,
+   "275": 77,
+   "277": 71,
+   "282": 13,
+   "283": 67,
+   "285": 11,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

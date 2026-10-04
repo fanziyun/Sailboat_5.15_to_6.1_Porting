@@ -1,0 +1,26 @@
+{
+ "module": "msm_hw_fence",
+ "functions": 180,
+ "decompiled": 180,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_hw_fence.ko",
+  "region_base": "0x8039000",
+  "thunks": 73,
+  "gots": 8,
+  "relocs": {
+   "257": 117,
+   "260": 64,
+   "261": 258,
+   "275": 1205,
+   "277": 872,
+   "278": 11,
+   "282": 59,
+   "283": 816,
+   "285": 144,
+   "286": 283
+  },
+  "skipped": 12,
+  "range_fail": 0
+ }
+}

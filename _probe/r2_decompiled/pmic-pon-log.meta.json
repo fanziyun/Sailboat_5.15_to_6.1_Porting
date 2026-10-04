@@ -1,0 +1,22 @@
+{
+ "module": "pmic-pon-log",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pmic-pon-log.ko",
+  "region_base": "0x8008000",
+  "thunks": 25,
+  "gots": 1,
+  "relocs": {
+   "257": 90,
+   "275": 111,
+   "277": 108,
+   "282": 6,
+   "283": 85,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

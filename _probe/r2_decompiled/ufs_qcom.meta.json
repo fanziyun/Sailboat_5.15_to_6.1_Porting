@@ -1,0 +1,26 @@
+{
+ "module": "ufs_qcom",
+ "functions": 1302,
+ "decompiled": 1302,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ufs_qcom.ko",
+  "region_base": "0x96df000",
+  "thunks": 350,
+  "gots": 40,
+  "relocs": {
+   "257": 2009,
+   "260": 142,
+   "261": 1731,
+   "275": 2833,
+   "277": 2714,
+   "278": 16,
+   "282": 531,
+   "283": 4454,
+   "285": 40,
+   "286": 84
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

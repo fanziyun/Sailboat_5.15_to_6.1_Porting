@@ -1,0 +1,22 @@
+{
+ "module": "max31760_fan",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/max31760_fan.ko",
+  "region_base": "0x8007000",
+  "thunks": 30,
+  "gots": 0,
+  "relocs": {
+   "257": 36,
+   "261": 6,
+   "275": 67,
+   "277": 67,
+   "282": 16,
+   "283": 115
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

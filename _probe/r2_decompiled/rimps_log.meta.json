@@ -1,0 +1,24 @@
+{
+ "module": "rimps_log",
+ "functions": 25,
+ "decompiled": 25,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rimps_log.ko",
+  "region_base": "0x8011000",
+  "thunks": 43,
+  "gots": 1,
+  "relocs": {
+   "257": 32,
+   "260": 2,
+   "261": 45,
+   "275": 48,
+   "277": 43,
+   "282": 14,
+   "283": 64,
+   "286": 5
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

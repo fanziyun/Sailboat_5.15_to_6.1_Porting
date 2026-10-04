@@ -1,0 +1,24 @@
+{
+ "module": "coresight-stm",
+ "functions": 79,
+ "decompiled": 79,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-stm.ko",
+  "region_base": "0x801c000",
+  "thunks": 36,
+  "gots": 3,
+  "relocs": {
+   "257": 88,
+   "260": 32,
+   "261": 140,
+   "275": 53,
+   "277": 52,
+   "282": 39,
+   "283": 107,
+   "285": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

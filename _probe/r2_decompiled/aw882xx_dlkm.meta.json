@@ -1,0 +1,26 @@
+{
+ "module": "aw882xx_dlkm",
+ "functions": 439,
+ "decompiled": 439,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/aw882xx_dlkm.ko",
+  "region_base": "0x8060000",
+  "thunks": 82,
+  "gots": 4,
+  "relocs": {
+   "257": 464,
+   "260": 12,
+   "261": 72,
+   "275": 2371,
+   "277": 2260,
+   "278": 18,
+   "282": 153,
+   "283": 1681,
+   "285": 72,
+   "286": 53
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

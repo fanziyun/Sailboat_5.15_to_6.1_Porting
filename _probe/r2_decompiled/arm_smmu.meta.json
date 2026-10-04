@@ -1,0 +1,26 @@
+{
+ "module": "arm_smmu",
+ "functions": 351,
+ "decompiled": 351,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/arm_smmu.ko",
+  "region_base": "0x805a000",
+  "thunks": 152,
+  "gots": 9,
+  "relocs": {
+   "257": 395,
+   "260": 57,
+   "261": 381,
+   "275": 877,
+   "277": 849,
+   "278": 14,
+   "282": 143,
+   "283": 1211,
+   "285": 1,
+   "286": 14
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

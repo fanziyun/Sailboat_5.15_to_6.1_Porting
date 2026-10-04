@@ -1,0 +1,21 @@
+{
+ "module": "stm_st54se_gpio",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_st54se_gpio.ko",
+  "region_base": "0x8005000",
+  "thunks": 23,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "275": 61,
+   "277": 61,
+   "282": 9,
+   "283": 49
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

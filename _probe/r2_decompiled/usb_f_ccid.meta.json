@@ -1,0 +1,26 @@
+{
+ "module": "usb_f_ccid",
+ "functions": 53,
+ "decompiled": 53,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/usb_f_ccid.ko",
+  "region_base": "0x800e000",
+  "thunks": 51,
+  "gots": 5,
+  "relocs": {
+   "257": 41,
+   "260": 12,
+   "261": 126,
+   "275": 147,
+   "277": 119,
+   "278": 11,
+   "282": 25,
+   "283": 216,
+   "285": 7,
+   "286": 24
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

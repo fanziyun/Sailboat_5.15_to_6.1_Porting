@@ -1,0 +1,26 @@
+{
+ "module": "sched-walt",
+ "functions": 896,
+ "decompiled": 896,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/sched-walt.ko",
+  "region_base": "0x80e0000",
+  "thunks": 295,
+  "gots": 23,
+  "relocs": {
+   "257": 2057,
+   "260": 141,
+   "261": 1914,
+   "275": 2420,
+   "277": 1565,
+   "278": 149,
+   "282": 388,
+   "283": 2117,
+   "285": 708,
+   "286": 257
+  },
+  "skipped": 24,
+  "range_fail": 0
+ }
+}

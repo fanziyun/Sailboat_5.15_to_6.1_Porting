@@ -1,0 +1,24 @@
+{
+ "module": "xlogchar",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/xlogchar.ko",
+  "region_base": "0x8007000",
+  "thunks": 30,
+  "gots": 4,
+  "relocs": {
+   "257": 10,
+   "260": 12,
+   "261": 71,
+   "275": 54,
+   "277": 44,
+   "282": 9,
+   "283": 73,
+   "286": 42
+  },
+  "skipped": 1,
+  "range_fail": 0
+ }
+}

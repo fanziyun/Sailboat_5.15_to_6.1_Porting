@@ -1,0 +1,24 @@
+{
+ "module": "rmnet_offload",
+ "functions": 57,
+ "decompiled": 57,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_offload.ko",
+  "region_base": "0x800a000",
+  "thunks": 31,
+  "gots": 7,
+  "relocs": {
+   "257": 45,
+   "260": 1,
+   "261": 4,
+   "275": 98,
+   "277": 81,
+   "282": 16,
+   "283": 140,
+   "286": 25
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

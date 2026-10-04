@@ -1,0 +1,24 @@
+{
+ "module": "gpr_dlkm",
+ "functions": 46,
+ "decompiled": 46,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gpr_dlkm.ko",
+  "region_base": "0x800a000",
+  "thunks": 49,
+  "gots": 2,
+  "relocs": {
+   "257": 23,
+   "261": 32,
+   "275": 165,
+   "277": 143,
+   "282": 22,
+   "283": 111,
+   "285": 6,
+   "286": 31
+  },
+  "skipped": 8,
+  "range_fail": 0
+ }
+}

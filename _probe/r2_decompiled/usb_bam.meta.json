@@ -1,0 +1,25 @@
+{
+ "module": "usb_bam",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/usb_bam.ko",
+  "region_base": "0x8018000",
+  "thunks": 59,
+  "gots": 1,
+  "relocs": {
+   "257": 13,
+   "261": 150,
+   "275": 466,
+   "277": 457,
+   "278": 2,
+   "282": 19,
+   "283": 456,
+   "285": 4,
+   "286": 18
+  },
+  "skipped": 10,
+  "range_fail": 0
+ }
+}

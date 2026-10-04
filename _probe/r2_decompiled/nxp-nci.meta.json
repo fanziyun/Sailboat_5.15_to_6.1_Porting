@@ -1,0 +1,25 @@
+{
+ "module": "nxp-nci",
+ "functions": 68,
+ "decompiled": 68,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/nxp-nci.ko",
+  "region_base": "0x8015000",
+  "thunks": 79,
+  "gots": 5,
+  "relocs": {
+   "257": 81,
+   "260": 18,
+   "261": 90,
+   "275": 352,
+   "277": 334,
+   "278": 13,
+   "282": 20,
+   "283": 469,
+   "286": 10
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

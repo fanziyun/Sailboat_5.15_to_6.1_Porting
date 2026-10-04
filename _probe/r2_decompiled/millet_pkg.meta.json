@@ -1,0 +1,23 @@
+{
+ "module": "millet_pkg",
+ "functions": 21,
+ "decompiled": 21,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/millet_pkg.ko",
+  "region_base": "0x801a000",
+  "thunks": 15,
+  "gots": 2,
+  "relocs": {
+   "257": 8,
+   "260": 4,
+   "261": 20,
+   "275": 34,
+   "277": 34,
+   "282": 10,
+   "283": 27
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

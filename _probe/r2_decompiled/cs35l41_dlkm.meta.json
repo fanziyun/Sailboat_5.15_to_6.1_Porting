@@ -1,0 +1,26 @@
+{
+ "module": "cs35l41_dlkm",
+ "functions": 344,
+ "decompiled": 344,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cs35l41_dlkm.ko",
+  "region_base": "0x80b7000",
+  "thunks": 133,
+  "gots": 7,
+  "relocs": {
+   "257": 788,
+   "260": 24,
+   "261": 283,
+   "275": 1863,
+   "277": 1839,
+   "278": 4,
+   "282": 159,
+   "283": 9282,
+   "285": 3,
+   "286": 19
+  },
+  "skipped": 29,
+  "range_fail": 0
+ }
+}

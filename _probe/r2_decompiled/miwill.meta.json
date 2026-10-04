@@ -1,0 +1,26 @@
+{
+ "module": "miwill",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/miwill.ko",
+  "region_base": "0x801d000",
+  "thunks": 99,
+  "gots": 7,
+  "relocs": {
+   "257": 124,
+   "260": 4,
+   "261": 204,
+   "275": 359,
+   "277": 326,
+   "278": 7,
+   "282": 53,
+   "283": 459,
+   "285": 8,
+   "286": 30
+  },
+  "skipped": 6,
+  "range_fail": 0
+ }
+}

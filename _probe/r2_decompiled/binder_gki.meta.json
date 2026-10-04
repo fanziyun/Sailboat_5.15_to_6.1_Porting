@@ -1,0 +1,25 @@
+{
+ "module": "binder_gki",
+ "functions": 19,
+ "decompiled": 19,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/binder_gki.ko",
+  "region_base": "0x801a000",
+  "thunks": 19,
+  "gots": 2,
+  "relocs": {
+   "257": 12,
+   "260": 4,
+   "261": 28,
+   "275": 44,
+   "277": 29,
+   "278": 2,
+   "282": 9,
+   "283": 46,
+   "286": 14
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

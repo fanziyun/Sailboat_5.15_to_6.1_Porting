@@ -1,0 +1,25 @@
+{
+ "module": "debug-regulator",
+ "functions": 72,
+ "decompiled": 72,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/debug-regulator.ko",
+  "region_base": "0x801b000",
+  "thunks": 58,
+  "gots": 4,
+  "relocs": {
+   "257": 57,
+   "260": 6,
+   "261": 44,
+   "275": 182,
+   "277": 173,
+   "278": 5,
+   "282": 39,
+   "283": 116,
+   "286": 7
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "module": "bootinfo",
+ "functions": 17,
+ "decompiled": 17,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/bootinfo.ko",
+  "region_base": "0x8005000",
+  "thunks": 10,
+  "gots": 1,
+  "relocs": {
+   "257": 53,
+   "275": 59,
+   "277": 45,
+   "278": 7,
+   "282": 8,
+   "283": 28,
+   "285": 6,
+   "286": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

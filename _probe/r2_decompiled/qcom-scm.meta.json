@@ -1,0 +1,26 @@
+{
+ "module": "qcom-scm",
+ "functions": 264,
+ "decompiled": 264,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-scm.ko",
+  "region_base": "0x8032000",
+  "thunks": 78,
+  "gots": 10,
+  "relocs": {
+   "257": 36,
+   "260": 2,
+   "261": 359,
+   "275": 611,
+   "277": 379,
+   "278": 19,
+   "282": 122,
+   "283": 707,
+   "285": 101,
+   "286": 159
+  },
+  "skipped": 111,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "usb_f_gsi",
+ "functions": 150,
+ "decompiled": 150,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/usb_f_gsi.ko",
+  "region_base": "0x8047000",
+  "thunks": 115,
+  "gots": 6,
+  "relocs": {
+   "257": 212,
+   "260": 18,
+   "261": 204,
+   "275": 830,
+   "277": 783,
+   "278": 16,
+   "282": 63,
+   "283": 869,
+   "285": 5,
+   "286": 31
+  },
+  "skipped": 14,
+  "range_fail": 0
+ }
+}

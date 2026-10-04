@@ -1,0 +1,27 @@
+{
+ "module": "rndisipam",
+ "functions": 87,
+ "decompiled": 87,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rndisipam.ko",
+  "region_base": "0x8020000",
+  "thunks": 83,
+  "gots": 6,
+  "relocs": {
+   "257": 103,
+   "260": 27,
+   "261": 155,
+   "275": 686,
+   "277": 640,
+   "278": 4,
+   "282": 42,
+   "283": 433,
+   "284": 1,
+   "285": 1,
+   "286": 212
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

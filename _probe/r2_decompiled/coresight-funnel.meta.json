@@ -1,0 +1,24 @@
+{
+ "module": "coresight-funnel",
+ "functions": 31,
+ "decompiled": 31,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/coresight-funnel.ko",
+  "region_base": "0x8015000",
+  "thunks": 42,
+  "gots": 2,
+  "relocs": {
+   "257": 30,
+   "260": 10,
+   "261": 28,
+   "275": 37,
+   "277": 36,
+   "278": 2,
+   "282": 14,
+   "283": 70
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "module": "tcsrcc-kalama",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/tcsrcc-kalama.ko",
+  "region_base": "0x8004000",
+  "thunks": 8,
+  "gots": 1,
+  "relocs": {
+   "257": 34,
+   "275": 13,
+   "277": 13,
+   "282": 5,
+   "283": 8
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

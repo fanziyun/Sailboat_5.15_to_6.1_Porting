@@ -1,0 +1,24 @@
+{
+ "module": "cnss_plat_ipc_qmi_svc",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/cnss_plat_ipc_qmi_svc.ko",
+  "region_base": "0x8010000",
+  "thunks": 35,
+  "gots": 3,
+  "relocs": {
+   "257": 23,
+   "261": 187,
+   "275": 278,
+   "277": 244,
+   "278": 1,
+   "282": 15,
+   "283": 118,
+   "286": 54
+  },
+  "skipped": 15,
+  "range_fail": 0
+ }
+}

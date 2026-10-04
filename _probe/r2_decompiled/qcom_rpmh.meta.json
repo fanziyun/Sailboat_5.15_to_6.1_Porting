@@ -1,0 +1,26 @@
+{
+ "module": "qcom_rpmh",
+ "functions": 118,
+ "decompiled": 118,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_rpmh.ko",
+  "region_base": "0x8025000",
+  "thunks": 89,
+  "gots": 4,
+  "relocs": {
+   "257": 154,
+   "260": 15,
+   "261": 201,
+   "275": 176,
+   "277": 154,
+   "278": 14,
+   "282": 47,
+   "283": 387,
+   "285": 2,
+   "286": 7
+  },
+  "skipped": 12,
+  "range_fail": 0
+ }
+}

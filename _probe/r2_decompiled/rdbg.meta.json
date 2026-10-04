@@ -1,0 +1,26 @@
+{
+ "module": "rdbg",
+ "functions": 20,
+ "decompiled": 20,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rdbg.ko",
+  "region_base": "0x8009000",
+  "thunks": 37,
+  "gots": 4,
+  "relocs": {
+   "257": 15,
+   "260": 12,
+   "261": 62,
+   "275": 104,
+   "277": 85,
+   "278": 1,
+   "282": 9,
+   "283": 84,
+   "285": 6,
+   "286": 17
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

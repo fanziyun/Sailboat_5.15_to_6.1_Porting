@@ -1,0 +1,21 @@
+{
+ "module": "stm_console",
+ "functions": 12,
+ "decompiled": 12,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/stm_console.ko",
+  "region_base": "0x8003000",
+  "thunks": 6,
+  "gots": 0,
+  "relocs": {
+   "257": 7,
+   "275": 10,
+   "277": 10,
+   "282": 6,
+   "283": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "module": "qcom_cpuss_sleep_stats",
+ "functions": 25,
+ "decompiled": 25,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_cpuss_sleep_stats.ko",
+  "region_base": "0x8007000",
+  "thunks": 32,
+  "gots": 1,
+  "relocs": {
+   "257": 38,
+   "261": 2,
+   "275": 55,
+   "277": 54,
+   "282": 13,
+   "283": 80,
+   "285": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

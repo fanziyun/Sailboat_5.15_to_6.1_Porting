@@ -1,0 +1,26 @@
+{
+ "module": "kunit",
+ "functions": 109,
+ "decompiled": 109,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/kunit.ko",
+  "region_base": "0x8013000",
+  "thunks": 37,
+  "gots": 4,
+  "relocs": {
+   "257": 42,
+   "260": 16,
+   "261": 127,
+   "275": 200,
+   "277": 187,
+   "278": 4,
+   "282": 48,
+   "283": 229,
+   "285": 3,
+   "286": 9
+  },
+  "skipped": 27,
+  "range_fail": 0
+ }
+}

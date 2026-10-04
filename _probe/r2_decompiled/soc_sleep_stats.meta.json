@@ -1,0 +1,24 @@
+{
+ "module": "soc_sleep_stats",
+ "functions": 36,
+ "decompiled": 36,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/soc_sleep_stats.ko",
+  "region_base": "0x8009000",
+  "thunks": 43,
+  "gots": 1,
+  "relocs": {
+   "257": 38,
+   "261": 17,
+   "275": 77,
+   "277": 63,
+   "278": 5,
+   "282": 19,
+   "283": 103,
+   "286": 26
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

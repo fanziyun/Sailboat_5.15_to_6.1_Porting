@@ -1,0 +1,25 @@
+{
+ "module": "phy-qcom-ufs",
+ "functions": 47,
+ "decompiled": 47,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-qcom-ufs.ko",
+  "region_base": "0x800c000",
+  "thunks": 49,
+  "gots": 2,
+  "relocs": {
+   "257": 16,
+   "261": 59,
+   "275": 155,
+   "277": 149,
+   "278": 2,
+   "282": 21,
+   "283": 191,
+   "285": 2,
+   "286": 2
+  },
+  "skipped": 19,
+  "range_fail": 0
+ }
+}

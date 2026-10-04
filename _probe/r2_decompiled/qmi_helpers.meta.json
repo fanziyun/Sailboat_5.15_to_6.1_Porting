@@ -1,0 +1,23 @@
+{
+ "module": "qmi_helpers",
+ "functions": 40,
+ "decompiled": 40,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qmi_helpers.ko",
+  "region_base": "0x801e000",
+  "thunks": 37,
+  "gots": 0,
+  "relocs": {
+   "257": 14,
+   "261": 46,
+   "275": 82,
+   "277": 79,
+   "278": 3,
+   "282": 16,
+   "283": 163
+  },
+  "skipped": 14,
+  "range_fail": 0
+ }
+}

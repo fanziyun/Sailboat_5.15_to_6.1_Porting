@@ -1,0 +1,24 @@
+{
+ "module": "mhi_dev_satellite",
+ "functions": 24,
+ "decompiled": 24,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mhi_dev_satellite.ko",
+  "region_base": "0x800c000",
+  "thunks": 50,
+  "gots": 3,
+  "relocs": {
+   "257": 22,
+   "261": 16,
+   "275": 174,
+   "277": 154,
+   "278": 14,
+   "282": 12,
+   "283": 192,
+   "286": 17
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

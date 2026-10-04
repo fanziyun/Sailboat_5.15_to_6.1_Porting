@@ -1,0 +1,26 @@
+{
+ "module": "qcom_sysmon",
+ "functions": 45,
+ "decompiled": 45,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom_sysmon.ko",
+  "region_base": "0x800c000",
+  "thunks": 51,
+  "gots": 5,
+  "relocs": {
+   "257": 26,
+   "260": 4,
+   "261": 59,
+   "275": 130,
+   "277": 123,
+   "278": 2,
+   "282": 22,
+   "283": 128,
+   "285": 2,
+   "286": 3
+  },
+  "skipped": 5,
+  "range_fail": 0
+ }
+}

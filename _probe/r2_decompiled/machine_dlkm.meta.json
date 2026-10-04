@@ -1,0 +1,26 @@
+{
+ "module": "machine_dlkm",
+ "functions": 84,
+ "decompiled": 84,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/machine_dlkm.ko",
+  "region_base": "0x802a000",
+  "thunks": 106,
+  "gots": 7,
+  "relocs": {
+   "257": 827,
+   "260": 14,
+   "261": 52,
+   "275": 581,
+   "277": 541,
+   "278": 15,
+   "282": 37,
+   "283": 456,
+   "285": 23,
+   "286": 23
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

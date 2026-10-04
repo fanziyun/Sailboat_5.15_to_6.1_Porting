@@ -1,0 +1,25 @@
+{
+ "module": "hdcp_qseecom_dlkm",
+ "functions": 46,
+ "decompiled": 46,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hdcp_qseecom_dlkm.ko",
+  "region_base": "0x800e000",
+  "thunks": 15,
+  "gots": 1,
+  "relocs": {
+   "257": 78,
+   "261": 42,
+   "275": 342,
+   "277": 328,
+   "278": 1,
+   "282": 21,
+   "283": 153,
+   "285": 13,
+   "286": 12
+  },
+  "skipped": 14,
+  "range_fail": 0
+ }
+}

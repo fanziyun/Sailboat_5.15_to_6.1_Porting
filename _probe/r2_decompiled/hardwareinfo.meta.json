@@ -1,0 +1,22 @@
+{
+ "module": "hardwareinfo",
+ "functions": 10,
+ "decompiled": 10,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hardwareinfo.ko",
+  "region_base": "0x8004000",
+  "thunks": 21,
+  "gots": 4,
+  "relocs": {
+   "257": 11,
+   "275": 30,
+   "277": 20,
+   "282": 5,
+   "283": 23,
+   "286": 14
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

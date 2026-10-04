@@ -1,0 +1,24 @@
+{
+ "module": "qti_qmi_sensor_v2",
+ "functions": 33,
+ "decompiled": 33,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qti_qmi_sensor_v2.ko",
+  "region_base": "0x800b000",
+  "thunks": 38,
+  "gots": 3,
+  "relocs": {
+   "257": 23,
+   "261": 6,
+   "275": 100,
+   "277": 91,
+   "282": 15,
+   "283": 85,
+   "285": 8,
+   "286": 6
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

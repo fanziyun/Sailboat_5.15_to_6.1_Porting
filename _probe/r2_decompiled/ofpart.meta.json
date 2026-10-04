@@ -1,0 +1,21 @@
+{
+ "module": "ofpart",
+ "functions": 14,
+ "decompiled": 14,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/ofpart.ko",
+  "region_base": "0x8005000",
+  "thunks": 16,
+  "gots": 0,
+  "relocs": {
+   "257": 15,
+   "275": 28,
+   "277": 28,
+   "282": 7,
+   "283": 33
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

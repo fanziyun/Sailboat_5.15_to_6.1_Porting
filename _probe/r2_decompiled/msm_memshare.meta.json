@@ -1,0 +1,26 @@
+{
+ "module": "msm_memshare",
+ "functions": 26,
+ "decompiled": 26,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/msm_memshare.ko",
+  "region_base": "0x800c000",
+  "thunks": 42,
+  "gots": 6,
+  "relocs": {
+   "257": 16,
+   "260": 5,
+   "261": 50,
+   "275": 180,
+   "277": 131,
+   "278": 1,
+   "282": 11,
+   "283": 112,
+   "285": 12,
+   "286": 81
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

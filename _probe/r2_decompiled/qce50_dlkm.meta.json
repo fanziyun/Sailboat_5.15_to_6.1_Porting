@@ -1,0 +1,26 @@
+{
+ "module": "qce50_dlkm",
+ "functions": 80,
+ "decompiled": 80,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qce50_dlkm.ko",
+  "region_base": "0x8026000",
+  "thunks": 67,
+  "gots": 7,
+  "relocs": {
+   "257": 32,
+   "260": 55,
+   "261": 296,
+   "275": 433,
+   "277": 417,
+   "278": 14,
+   "282": 23,
+   "283": 707,
+   "285": 2,
+   "286": 8
+  },
+  "skipped": 18,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "gunyah",
+ "functions": 169,
+ "decompiled": 169,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gunyah.ko",
+  "region_base": "0x8039000",
+  "thunks": 149,
+  "gots": 7,
+  "relocs": {
+   "257": 284,
+   "260": 54,
+   "261": 359,
+   "275": 511,
+   "277": 459,
+   "278": 13,
+   "282": 66,
+   "283": 745,
+   "285": 10,
+   "286": 42
+  },
+  "skipped": 2,
+  "range_fail": 0
+ }
+}

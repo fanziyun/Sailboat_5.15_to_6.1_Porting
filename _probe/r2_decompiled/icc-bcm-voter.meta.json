@@ -1,0 +1,24 @@
+{
+ "module": "icc-bcm-voter",
+ "functions": 32,
+ "decompiled": 32,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/icc-bcm-voter.ko",
+  "region_base": "0x8012000",
+  "thunks": 35,
+  "gots": 1,
+  "relocs": {
+   "257": 41,
+   "260": 1,
+   "261": 43,
+   "275": 58,
+   "277": 57,
+   "282": 16,
+   "283": 66,
+   "286": 1
+  },
+  "skipped": 4,
+  "range_fail": 0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "module": "frpc-adsprpc",
+ "functions": 299,
+ "decompiled": 299,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/frpc-adsprpc.ko",
+  "region_base": "0x80ae000",
+  "thunks": 168,
+  "gots": 10,
+  "relocs": {
+   "257": 444,
+   "260": 438,
+   "261": 2808,
+   "275": 1311,
+   "277": 1081,
+   "278": 16,
+   "282": 160,
+   "283": 1635,
+   "285": 22,
+   "286": 268
+  },
+  "skipped": 3,
+  "range_fail": 0
+ }
+}

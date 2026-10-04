@@ -1,0 +1,26 @@
+{
+ "module": "pci-msm-drv",
+ "functions": 281,
+ "decompiled": 281,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/pci-msm-drv.ko",
+  "region_base": "0x8078000",
+  "thunks": 179,
+  "gots": 7,
+  "relocs": {
+   "257": 306,
+   "260": 10,
+   "261": 99,
+   "275": 3011,
+   "277": 2925,
+   "278": 11,
+   "282": 114,
+   "283": 2709,
+   "285": 98,
+   "286": 43
+  },
+  "skipped": 15,
+  "range_fail": 0
+ }
+}

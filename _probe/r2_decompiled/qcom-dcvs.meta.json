@@ -1,0 +1,26 @@
+{
+ "module": "qcom-dcvs",
+ "functions": 126,
+ "decompiled": 126,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/qcom-dcvs.ko",
+  "region_base": "0x8026000",
+  "thunks": 72,
+  "gots": 5,
+  "relocs": {
+   "257": 281,
+   "260": 5,
+   "261": 217,
+   "275": 202,
+   "277": 175,
+   "278": 2,
+   "282": 59,
+   "283": 278,
+   "285": 3,
+   "286": 32
+  },
+  "skipped": 28,
+  "range_fail": 0
+ }
+}

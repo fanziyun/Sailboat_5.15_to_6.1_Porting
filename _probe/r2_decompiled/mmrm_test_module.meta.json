@@ -1,0 +1,24 @@
+{
+ "module": "mmrm_test_module",
+ "functions": 23,
+ "decompiled": 23,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/mmrm_test_module.ko",
+  "region_base": "0x8015000",
+  "thunks": 27,
+  "gots": 0,
+  "relocs": {
+   "257": 34,
+   "275": 126,
+   "277": 118,
+   "278": 1,
+   "282": 6,
+   "283": 124,
+   "285": 2,
+   "286": 9
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

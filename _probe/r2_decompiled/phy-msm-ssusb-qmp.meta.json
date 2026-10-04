@@ -1,0 +1,22 @@
+{
+ "module": "phy-msm-ssusb-qmp",
+ "functions": 24,
+ "decompiled": 24,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/phy-msm-ssusb-qmp.ko",
+  "region_base": "0x800c000",
+  "thunks": 44,
+  "gots": 0,
+  "relocs": {
+   "257": 8,
+   "261": 2,
+   "275": 166,
+   "277": 166,
+   "282": 9,
+   "283": 288
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

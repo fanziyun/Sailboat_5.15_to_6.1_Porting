@@ -1,0 +1,26 @@
+{
+ "module": "gh_rm_drv",
+ "functions": 205,
+ "decompiled": 205,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/gh_rm_drv.ko",
+  "region_base": "0x803b000",
+  "thunks": 90,
+  "gots": 5,
+  "relocs": {
+   "257": 261,
+   "260": 15,
+   "261": 448,
+   "275": 535,
+   "277": 482,
+   "278": 6,
+   "282": 98,
+   "283": 564,
+   "284": 5,
+   "286": 53
+  },
+  "skipped": 57,
+  "range_fail": 0
+ }
+}

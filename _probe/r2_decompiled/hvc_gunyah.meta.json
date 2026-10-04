@@ -1,0 +1,23 @@
+{
+ "module": "hvc_gunyah",
+ "functions": 0,
+ "decompiled": 0,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/hvc_gunyah.ko",
+  "region_base": "0x8006000",
+  "thunks": 23,
+  "gots": 1,
+  "relocs": {
+   "257": 10,
+   "275": 46,
+   "277": 43,
+   "278": 4,
+   "282": 10,
+   "283": 48,
+   "286": 1
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

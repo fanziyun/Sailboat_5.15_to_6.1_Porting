@@ -1,0 +1,26 @@
+{
+ "module": "nvme",
+ "functions": 118,
+ "decompiled": 118,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/nvme.ko",
+  "region_base": "0x801d000",
+  "thunks": 156,
+  "gots": 12,
+  "relocs": {
+   "257": 95,
+   "260": 32,
+   "261": 120,
+   "275": 158,
+   "277": 131,
+   "278": 4,
+   "282": 52,
+   "283": 402,
+   "285": 17,
+   "286": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

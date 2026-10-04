@@ -1,0 +1,23 @@
+{
+ "module": "dump_display",
+ "functions": 9,
+ "decompiled": 9,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/dump_display.ko",
+  "region_base": "0x8004000",
+  "thunks": 14,
+  "gots": 0,
+  "relocs": {
+   "257": 6,
+   "275": 20,
+   "277": 17,
+   "278": 1,
+   "282": 4,
+   "283": 18,
+   "286": 4
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}

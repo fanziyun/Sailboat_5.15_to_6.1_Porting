@@ -1,0 +1,27 @@
+{
+ "module": "rmnet_shs",
+ "functions": 148,
+ "decompiled": 148,
+ "failed": [],
+ "patch": {
+  "in": "/home/fanziyun/r2work/in/rmnet_shs.ko",
+  "region_base": "0x8051000",
+  "thunks": 116,
+  "gots": 23,
+  "relocs": {
+   "257": 411,
+   "260": 153,
+   "261": 1254,
+   "275": 1186,
+   "277": 793,
+   "278": 79,
+   "282": 58,
+   "283": 988,
+   "284": 4,
+   "285": 182,
+   "286": 355
+  },
+  "skipped": 0,
+  "range_fail": 0
+ }
+}
