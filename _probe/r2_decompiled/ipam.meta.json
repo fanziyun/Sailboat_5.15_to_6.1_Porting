@@ -1,13 +1,14 @@
 {
  "module": "ipam",
- "functions": 519,
- "decompiled": 519,
+ "functions": 2444,
+ "decompiled": 2444,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/ipam.ko",
   "region_base": "0x853a000",
   "thunks": 385,
   "gots": 13,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 5728,
    "260": 277,
@@ -23,5 +24,6 @@
   },
   "skipped": 136,
   "range_fail": 0
- }
+ },
+ "repaired": 0
 }

@@ -84,6 +84,17 @@ def main():
     skipped = 0
     range_fail = 0
 
+    # Zero out SHT_NOBITS (.bss) section sizes: r2 maps NOBITS sections at
+    # base+sh_offset with full size, and where that VA range overlaps .text
+    # the zero-fill SHADOWS real code (functions read as 0-words and vanish
+    # from analysis). Unmapping .bss costs only its variable flag names.
+    bss_zeroed = 0
+    for s in elf.sections:
+        if s["typ"] == 8 and s["size"] > 0:  # SHT_NOBITS
+            o = elf.e_shoff + s["idx"] * elf.e_shentsize
+            struct.pack_into("<Q", elf.d, o + 0x20, 0)  # sh_size = 0
+            bss_zeroed += 1
+
     max_end = 0
     for s in elf.sections:
         va = vaddrs.get(s["name"])
@@ -227,6 +238,7 @@ def main():
     print(json.dumps({
         "in": in_path, "region_base": hex(region_base),
         "thunks": len(thunks), "gots": len(gots),
+        "bss_zeroed": bss_zeroed,
         "relocs": {str(k): v for k, v in sorted(hist.items())},
         "skipped": skipped, "range_fail": range_fail,
     }))

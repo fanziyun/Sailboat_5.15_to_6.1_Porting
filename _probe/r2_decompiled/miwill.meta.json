@@ -1,13 +1,14 @@
 {
  "module": "miwill",
- "functions": 14,
- "decompiled": 14,
+ "functions": 138,
+ "decompiled": 138,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/miwill.ko",
   "region_base": "0x801d000",
   "thunks": 99,
   "gots": 7,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 124,
    "260": 4,

@@ -1,13 +1,14 @@
 {
  "module": "camera",
- "functions": 0,
- "decompiled": 0,
+ "functions": 3823,
+ "decompiled": 3823,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/camera.ko",
   "region_base": "0x86b1000",
   "thunks": 387,
   "gots": 17,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 6987,
    "260": 648,
@@ -22,5 +23,6 @@
   },
   "skipped": 86,
   "range_fail": 0
- }
+ },
+ "repaired": 0
 }

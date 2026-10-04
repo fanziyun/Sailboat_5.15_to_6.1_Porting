@@ -1,5 +1,140 @@
 // decompiled from usb_f_diag by radare2+r2ghidra (pdg)
 
+// ===== sym.__cfi_check @ 0x08001000 (size 1036) =====
+
+//WARNING: Switch with 1 destination removed at 0x08003004
+
+void sym.__cfi_check(int64_t arg1,uint32_t arg2,int64_t arg3)
+
+{
+    code *pcVar1;
+    code *pcVar2;
+    ulong *in_x18;
+    ulong unaff_x30;
+    
+    pcVar1 = arg2;
+    if (arg1 < 0x7ff5a213d37b1a6) {
+        if (arg1 < -0xb18138ae74ccd30) {
+            if (arg1 < -0x55bd4d1e73a69e63) {
+                if (arg1 == -0x6f436feb9ec8bd9c) {
+                    pcVar2 = sym.usb_diag_open.cfi_jt;
+                }
+                else {
+                    if (arg1 != -0x61af895beaf3d6ee) goto code_r0x08002fc4;
+                    pcVar2 = sym.diag_function_bind.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+                }
+            }
+            else if (arg1 == -0x55bd4d1e73a69e63) {
+                pcVar2 = sym.diag_free_inst.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+            else if (arg1 == -0x40c850f010e177ae) {
+                pcVar2 = sym.usb_diag_close.cfi_jt;
+            }
+            else {
+                if (arg1 != -0x1f5194b81050a881) goto code_r0x08002fc4;
+                pcVar2 = sym.diag_alloc_inst.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+        }
+        else if (arg1 < -0x2ac316d8df914f8) {
+            if (arg1 == -0xb18138ae74ccd30) {
+                pcVar2 = sym.diag_set_inst_name.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+            else if (arg1 == -0x8dc801903aca538) {
+                pcVar2 = sym.debug_open.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+            else {
+                if (arg1 != -0x391b10cb41dc2a3) goto code_r0x08002fc4;
+                pcVar2 = sym.diag_alloc.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+        }
+        else if (arg1 == -0x2ac316d8df914f8) {
+            pcVar2 = sym.__typeid__ZTSFvP4krefE_global_addr;
+        }
+        else if (arg1 == 0x2b3a43e29242445) {
+            pcVar2 = sym.init_module.cfi_jt;
+        }
+        else {
+            if (arg1 != 0x52cc36eb4d4de95) goto code_r0x08002fc4;
+            pcVar2 = sym.usb_diag_alloc_req.cfi_jt;
+        }
+    }
+    else if (arg1 < 0x40ceb27a7e2157a1) {
+        if (arg1 < 0x1e8c334cfa2d7333) {
+            if (arg1 == 0x7ff5a213d37b1a6) {
+                pcVar2 = sym.debug_read_stats.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+            else {
+                if (arg1 == 0xeeff0ad281f3bef) {
+                    pcVar2 = sym.diag_serial_show.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+                    goto code_r0x080013d8;
+                }
+                if (arg1 != 0x1d7ed092cb04d3f1) goto code_r0x08002fc4;
+                pcVar2 = sym.debug_reset_stats.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+        }
+        else {
+            if (arg1 == 0x1e8c334cfa2d7333) {
+                pcVar2 = sym.diag_function_disable.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+                goto code_r0x080013d8;
+            }
+            if (arg1 == 0x2335293b6d480f98) {
+                pcVar2 = sym.diag_function_unbind.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+            else {
+                if (arg1 != 0x24dcfc1bf9debad7) goto code_r0x08002fc4;
+                pcVar2 = sym.usb_diag_request_size.cfi_jt;
+            }
+        }
+    }
+    else {
+        if (0x643f348a21390605 < arg1) {
+            if (arg1 == 0x643f348a21390606) {
+                pcVar2 = sym.diag_read_complete.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+            }
+            else {
+                if (arg1 != 0x7991820446edd3d6) {
+                    if (arg1 != 0x7e04a0fb7ad8bcd5) goto code_r0x08002fc4;
+                    pcVar2 = sym.cleanup_module.cfi_jt;
+                    goto code_r0x080013fc;
+                }
+                pcVar2 = sym.usb_diag_write.cfi_jt;
+            }
+code_r0x080013d8:
+            if ((pcVar1 - pcVar2 >> 3 | pcVar1 << 0x3d) < 2) {
+                return;
+            }
+            goto code_r0x08002fc4;
+        }
+        if (arg1 == 0x40ceb27a7e2157a1) {
+            pcVar2 = sym.diag_function_set_alt.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+        }
+        else {
+            if (arg1 != 0x6322b72e887e81ab) {
+                if (arg1 != 0x63cbeba280ab7603) goto code_r0x08002fc4;
+                pcVar2 = sym.diag_pid_store.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+                goto code_r0x080013d8;
+            }
+            pcVar2 = sym.diag_opts_release.33d1317ee70240f11d7c2b8118384c9b.cfi_jt;
+        }
+    }
+code_r0x080013fc:
+    if (pcVar1 == pcVar2) {
+        return;
+    }
+code_r0x08002fc4:
+    *in_x18 = unaff_x30;
+    if (arg3 != 0) {
+        if (4 < *arg3) {
+            return;
+        }
+        __ubsan_handle_cfi_check_fail_abort(arg3,pcVar1,0);
+    }
+    //WARNING: Does not return
+    pcVar1 = SoftwareBreakpoint(0x5502,0x8003018);
+    (*pcVar1)();
+}
+
+
 // ===== sym.diag_function_bind.33d1317ee70240f11d7c2b8118384c9b.cfi_jt @ 0x08001418 (size 8) =====
 
 void sym.diag_function_bind.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(int64_t param_1,int64_t param_2)
@@ -301,17 +436,17 @@ int sym.init_module.cfi_jt(void)
     *in_x18 = unaff_x30;
     _obj.diag_dev_list = obj.diag_dev_list;
     _obj.usb_diag_read.rl = obj.diag_dev_list;
-    _segment.ehdr = debugfs_create_dir("",0);
+    _segment.ehdr = debugfs_create_dir("usb_diag",0);
     if (((_segment.ehdr != 0) && (_segment.ehdr < 0xfffffffffffff001)) &&
-       ((uVar2 = debugfs_create_file("",0x124,_segment.ehdr,0,obj.debug_fdiag_ops), uVar2 == 0 ||
+       ((uVar2 = debugfs_create_file("status",0x124,_segment.ehdr,0,obj.debug_fdiag_ops), uVar2 == 0 ||
         (0xfffffffffffff000 < uVar2)))) {
         debugfs_remove(_segment.ehdr);
         _segment.ehdr = 0;
     }
     iVar1 = usb_function_register(obj.diagusb_func);
     if (iVar1 == 0) {
-        iVar3 = of_find_compatible_node(0,0,"");
-        if ((iVar3 == 0) && (iVar3 = of_find_compatible_node(0,0,""), iVar3 == 0)) {
+        iVar3 = of_find_compatible_node(0,0,"qcom,msm-imem-diag-dload");
+        if ((iVar3 == 0) && (iVar3 = of_find_compatible_node(0,0,"qcom,android-usb"), iVar3 == 0)) {
             _printk(0x8000464);
             _segment.ehdr = 0;
         }
@@ -320,7 +455,7 @@ int sym.init_module.cfi_jt(void)
         }
     }
     else {
-        _printk(0x800058e,"",iVar1);
+        _printk(0x800058e,"diag_init",iVar1);
     }
     return iVar1;
 }
@@ -381,8 +516,10 @@ void sym.debug_read_stats.33d1317ee70240f11d7c2b8118384c9b.cfi_jt
             iVar3 = *(pcVar5 + 0x20);
             if (iVar3 != 0) {
                 uVar2 = _raw_spin_lock_irqsave(iVar3 + 0x108);
-                iVar1 = scnprintf(obj.debug_buffer + iVar4,0x1000 - iVar4,"",*(pcVar5 + -8),*(*(iVar3 + 0xe0) + 8),
-                                  *(*(iVar3 + 0xd8) + 8),*(iVar3 + 0x128),*(iVar3 + 0x130),*(iVar3 + 0x138));
+                iVar1 = scnprintf(obj.debug_buffer + iVar4,0x1000 - iVar4,
+                                  "---Name: %s---\nendpoints: %s, %s\ndpkts_tolaptop: %lu\ndpkts_tomodem:  %lu\npkts_tolaptop_pending: %u\n"
+                                  ,*(pcVar5 + -8),*(*(iVar3 + 0xe0) + 8),*(*(iVar3 + 0xd8) + 8),*(iVar3 + 0x128),
+                                  *(iVar3 + 0x130),*(iVar3 + 0x138));
                 iVar4 = iVar1 + iVar4;
                 _raw_spin_unlock_irqrestore(iVar3 + 0x108,uVar2);
             }
@@ -438,7 +575,7 @@ ulong sym.usb_diag_write.cfi_jt(int64_t param_1,int64_t *param_2)
     puVar2 = iVar16 + 0xf8;
     if (puVar2 == *puVar2) {
         _raw_spin_unlock_irqrestore(iVar1,uVar10);
-        _dev_err(**(iVar16 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar16 + 0x110) + 0x78,"%s: no requests available\n","usb_diag_write");
         return 0xfffffff5;
     }
     piVar13 = *puVar2;
@@ -501,9 +638,9 @@ code_r0x080021c4:
         *puVar14 = piVar13;
     }
     *(iVar16 + 0x138) = *(iVar16 + 0x138) + -1;
-    iVar9 = ___ratelimit(obj.usb_diag_write.rl,"");
+    iVar9 = ___ratelimit(obj.usb_diag_write.rl,"usb_diag_write");
     if (iVar9 != 0) {
-        _dev_err(**(iVar16 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar16 + 0x110) + 0x78,"%s: cannot queue read request\n","usb_diag_write");
     }
     Hint_Prefetch(puVar3,2,0,1);
     do {
@@ -566,7 +703,7 @@ ulong sym.usb_diag_read.cfi_jt(int64_t param_1,int64_t *param_2)
     puVar2 = iVar16 + 0xe8;
     if (puVar2 == *puVar2) {
         _raw_spin_unlock_irqrestore(iVar1,uVar10);
-        _dev_err(**(iVar16 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar16 + 0x110) + 0x78,"%s: no requests available\n","usb_diag_read");
         return 0xfffffff5;
     }
     piVar13 = *puVar2;
@@ -627,9 +764,9 @@ code_r0x08001e90:
         piVar13[1] = puVar14;
         *puVar14 = piVar13;
     }
-    iVar9 = ___ratelimit(obj.usb_diag_read.rl,"");
+    iVar9 = ___ratelimit(obj.usb_diag_read.rl,"usb_diag_read");
     if (iVar9 != 0) {
-        _dev_err(**(iVar16 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar16 + 0x110) + 0x78,"%s: cannot queue read request\n","usb_diag_read");
     }
     Hint_Prefetch(puVar3,2,0,1);
     do {
@@ -690,7 +827,7 @@ ulong sym.diag_pid_store.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(ulong param_1,u
     
     *in_x18 = unaff_x30;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_pid_store");
         param_3 = 0;
     }
     return param_3;
@@ -761,7 +898,7 @@ ulong sym.diag_serial_store.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(ulong param_
     uStack_a8 = 0;
     uStack_a0 = 0;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_serial_store");
         param_3 = 0;
     }
     else {
@@ -1183,12 +1320,13 @@ int sym.diag_function_set_alt.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(int64_t pa
                     }
                 }
                 else {
-                    _dev_err(**(param_1 + 0x110) + 0x78,"",*(*(param_1 + 0xd8) + 8),iVar1);
+                    _dev_err(**(param_1 + 0x110) + 0x78,"can\'t enable %s, result %d\n",*(*(param_1 + 0xd8) + 8),
+                             iVar1);
                     usb_ep_disable(*(param_1 + 0xe0));
                 }
             }
             else {
-                _dev_err(**(param_1 + 0x110) + 0x78,"",*(*(param_1 + 0xe0) + 8),iVar1);
+                _dev_err(**(param_1 + 0x110) + 0x78,"can\'t enable %s, result %d\n",*(*(param_1 + 0xe0) + 8),iVar1);
             }
         }
     }
@@ -1341,7 +1479,7 @@ ulong * sym.diag_alloc.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(int64_t param_1)
         iVar4 = strcmp(uVar8,*pcVar5);
         if (iVar4 == 0) goto code_r0x08002550;
     }
-    _printk(0x8000491,"");
+    _printk(0x8000491,"diag_context_init");
     iVar2 = 0x38;
     if (android_kmalloc_64_create != 0x0) {
         iVar2 = 0x30;
@@ -1487,7 +1625,7 @@ int64_t sym.diag_serial_show.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(ulong param
     uStack_a8 = 0;
     uStack_b8 = 0;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_serial_show");
         iVar4 = -0x16;
     }
     else {
@@ -1527,7 +1665,7 @@ int64_t sym.diag_serial_show.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(ulong param
     uStack_d0 = unaff_x20;
     uStack_c8 = unaff_x19;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_serial_store");
         param_3 = 0;
     }
     else {
@@ -1698,7 +1836,7 @@ int64_t sym.diag_pid_show.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(ulong param_1,
     auStack_b8[2] = 0;
     auStack_b8[0] = 0;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_pid_show");
         iVar3 = -0x16;
     }
     else {
@@ -1714,7 +1852,7 @@ int64_t sym.diag_pid_show.33d1317ee70240f11d7c2b8118384c9b.cfi_jt(ulong param_1,
     __stack_chk_fail(iVar3);
     *extraout_x18 = sym.diag_pid_store;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_pid_store");
         param_3 = 0;
     }
     return param_3;
@@ -2102,7 +2240,7 @@ ulong sym.usb_diag_read(int64_t arg1,int64_t arg2)
     puVar2 = iVar17 + 0xe8;
     if (puVar2 == *puVar2) {
         _raw_spin_unlock_irqrestore(iVar1,uVar11);
-        _dev_err(**(iVar17 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar17 + 0x110) + 0x78,"%s: no requests available\n","usb_diag_read");
         return 0xfffffff5;
     }
     piVar14 = *puVar2;
@@ -2163,9 +2301,9 @@ code_r0x08001e90:
         piVar14[1] = puVar15;
         *puVar15 = piVar14;
     }
-    iVar10 = ___ratelimit(obj.usb_diag_read.rl,"");
+    iVar10 = ___ratelimit(obj.usb_diag_read.rl,"usb_diag_read");
     if (iVar10 != 0) {
-        _dev_err(**(iVar17 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar17 + 0x110) + 0x78,"%s: cannot queue read request\n","usb_diag_read");
     }
     Hint_Prefetch(puVar3,2,0,1);
     do {
@@ -2244,7 +2382,7 @@ ulong sym.usb_diag_write(int64_t arg1,int64_t arg2)
     puVar2 = iVar17 + 0xf8;
     if (puVar2 == *puVar2) {
         _raw_spin_unlock_irqrestore(iVar1,uVar11);
-        _dev_err(**(iVar17 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar17 + 0x110) + 0x78,"%s: no requests available\n","usb_diag_write");
         return 0xfffffff5;
     }
     piVar14 = *puVar2;
@@ -2307,9 +2445,9 @@ code_r0x080021c4:
         *puVar15 = piVar14;
     }
     *(iVar17 + 0x138) = *(iVar17 + 0x138) + -1;
-    iVar10 = ___ratelimit(obj.usb_diag_write.rl,"");
+    iVar10 = ___ratelimit(obj.usb_diag_write.rl,"usb_diag_write");
     if (iVar10 != 0) {
-        _dev_err(**(iVar17 + 0x110) + 0x78,"","");
+        _dev_err(**(iVar17 + 0x110) + 0x78,"%s: cannot queue read request\n","usb_diag_write");
     }
     Hint_Prefetch(puVar3,2,0,1);
     do {
@@ -2361,8 +2499,10 @@ void sym.debug_read_stats(int64_t arg1,int64_t arg2,int64_t arg3,int64_t arg4)
             iVar3 = *(pcVar5 + 0x20);
             if (iVar3 != 0) {
                 uVar2 = _raw_spin_lock_irqsave(iVar3 + 0x108);
-                iVar1 = scnprintf(obj.debug_buffer + iVar4,0x1000 - iVar4,"",*(pcVar5 + -8),*(*(iVar3 + 0xe0) + 8),
-                                  *(*(iVar3 + 0xd8) + 8),*(iVar3 + 0x128),*(iVar3 + 0x130),*(iVar3 + 0x138));
+                iVar1 = scnprintf(obj.debug_buffer + iVar4,0x1000 - iVar4,
+                                  "---Name: %s---\nendpoints: %s, %s\ndpkts_tolaptop: %lu\ndpkts_tomodem:  %lu\npkts_tolaptop_pending: %u\n"
+                                  ,*(pcVar5 + -8),*(*(iVar3 + 0xe0) + 8),*(*(iVar3 + 0xd8) + 8),*(iVar3 + 0x128),
+                                  *(iVar3 + 0x130),*(iVar3 + 0x138));
                 iVar4 = iVar1 + iVar4;
                 _raw_spin_unlock_irqrestore(iVar3 + 0x108,uVar2);
             }
@@ -2457,7 +2597,7 @@ ulong * sym.diag_alloc(int64_t arg1)
         iVar4 = strcmp(uVar8,*pcVar5);
         if (iVar4 == 0) goto code_r0x08002550;
     }
-    _printk(0x8000491,"");
+    _printk(0x8000491,"diag_context_init");
     iVar2 = 0x38;
     if (android_kmalloc_64_create != 0x0) {
         iVar2 = 0x30;
@@ -2606,7 +2746,7 @@ int64_t sym.diag_pid_show(int64_t arg1,int64_t arg2)
     auStack_b8[2] = 0;
     auStack_b8[0] = 0;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_pid_show");
         iVar3 = -0x16;
     }
     else {
@@ -2622,7 +2762,7 @@ int64_t sym.diag_pid_show(int64_t arg1,int64_t arg2)
     __stack_chk_fail(iVar3);
     *extraout_x18 = sym.diag_pid_store;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_pid_store");
         in_x2 = 0;
     }
     return in_x2;
@@ -2639,7 +2779,7 @@ int64_t sym.diag_pid_store(ulong noname_0,uchar noname_1 [16],int64_t arg1)
     
     *in_x18 = unaff_x30;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_pid_store");
         arg1 = 0;
     }
     return arg1;
@@ -2741,7 +2881,7 @@ int64_t sym.diag_serial_show(int64_t arg1,int64_t arg2)
     uStack_a8 = 0;
     uStack_b8 = 0;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_serial_show");
         iVar4 = -0x16;
     }
     else {
@@ -2781,7 +2921,7 @@ int64_t sym.diag_serial_show(int64_t arg1,int64_t arg2)
     uStack_d0 = unaff_x20;
     iStack_c8 = unaff_x19;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_serial_store");
         in_x2 = 0;
     }
     else {
@@ -2980,7 +3120,7 @@ int64_t sym.diag_serial_store(ulong noname_0,uchar noname_1 [16],int64_t arg1)
     uStack_a8 = 0;
     uStack_a0 = 0;
     if (_segment.ehdr == 0) {
-        _printk(0x800065f,"");
+        _printk(0x800065f,"diag_serial_store");
         arg1 = 0;
     }
     else {
@@ -3312,12 +3452,12 @@ int sym.diag_function_set_alt(int64_t arg1)
                     }
                 }
                 else {
-                    _dev_err(**(arg1 + 0x110) + 0x78,"",*(*(arg1 + 0xd8) + 8),iVar1);
+                    _dev_err(**(arg1 + 0x110) + 0x78,"can\'t enable %s, result %d\n",*(*(arg1 + 0xd8) + 8),iVar1);
                     usb_ep_disable(*(arg1 + 0xe0));
                 }
             }
             else {
-                _dev_err(**(arg1 + 0x110) + 0x78,"",*(*(arg1 + 0xe0) + 8),iVar1);
+                _dev_err(**(arg1 + 0x110) + 0x78,"can\'t enable %s, result %d\n",*(*(arg1 + 0xe0) + 8),iVar1);
             }
         }
     }
@@ -3453,17 +3593,17 @@ int sym.init_module(void)
     *in_x18 = unaff_x30;
     _obj.diag_dev_list = obj.diag_dev_list;
     _obj.usb_diag_read.rl = obj.diag_dev_list;
-    _segment.ehdr = debugfs_create_dir("",0);
+    _segment.ehdr = debugfs_create_dir("usb_diag",0);
     if (((_segment.ehdr != 0) && (_segment.ehdr < 0xfffffffffffff001)) &&
-       ((uVar2 = debugfs_create_file("",0x124,_segment.ehdr,0,obj.debug_fdiag_ops), uVar2 == 0 ||
+       ((uVar2 = debugfs_create_file("status",0x124,_segment.ehdr,0,obj.debug_fdiag_ops), uVar2 == 0 ||
         (0xfffffffffffff000 < uVar2)))) {
         debugfs_remove(_segment.ehdr);
         _segment.ehdr = 0;
     }
     iVar1 = usb_function_register(obj.diagusb_func);
     if (iVar1 == 0) {
-        iVar3 = of_find_compatible_node(0,0,"");
-        if ((iVar3 == 0) && (iVar3 = of_find_compatible_node(0,0,""), iVar3 == 0)) {
+        iVar3 = of_find_compatible_node(0,0,"qcom,msm-imem-diag-dload");
+        if ((iVar3 == 0) && (iVar3 = of_find_compatible_node(0,0,"qcom,android-usb"), iVar3 == 0)) {
             _printk(0x8000464);
             _segment.ehdr = 0;
         }
@@ -3472,7 +3612,7 @@ int sym.init_module(void)
         }
     }
     else {
-        _printk(0x800058e,"",iVar1);
+        _printk(0x800058e,"diag_init",iVar1);
     }
     return iVar1;
 }

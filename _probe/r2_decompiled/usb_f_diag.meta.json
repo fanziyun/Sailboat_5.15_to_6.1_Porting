@@ -1,13 +1,14 @@
 {
  "module": "usb_f_diag",
- "functions": 58,
- "decompiled": 58,
+ "functions": 59,
+ "decompiled": 59,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/usb_f_diag.ko",
   "region_base": "0x800c000",
   "thunks": 46,
   "gots": 3,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 48,
    "260": 10,

@@ -1,13 +1,14 @@
 {
  "module": "mi_exception_log",
- "functions": 0,
- "decompiled": 0,
+ "functions": 15,
+ "decompiled": 15,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/mi_exception_log.ko",
   "region_base": "0x801a000",
   "thunks": 22,
   "gots": 4,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 11,
    "260": 6,

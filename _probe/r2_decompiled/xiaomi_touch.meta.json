@@ -1,13 +1,14 @@
 {
  "module": "xiaomi_touch",
- "functions": 54,
- "decompiled": 54,
+ "functions": 159,
+ "decompiled": 159,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/xiaomi_touch.ko",
   "region_base": "0x8022000",
   "thunks": 78,
   "gots": 7,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 145,
    "260": 38,

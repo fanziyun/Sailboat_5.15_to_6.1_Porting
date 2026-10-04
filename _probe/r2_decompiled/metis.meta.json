@@ -1,13 +1,14 @@
 {
  "module": "metis",
- "functions": 0,
- "decompiled": 0,
+ "functions": 323,
+ "decompiled": 323,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/metis.ko",
   "region_base": "0x805f000",
   "thunks": 142,
   "gots": 13,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 293,
    "260": 206,

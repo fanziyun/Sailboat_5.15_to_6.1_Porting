@@ -2,7 +2,7 @@
 
 对一台 Redmi K70（代号 `vermeer`，骁龙 8 Gen 2 / SM8550，出厂 HyperOS：Android 16 用户态 + Android 13 vendor + 5.15.220 GKI 内核）做**内核大版本升级可行性研究**：能否让 5.15 的 408 个 vendor 内核模块跑在 6.1 GKI 内核上。
 
-> **状态**：Phase 1 完成（CFI 障碍排除）；Phase 2 已实证"纯兼容层路线不可行"；当前产出为 **408 个 vendor 模块、61,505 个函数的完整 C 反编译语料**，作为 5.15 侧 ABI/struct 证据库。English version: [README_en.md](README_en.md)
+> **状态**：Phase 1 完成（CFI 障碍排除）；Phase 2 已实证"纯兼容层路线不可行"；当前产出为 **408 个 vendor 模块、68,492 个函数的完整 C 反编译语料**，作为 5.15 侧 ABI/struct 证据库。English version: [README_en.md](README_en.md)
 
 ## 背景：这不是一台"Android 13 手机"
 
@@ -22,7 +22,7 @@ SM8550 的 KMI 基线就是 5.15：小米开源树止步 5.15.78，LineageOS 全
 
 ## 反编译语料（`_probe/r2_decompiled/`）
 
-- **408 模块 / 61,505 函数 / 全部成功 / 0 失败**，205MB
+- **408 模块 / 68,492 函数 / 全部成功 / 0 失败**，205MB
   - 293 个来自 `vendor_dlkm_a.img`（`/vendor_dlkm/lib/modules`）
   - 115 个来自 `vendor_boot` ramdisk（与 vendor_dlkm 不重合的首启模块，清单见 `_probe/vendor_boot_missing_list.txt`）
   - 索引：[`_probe/r2_decompiled/INDEX.md`](_probe/r2_decompiled/INDEX.md)，每模块另有 `.meta.json`（函数数/失败/reloc 统计）

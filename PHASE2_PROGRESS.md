@@ -383,19 +383,44 @@ Ghidra 全线 UndefinedInstructionException，函数分析也断）。
   其余 3 个约 1 小时级。工作副本在 WSL ext4（~/r2work/{in,out,log,tmp}），
   完成后回拷项目目录。
 
-### 结果（最终，2026-10-04）
+### 结果（最终，2026-10-05，含全量审查修复）
 
-- **408/408 模块（293 vendor_dlkm + 115 vendor_boot 独有），61,505 函数全部
-  pdg 成功，0 失败**。最大：qca_cld3_kiwi_v2 19,013 函数/52MB、msm_drm 17MB、
-  mac80211 2,218 函数。
+- **408/408 模块（293 vendor_dlkm + 115 vendor_boot 独有），68,492 函数 100%
+  覆盖 / 0 失败 / 0 空体**。最大：qca_cld3_kiwi_v2 19,013 函数/52MB、
+  msm_drm 17MB、mac80211 2,218 函数。
 - 输出：`_probe/r2_decompiled/<name>.pdg.c` + `<name>.meta.json` +
-  `INDEX.md`/`index.json`（205MB）。
+  `INDEX.md`/`index.json`（256MB）。
 - 526/624 个模块自带 `.BTF` 段（11MB）——模块侧 struct 布局的机器可读证据，
   与 6.1 侧 BTF（k61 需开 CONFIG_DEBUG_INFO_BTF 重编）做 diff 即可程序化定位
   struct 漂移，这是比读反编译更锋利的下一步工具。
 - vendor_boot 独有 115 模块清单：`_probe/vendor_boot_missing_list.txt`
   （sched-walt、qcom_cpu_vendor_hooks、gcc-kalama、rpmh-regulator、qcom_tsens、
   qcom-cpufreq-hw、pinctrl-kalama、gunyah 全家……= 首启致命批次的主体）。
+
+### 语料审查（2026-10-05，全量审计 + 修复完成）
+
+对 408 模块逐块审计（块数 vs meta、空体、UIE、func_0x、reloc 跳过分类、
+段名冲突、索引一致性），发现并处置：
+
+1. **`.bss` 零填充覆盖代码（严重，已修）**：364/408 模块的 `.bss` VA 范围
+   （r2 按 基址+sh_offset 映射 NOBITS）与其它段重叠，其中 22 个盖住可执行段
+   （camera 1.6MB、ipam 861KB 最重）。被盖函数在 r2 里读出全 0 → 无法建函数
+   → 调用点渲染 func_0x（ipam 8,581 处）。修复：ko_patch 将所有 NOBITS 的
+   sh_size 清零（代价仅 .bss 变量旗标名），22 模块重做后 ipam func_0x=0，
+   **全语料函数数 61,505 → 68,492**（恢复出 ~7,000 个被埋函数）。
+   另 336 模块仅盖数据段（范围内字符串显示为空），记录为已知限制。
+2. **空函数体（会话劣化，已修）**：pdg 在同一会话连续工作后开始静默返回空
+   （干净会话秒级解出同一函数）。修复工具 ko_repair.py：小函数批量+会话
+   600s 看门狗（SIGKILL 兜底），大函数逐个新会话，pdg 顽固失败者（cfi_jt/
+   trace 跳板被尾调用内联出 0.5MB 巨型输出或触发内部超时）降级为**带标注的
+   反汇编兜底**（pdf 秒出、有界）。最终全语料 0 空体。
+   教训：`-e r2ghidra.timeout` 从不生效（插件配置在 -e 处理时不存在），
+   进程级看门狗是唯一可靠边界。
+3. **`UndefinedInstructionException` ×2（良性）**：cdsprm/rmnet_aps/xlogchar
+   的 cleanup_module/init_module——r2 函数边界扫进紧邻的 `__param` 段
+   （模块参数表，纯数据），Ghidra 把数据字 0 当指令。重定位全对，非缺陷。
+4. 审计套件（可复跑）：audit_corpus.py / audit_empties2.py / audit_func0x.py /
+   audit_uie.py / classify_skipped.py / scan_bss_class.py / ko_repair.py。
 
 ### 大模块资源坑（mac80211 战役实录，会再遇到）
 

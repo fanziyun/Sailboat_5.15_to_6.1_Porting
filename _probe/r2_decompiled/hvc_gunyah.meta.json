@@ -1,13 +1,14 @@
 {
  "module": "hvc_gunyah",
- "functions": 0,
- "decompiled": 0,
+ "functions": 20,
+ "decompiled": 20,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/hvc_gunyah.ko",
   "region_base": "0x8006000",
   "thunks": 23,
   "gots": 1,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 10,
    "275": 46,

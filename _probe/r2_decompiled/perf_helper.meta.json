@@ -1,13 +1,14 @@
 {
  "module": "perf_helper",
- "functions": 0,
- "decompiled": 0,
+ "functions": 54,
+ "decompiled": 54,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/perf_helper.ko",
   "region_base": "0x8091000",
   "thunks": 58,
   "gots": 5,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 48,
    "260": 6,

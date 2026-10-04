@@ -1,13 +1,14 @@
 {
  "module": "debug_ext",
- "functions": 14,
- "decompiled": 14,
+ "functions": 48,
+ "decompiled": 48,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/debug_ext.ko",
   "region_base": "0x800a000",
   "thunks": 48,
   "gots": 5,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 17,
    "260": 8,

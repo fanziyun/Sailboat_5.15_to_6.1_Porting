@@ -1,13 +1,14 @@
 {
  "module": "mi_schedule",
- "functions": 0,
- "decompiled": 0,
+ "functions": 109,
+ "decompiled": 109,
  "failed": [],
  "patch": {
   "in": "/home/fanziyun/r2work/in/mi_schedule.ko",
   "region_base": "0x8025000",
   "thunks": 54,
   "gots": 10,
+  "bss_zeroed": 1,
   "relocs": {
    "257": 63,
    "260": 46,

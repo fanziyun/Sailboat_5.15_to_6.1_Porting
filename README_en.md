@@ -2,7 +2,7 @@
 
 A feasibility study of a **major kernel version upgrade** on a Redmi K70 (codename `vermeer`, Snapdragon 8 Gen 2 / SM8550, shipping HyperOS: Android 16 userspace + Android 13 vendor + 5.15.220 GKI kernel): can the 408 vendor kernel modules built for 5.15 run on a 6.1 GKI kernel?
 
-> **Status**: Phase 1 complete (CFI barrier solved); Phase 2 proved the "pure compatibility-shim" route is not viable; the current deliverable is a **complete C decompilation corpus of 408 vendor modules / 61,505 functions** — the 5.15-side ABI/struct evidence base. 中文版：[README.md](README.md)
+> **Status**: Phase 1 complete (CFI barrier solved); Phase 2 proved the "pure compatibility-shim" route is not viable; the current deliverable is a **complete C decompilation corpus of 408 vendor modules / 68,492 functions** — the 5.15-side ABI/struct evidence base. 中文版：[README.md](README.md)
 
 ## Background: this is not an "Android 13 phone"
 
@@ -22,7 +22,7 @@ The SM8550 KMI baseline is 5.15: Xiaomi's open-source tree stops at 5.15.78, eve
 
 ## The decompilation corpus (`_probe/r2_decompiled/`)
 
-- **408 modules / 61,505 functions / all succeeded / 0 failures**, 205 MB
+- **408 modules / 68,492 functions / all succeeded / 0 failures**, 205 MB
   - 293 from `vendor_dlkm_a.img` (`/vendor_dlkm/lib/modules`)
   - 115 from the `vendor_boot` ramdisk (first-stage modules not present in vendor_dlkm; list in `_probe/vendor_boot_missing_list.txt`)
   - Index: [`_probe/r2_decompiled/INDEX.md`](_probe/r2_decompiled/INDEX.md); each module also has a `.meta.json` (function count / failures / relocation stats)

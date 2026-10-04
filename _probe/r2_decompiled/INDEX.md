@@ -28,7 +28,7 @@
 | c1dcvs_scmi | 38 | 38 | 0 | 1 |
 | c1dcvs_vendor | 35 | 35 | 0 | 0 |
 | camcc-kalama | 14 | 14 | 0 | 0 |
-| camera | 0 | 0 | 0 | 86 |
+| camera | 3823 | 3823 | 0 | 86 |
 | cameralog | 22 | 22 | 0 | 1 |
 | cdsp-loader | 12 | 12 | 0 | 0 |
 | cdsprm | 81 | 81 | 0 | 9 |
@@ -72,7 +72,7 @@
 | dcvs_fp | 13 | 13 | 0 | 1 |
 | ddr_cdev | 16 | 16 | 0 | 0 |
 | debug-regulator | 72 | 72 | 0 | 4 |
-| debug_ext | 14 | 14 | 0 | 0 |
+| debug_ext | 48 | 48 | 0 | 0 |
 | debug_symbol | 8 | 8 | 0 | 2 |
 | debugcc-kalama | 6 | 6 | 0 | 0 |
 | dispcc-kalama | 14 | 14 | 0 | 0 |
@@ -110,7 +110,7 @@
 | heap_mem_ext_v01 | 2 | 2 | 0 | 7 |
 | hid-xbox_haptics-mi | 14 | 14 | 0 | 0 |
 | hung_task_enh | 15 | 15 | 0 | 0 |
-| hvc_gunyah | 0 | 0 | 0 | 0 |
+| hvc_gunyah | 20 | 20 | 0 | 0 |
 | hwid | 32 | 32 | 0 | 9 |
 | hwkm | 8 | 8 | 0 | 2 |
 | i2c-msm-geni | 59 | 59 | 0 | 0 |
@@ -123,7 +123,7 @@
 | iommu-logger | 6 | 6 | 0 | 2 |
 | ipa_clientsm | 285 | 285 | 0 | 2 |
 | ipa_fmwk | 324 | 324 | 0 | 159 |
-| ipam | 519 | 519 | 0 | 136 |
+| ipam | 2444 | 2444 | 0 | 136 |
 | ipanetm | 6 | 6 | 0 | 0 |
 | ir-spi | 20 | 20 | 0 | 0 |
 | kunit | 109 | 109 | 0 | 27 |
@@ -153,7 +153,7 @@
 | memlat_scmi | 8 | 8 | 0 | 0 |
 | memlat_vendor | 62 | 62 | 0 | 0 |
 | memory_dump_v2 | 36 | 36 | 0 | 3 |
-| metis | 0 | 0 | 0 | 73 |
+| metis | 323 | 323 | 0 | 73 |
 | mhi | 266 | 266 | 0 | 59 |
 | mhi_cntrl_qcom | 95 | 95 | 0 | 0 |
 | mhi_dev_dtr | 18 | 18 | 0 | 1 |
@@ -161,17 +161,17 @@
 | mhi_dev_satellite | 24 | 24 | 0 | 0 |
 | mhi_dev_uci | 34 | 34 | 0 | 0 |
 | mi_cnss_statistic | 14 | 14 | 0 | 2 |
-| mi_exception_log | 0 | 0 | 0 | 0 |
-| mi_freqwdg | 0 | 0 | 0 | 1 |
+| mi_exception_log | 15 | 15 | 0 | 0 |
+| mi_freqwdg | 26 | 26 | 0 | 1 |
 | mi_log | 19 | 19 | 0 | 0 |
 | mi_memory | 47 | 47 | 0 | 0 |
 | mi_mempool | 34 | 34 | 0 | 0 |
 | mi_power | 78 | 78 | 0 | 9 |
-| mi_schedule | 0 | 0 | 0 | 14 |
+| mi_schedule | 109 | 109 | 0 | 14 |
 | mi_thermal_interface | 124 | 124 | 0 | 0 |
 | microdump_collector | 15 | 15 | 0 | 0 |
 | miev | 37 | 37 | 0 | 5 |
-| migt | 0 | 0 | 0 | 5 |
+| migt | 179 | 179 | 0 | 5 |
 | miicmpfilter | 17 | 17 | 0 | 0 |
 | millet_binder | 24 | 24 | 0 | 0 |
 | millet_core | 31 | 31 | 0 | 7 |
@@ -181,7 +181,7 @@
 | millet_sig | 10 | 10 | 0 | 1 |
 | minet | 58 | 58 | 0 | 0 |
 | minidump | 125 | 125 | 0 | 6 |
-| miwill | 14 | 14 | 0 | 6 |
+| miwill | 138 | 138 | 0 | 6 |
 | mmrm_test_module | 23 | 23 | 0 | 0 |
 | mpbe | 93 | 93 | 0 | 6 |
 | msm-eva | 508 | 508 | 0 | 8 |
@@ -195,7 +195,7 @@
 | msm_kgsl | 3585 | 3585 | 0 | 6 |
 | msm_lmh_dcvs | 17 | 17 | 0 | 0 |
 | msm_memshare | 26 | 26 | 0 | 0 |
-| msm_performance | 0 | 0 | 0 | 1 |
+| msm_performance | 47 | 47 | 0 | 1 |
 | msm_qmp | 48 | 48 | 0 | 0 |
 | msm_sharedmem | 12 | 12 | 0 | 0 |
 | msm_show_epoch | 8 | 8 | 0 | 0 |
@@ -217,7 +217,7 @@
 | panel_event_notifier | 12 | 12 | 0 | 3 |
 | pci-msm-drv | 281 | 281 | 0 | 15 |
 | pdr_interface | 32 | 32 | 0 | 5 |
-| perf_helper | 0 | 0 | 0 | 0 |
+| perf_helper | 54 | 54 | 0 | 0 |
 | perfmgr | 52 | 52 | 0 | 0 |
 | phy-generic | 28 | 28 | 0 | 5 |
 | phy-msm-m31-eusb2 | 28 | 28 | 0 | 0 |
@@ -239,7 +239,7 @@
 | pinctrl-spmi-mpp | 50 | 50 | 0 | 0 |
 | pinctrl_lpi_dlkm | 61 | 61 | 0 | 0 |
 | pm8941-pwrkey | 21 | 21 | 0 | 2 |
-| pmic-pon-log | 12 | 12 | 0 | 0 |
+| pmic-pon-log | 14 | 14 | 0 | 0 |
 | pmic_glink | 31 | 31 | 0 | 3 |
 | pmu_scmi | 8 | 8 | 0 | 0 |
 | pmu_vendor | 15 | 15 | 0 | 0 |
@@ -334,7 +334,7 @@
 | rmnet_perf | 13 | 13 | 0 | 0 |
 | rmnet_perf_tether | 19 | 19 | 0 | 0 |
 | rmnet_sch | 19 | 19 | 0 | 0 |
-| rmnet_shs | 148 | 148 | 0 | 0 |
+| rmnet_shs | 287 | 287 | 0 | 0 |
 | rmnet_wlan | 103 | 103 | 0 | 0 |
 | rndisipam | 87 | 87 | 0 | 4 |
 | rpmh-regulator | 33 | 33 | 0 | 0 |
@@ -391,10 +391,10 @@
 | ucsi_glink | 31 | 31 | 0 | 2 |
 | ufs_qcom | 1302 | 1302 | 0 | 3 |
 | ufshcd-crypto-qti | 11 | 11 | 0 | 1 |
-| usb_bam | 0 | 0 | 0 | 10 |
+| usb_bam | 43 | 43 | 0 | 10 |
 | usb_f_ccid | 53 | 53 | 0 | 0 |
 | usb_f_cdev | 92 | 92 | 0 | 0 |
-| usb_f_diag | 58 | 58 | 0 | 6 |
+| usb_f_diag | 59 | 59 | 0 | 6 |
 | usb_f_gsi | 150 | 150 | 0 | 14 |
 | usb_f_qdss | 50 | 50 | 0 | 5 |
 | usbmon | 94 | 94 | 0 | 0 |
@@ -408,11 +408,11 @@
 | wlan_firmware_service | 4 | 4 | 0 | 93 |
 | wsa883x_dlkm | 115 | 115 | 0 | 3 |
 | wsa884x_dlkm | 116 | 116 | 0 | 3 |
-| xiaomi_touch | 54 | 54 | 0 | 13 |
+| xiaomi_touch | 159 | 159 | 0 | 13 |
 | xiaomi_wifi_gpio | 18 | 18 | 0 | 0 |
 | xlogchar | 21 | 21 | 0 | 1 |
-| xm_power | 9 | 9 | 0 | 0 |
+| xm_power | 27 | 27 | 0 | 0 |
 | zram | 133 | 133 | 0 | 0 |
 | zsmalloc | 62 | 62 | 0 | 10 |
 
-**合计**：模块 408（成功 408 / 失败 0），函数 61505，pdg 成功 61505，pdg 失败 0
+**合计**：模块 408（成功 408 / 失败 0），函数 68492，pdg 成功 68492，pdg 失败 0
