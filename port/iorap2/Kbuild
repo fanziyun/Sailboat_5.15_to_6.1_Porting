@@ -1,3 +1,4 @@
-# homeport/iorap2 —— obj 名与真实源文件列表在实现阶段填充
+# homeport/iorap2
 obj-$(CONFIG_HOMEPORT_IORAP2) += iorap2.o
-# iorap2-y := src/xxx.o ...
+iorap2-y := src/iorap2.o
+ccflags-y += -DDEFAULT_SYMBOL_NAMESPACE=VFS_internal_I_am_really_a_filesystem_and_am_NOT_a_driver
