@@ -24,6 +24,8 @@
 #include <linux/wait.h>
 #include <linux/workqueue.h>
 #include <linux/pagemap.h>
+#include <linux/sched/signal.h>
+#include <linux/cred.h>
 #include <trace/hooks/mm.h>
 
 #define LB_VERSION_MAJOR 3
@@ -81,6 +83,14 @@ static struct lb_app *g_app;                /* 采集中的 app（单活跃，�
 static DEFINE_SPINLOCK(g_lock);
 static bool enable_collect_trace;           /* hook 回调开关（采集窗口内为 true） */
 
+/* 目标进程白名单（对齐上游 0x801be50 表：128 项；模式 0=pid 匹配 1=uid 匹配，
+ * 上游按 task->*(0x718/0x71c) 比较——5.15 对应 tgid 与 fsuid） */
+#define LB_MATCH_MAX 128
+static u32 g_match_ids[LB_MATCH_MAX];
+static u32 g_match_num;
+static u32 g_match_mode;                    /* 0=pid, 1=uid */
+static bool g_collect_active;               /* 原子级采集窗口（回调热路径读） */
+
 static void lb_finish_work(struct work_struct *w);
 static u64 g_total_mem;
 static u32 g_app_num_file_seq, g_app_num_real_timing;
@@ -109,6 +119,27 @@ static int is_real_timing_package(const char *pkg)
 	return 0;
 }
 
+/* 目标进程白名单命中判定（对齐 mi_lb_pagecache_collect 入口：模式1=uid / 模式0=pid） */
+static bool lb_match_current(void)
+{
+	bool hit = false;
+	u32 i, id;
+
+	if (!g_collect_active)
+		return false;
+	if (g_match_mode == 1)
+		id = __kuid_val(current_uid());   /* init-ns 数字，与 iorapd 下发的 uid 同一语义 */
+	else
+		id = current->tgid;
+	for (i = 0; i < g_match_num; i++) {
+		if (g_match_ids[i] == id) {
+			hit = true;
+			break;
+		}
+	}
+	return hit;
+}
+
 /* ---- 页序登记（对齐 mi_lb_pagecache_collect：主表满→备表→丢弃） ---- */
 static void lb_pagecache_collect(struct file *file, pgoff_t off, pgoff_t end)
 {
@@ -118,6 +149,8 @@ static void lb_pagecache_collect(struct file *file, pgoff_t off, pgoff_t end)
 	unsigned long flags;
 
 	if (!pkg_is_ext234(file))
+		return;
+	if (!lb_match_current())
 		return;
 
 	spin_lock_irqsave(&g_lock, flags);
@@ -168,6 +201,24 @@ static void lb_on_pagefault(void *data, struct file *file, pgoff_t first,
 }
 
 /* ---- ioctl 命令处理 ---- */
+
+/* 按 uid 枚举全部进程 tgid 填白名单（对齐上游目标进程表；cap 128） */
+static void lb_fill_match_table(u32 uid)
+{
+	struct task_struct *p;
+
+	g_match_num = 0;
+	rcu_read_lock();
+	for_each_process(p) {
+		if (g_match_num >= LB_MATCH_MAX)
+			break;
+		if (from_kuid_munged(current_user_ns(), task_uid(p)) == uid &&
+		    uid_eq(task_uid(p), task_uid(p->group_leader)))
+			g_match_ids[g_match_num++] = p->tgid;
+	}
+	rcu_read_unlock();
+}
+
 static void lb_collect_start(const struct lb_ioctl_collect *uc, int *ret)
 {
 	struct lb_app *app;
@@ -187,7 +238,7 @@ static void lb_collect_start(const struct lb_ioctl_collect *uc, int *ret)
 		return;
 	}
 	strscpy(app->pkg, uc->pkg, sizeof(app->pkg));
-	app->uid = current_uid().val;
+	app->uid = uc->head;                     /* iorapd 在 head 里传目标 uid（实测 QQ=1000） */
 	app->timing_mode = is_real_timing_package(app->pkg);
 	app->pages  = kcalloc(LB_MAX_PAGES, sizeof(*app->pages), GFP_KERNEL);
 	app->pages2 = kcalloc(LB_MAX_PAGES, sizeof(*app->pages2), GFP_KERNEL);
@@ -202,14 +253,19 @@ static void lb_collect_start(const struct lb_ioctl_collect *uc, int *ret)
 	INIT_WORK(&app->finish_work, lb_finish_work);
 	app->active = true;
 
+	/* 目标进程白名单：模式1=uid 匹配（上游 0x801be4c 标志位），表项=该 uid 全部 tgid */
+	g_match_mode = 1;
+	lb_fill_match_table(app->uid);
+
 	spin_lock_irqsave(&g_lock, flags);
 	g_app = app;
 	spin_unlock_irqrestore(&g_lock, flags);
+	g_collect_active = true;
 	enable_collect_trace = true;
 	g_app_num_file_seq++;
 	*ret = 0;
-	pr_info("iorap2: collect start pkg=%s uid=%u mode=%u\n",
-		app->pkg, app->uid, app->timing_mode);
+	pr_info("iorap2: collect start pkg=%s uid=%u mode=%u match_n=%u\n",
+		app->pkg, app->uid, app->timing_mode, g_match_num);
 }
 
 static void lb_collect_end(const struct lb_ioctl_collect *uc, int *ret)
@@ -227,6 +283,7 @@ static void lb_collect_end(const struct lb_ioctl_collect *uc, int *ret)
 	}
 	spin_unlock_irqrestore(&g_lock, flags);
 
+	g_collect_active = false;
 	enable_collect_trace = false;
 	schedule_work(&app->finish_work);   /* 对齐 cancel_delayed_work+wake_up 的收尾 */
 	*ret = 0;
@@ -246,6 +303,7 @@ static void lb_clear(const struct lb_ioctl_collect *uc)
 		return;
 	/* 对齐 mi_lb_dealwith_clear_cmd：清该包名记录（活动采集则一并终止） */
 	if (strcmp(app->pkg, uc->pkg) == 0) {
+		g_collect_active = false;
 		enable_collect_trace = false;
 		app->file_num = 0;
 		app->page_num = 0;
