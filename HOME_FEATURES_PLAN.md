@@ -33,8 +33,8 @@
 
 | 模块 | 函数数 | 已验证依赖 | 接口/要点 |
 |---|---:|---|---|
-| **iorap2** | 40 | 6/6：filemap_read、filemap_map_pages、do_async_mmap_readahead、should_fault_around、tune_mmap_readaround、ra_tuning_max_page | `/dev/iorap_dev` chrdev；ioctl `_IOWR('K',1/3/5/7,264)` + `_IOR('L',20,4)`；`/proc/iorap_node/collect` 只读视图；`DEFAULT_SYMBOL_NAMESPACE=VFS_internal` |
-| dynamic_readahead | 9 | 3/4：ra_tuning_max_page、should_fault_around、tune_mmap_readaround ✅；**page_cache_ra_order_bypass ✗ 需补 1 hook**（F0 二进制审计修正） | 动态读窗口调节；兼作 F0 管线样板（正好覆盖"补 1 hook + 模块"全链） |
+| **iorap2** | 40 | 6/6：filemap_read、filemap_map_pages、do_async_mmap_readahead、should_fault_around、tune_mmap_readaround、ra_tuning_max_page（**全部在当前 Sailboat 内核已存在，无需刷内核**） | `/dev/iorap_dev` chrdev；ioctl `_IOWR('L',1/3/5/7,264)` + `_IOR('L',20,4)`（魔数 'L' 经 F2 解码修正）；`/proc/iorap_node/collect` 只读视图 |
+| ~~dynamic_readahead~~ | 9 | — | **已合并撤下（F0）**：与设备内建 `abk_dra_*`（modsrc Batch 9-1，同源小米 mi_dynamic_readahead，`dynamic_readahead=Y` 激活中）语义相同；差异与证据见 `port/dynamic_readahead/NOTES.md` |
 | scene_swappiness | 8 | tune_swappiness | 场景化 swappiness |
 | perf_particle | 36 | rvh_schedule | |
 | mi_io_monitor | 70 | ufs_send_command、ufs_compl_command | |
@@ -88,10 +88,15 @@ thermal_perf_limits 提供者（不在语料 440；候选 thermal_passive_policy
   `USE_CUSTOM_EXTERNAL_MODULES=true`；`.gitattributes` 钉 `*.sh text eol=lf` 防 CRLF 坑。
 - **加载验证（构建第 6 级）**：日志须同时出现 `preparing custom module #N` 与
   `running custom module [stage]`；查 `workspace/state/custom_external_modules.tsv` 行数一致。
-- **内核侧 hook/API 补齐**：以 after_patch 补丁形式进构建（KMI 红线：新增导出符号=加法可接受；
-  禁改既有 struct 布局；与既有补丁套件的符号冲突先查其 porting_policy）。
+- **内核侧 hook/API 补齐（合并决策：一律走 modsrc 组，不自造补丁模块）**：
+  Sailboat 内核本身就是 modsrc 引擎的产物（构建清单 3 个 child），引擎带幂等/回滚/四道审计；
+  自造的 `port/_kernel_patches` 已撤（F0）。新 hook 补齐 = 在 modsrc 注册新 Batch 组
+  （anchor script 形态，参照其 Batch 13 customize_alloc_gfp 的 3-hunk upstream-shape 惯例）。
+  KMI 红线沿用：新增导出=加法可接受；禁改既有 struct 布局。
 - **刷载**：boot_b 字节替换法（仓库已验证，PHASE2_PREP.md）或 AnyKernel3；运行期模块加载/参数/协议
   接管由伴生模块（扩展 abk_runtime_tunables）负责。
+- **零刷机原则（F0 修正）**：iorap2/millet 等纯模块的依赖 hook 在当前 Sailboat 内核已存在，
+  直接 insmod；仅当 F3/F5 需要 modsrc 补新 hook 时才重刷内核（modsrc 组随下次构建自动带上）。
 
 ## 3. 阶段计划
 
@@ -99,10 +104,11 @@ thermal_perf_limits 提供者（不在语料 440；候选 thermal_passive_policy
 |---|---|---|---|
 | **F0** | 依赖全量审计 + 管线打通：`_probe/audit_port_deps.sh` 提取每模块全部外部依赖对照设备 kallsyms →《内核补齐清单》；dynamic_readahead 走通 指派→编译→推载→insmod | 0.5-1 天 | 审计报告落 `port/_shared/DEPS_AUDIT.md`；构建日志含第 6 级双行；设备 `lsmod` 见模块 + dmesg 无错 |
 | **F1** | 纯策略（与 F0 并行）：伴生模块 sepolicy.rule 补 4 条 allow（migt_dev / sysfs_cpu0maxfreq / vendor_sysfs_kgsl_gpuclk / vendor_turbosched_prop）+ `iorap.min_uid=1000` | 0.5 天 | avc denied 四类归零；`/dev/metis` 可被 app 域打开；audit_lost 不再增长；kick.1000 出现 |
-| **F2** | iorap2 + dynamic_readahead 重建；`persist.sys.stability.PrereadEnable=true` 激活官方 iorapd；附带修 abk_lp 两缺陷（enable=0 拦 replay、respawn 吃 kick 冷却） | 2-3 天 | `/proc/iorap_node/collect` 出现包名级 app 列表；iorapd 常驻；冷启动 A/B（test_iorap_ab2）+ SF 帧统计 |
-| **F3** | os_cpu_qi/qs：完整 hook 核对 → binder_prio 重叠分析（替换或共存，防双重优先级操纵）→ 376+121 函数重建 | 4-6 天 | binder RT 优先级捕获 >0（新脚本）；锁等待延迟对比；与 binder_prio 共存/替换决策记录 |
+| **F2** | iorap2 重建（第一批已写：chrdev+ioctl+页采集+proc）；`persist.sys.stability.PrereadEnable=true` 激活官方 iorapd | 2-3 天 | `/proc/iorap_node/collect` 出现包名级 app 列表；iorapd 常驻；冷启动 A/B（test_iorap_ab2）+ SF 帧统计 |
+| **F2-x** | **abk_lp 退役（合并决策）**：iorap2 验收通过后 `iorap.watch=0` 关闭自研链（互斥，避免双预取系统抢 IO——A/B 已证预取 IO 与启动 IO 抢带宽）；abk_lp 两缺陷（enable=0 拦不住 replay、respawn 吃 kick 冷却）仅在 iorapd 链验证失败回头修时才处理 | 0.5 天 | iorap2 激活后 `abk_lp_stats_*` 计数停止增长；单系统预取 |
+| **F3** | os_cpu_qi/qs：完整 hook 核对 → **modsrc 锁系组语义盘点（前置，modsrc 已有 mutex_unlock_slowpath/mutex_wakeup_patch/rwsem_wakeup_patch 等 7 个锁系 hook，防同路径双重补丁）** → binder_prio 重叠分析（替换或共存，防双重优先级操纵）→ 376+121 函数重建 | 4-6 天 | binder RT 优先级捕获 >0（新脚本）；锁等待延迟对比；与 binder_prio/modsrc 锁系的共存/替换决策记录 |
 | **F4** | millet 全家重建替换（core+5 卫星统一上游协议） | 2-3 天 | `/proc/millet/millet_stat` HANDSHK send_suc>0、uid_rec 非空；netlink 0x1E 客户端 socket 出现；应用线程 RT 捕获 >0（test_rt3） |
-| **F5** | 缺口全补批次：F0 清单的内核 hook/API 落地 → touch_boost、mi_reclaim、mi_perf_memory、unfairmem、mi_low_lat_mem 全量移植 | 3-5 天 | 触摸→提频时延（cpu_frequency trace 对齐输入事件）；PSI/冷启动对比；每 hook 独立 commit + QEMU 启动验证 |
+| **F5** | 缺口全补批次：F0 清单的内核 hook/API 以 **modsrc 新 Batch 组**形态落地 → touch_boost、mi_reclaim、mi_perf_memory、unfairmem、mi_low_lat_mem 全量移植 | 3-5 天 | 触摸→提频时延（cpu_frequency trace 对齐输入事件）；PSI/冷启动对比；每 hook 独立 modsrc 组（幂等/回滚/审计） |
 | **F6** | 收尾：剩余 A 类批量（scene_swappiness/perf_particle/mi_io_monitor/mi_wq_dynamic_priority/iostat_enhance/thermal_trace）+ thermal_perf 提供者定位 → PowerKeeper 激活；全量回归 | 2-3 天 | `miuiboosterservice` 注册成功、MiuiBoosterUtils 报错消失；全验收矩阵回归 |
 
 **受限项（明记不死磕）**：metis 的 `mi_freq_enable`（0444 只读 + vermeer 闭源二进制）无法开启；
@@ -166,7 +172,24 @@ port/
   mi_mempool 无此导出）→ 需随 F5 一并重建新版 mi_mempool。
 - 好消息：mutex 乐观自旋/futex wake/rwsem 读等待/binder 全系 hook 已在内核（MIUI vermeer 补丁底子），F3 的
   backport 量集中在锁事件通知类。
-- 管线打通（构建器指派→编译→推载→insmod）待做：用 dynamic_readahead 样板（含补 1 hook）验证全链。
+- **管线打通完成（REBUILD_EXIT=0）**：dynamic_readahead 样板走通"指派→编译→.ko 产出"全链（第 6 级双行 ✓、
+  tsv ✓）；构建循环 5 个坑已固化进 setup.sh 模板（Kbuild/Makefile 双拷、聚合 Makefile、子模块 Kconfig、
+  src 子目录保留、GKI 未导出 pgdat 遍历系）。
+
+### F0-x 自家资产盘点与合并（重叠消除，2026-10-26）
+
+计划初版只做了"上游语料 × 设备 kallsyms"两轴对比，漏了**自家第三轴 modsrc 套件**
+（`~/kci515/modsrc`，100 个移植组的补丁引擎；Sailboat 内核即其产物，构建清单 3 个 child）。
+逐项合并处置：
+
+| 重叠 | 处置 |
+|---|---|
+| port/dynamic_readahead ↔ modsrc Batch 9-1 `abk_dra_*`（同源小米 mi_dynamic_readahead，设备 `dynamic_readahead=Y` 激活中） | **撤下模块**，语义对比归档 `port/dynamic_readahead/NOTES.md`（差异：modsrc 多 lowmem 门 + swapin 增强系；上游独有的 should_fault_around 位图待评估后并入 modsrc 组） |
+| port/_kernel_patches（自造 hook 补丁模块）↔ modsrc 引擎（幂等/回滚/四道审计） | **撤下**；F3/F5 的 hook 补齐一律走 **modsrc 新 Batch 组** |
+| abk_lp（自研预取）↔ iorap2（上游官方链） | **互斥条款**：iorap2 验收通过后 `iorap.watch=0` 关 abk_lp（防双预取抢 IO）；abk_lp 缺陷修复降级为条件任务 F2-x |
+| modsrc 已覆盖的 24 个 hook（含锁系 7 个：mutex_unlock_slowpath/mutex_wakeup_patch/rwsem_wakeup_patch…） | F3 动手前先盘点 modsrc 锁系组语义，防同路径双重补丁；F0 缺失 25 hook 结论复核后仍成立（modsrc 不含那 25 个） |
+
+教训沉淀：后续任何"要移植 X"的判断，先过三轴：上游语料 → 设备 kallsyms → **modsrc registry**。
 
 ### F1
 （待填）
